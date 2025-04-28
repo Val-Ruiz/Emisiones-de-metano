@@ -1,0 +1,1510 @@
+﻿region,country,emissions (kt),source,type,segment,reason,baseYear,emissionsRank,energyRank
+Africa,Algeria,260.82,IEA,Agriculture,Total,All,11-30-18,19,11
+Africa,Algeria,0.01,IEA,Energy,Bioenergy,All,2023,19,11
+Africa,Algeria,45.26,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,19,11
+Africa,Algeria,71.49,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,19,11
+Africa,Algeria,190.95,IEA,Energy,Onshore gas,Fugitive,2023,19,11
+Africa,Algeria,476.47,IEA,Energy,Onshore gas,Vented,2023,19,11
+Africa,Algeria,477.71,IEA,Energy,Onshore oil,Flared,2023,19,11
+Africa,Algeria,285.39,IEA,Energy,Onshore oil,Fugitive,2023,19,11
+Africa,Algeria,1141.55,IEA,Energy,Onshore oil,Vented,2023,19,11
+Africa,Algeria,0.02,IEA,Energy,Other from coal,All,2023,19,11
+Africa,Algeria,15.66,IEA,Energy,Other from oil and gas,All,2023,19,11
+Africa,Algeria,77.1,IEA,Energy,Satellite-detected large oil and gas emissions,All,2023,19,11
+Africa,Algeria,2781.62,IEA,Energy,Total,All,2023,19,11
+Africa,Algeria,7.03,IEA,Other,Total,All,11-30-18,19,11
+Africa,Algeria,516.53,IEA,Waste,Total,All,11-30-18,19,11
+Africa,Angola,390.78,IEA,Agriculture,Total,All,11-30-18,42,26
+Africa,Angola,60.53,IEA,Energy,Bioenergy,All,2023,42,26
+Africa,Angola,1.29,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,42,26
+Africa,Angola,2.04,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,42,26
+Africa,Angola,0,IEA,Energy,Offshore gas,Fugitive,2023,42,26
+Africa,Angola,0.01,IEA,Energy,Offshore gas,Vented,2023,42,26
+Africa,Angola,50.49,IEA,Energy,Offshore oil,Flared,2023,42,26
+Africa,Angola,141.36,IEA,Energy,Offshore oil,Fugitive,2023,42,26
+Africa,Angola,565.44,IEA,Energy,Offshore oil,Vented,2023,42,26
+Africa,Angola,5.83,IEA,Energy,Onshore gas,Fugitive,2023,42,26
+Africa,Angola,14.55,IEA,Energy,Onshore gas,Vented,2023,42,26
+Africa,Angola,1.22,IEA,Energy,Onshore oil,Flared,2023,42,26
+Africa,Angola,4.24,IEA,Energy,Onshore oil,Fugitive,2023,42,26
+Africa,Angola,16.98,IEA,Energy,Onshore oil,Vented,2023,42,26
+Africa,Angola,2.69,IEA,Energy,Other from oil and gas,All,2023,42,26
+Africa,Angola,866.69,IEA,Energy,Total,All,2023,42,26
+Africa,Angola,82.76,IEA,Other,Total,All,11-30-18,42,26
+Africa,Angola,153.95,IEA,Waste,Total,All,11-30-18,42,26
+Africa,Benin,107.64,IEA,Agriculture,Total,All,11-30-18,80,75
+Africa,Benin,24.54,IEA,Energy,Bioenergy,All,2023,80,75
+Africa,Benin,0.03,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,80,75
+Africa,Benin,0.05,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,80,75
+Africa,Benin,0.03,IEA,Energy,Other from coal,All,2023,80,75
+Africa,Benin,1.5,IEA,Energy,Other from oil and gas,All,2023,80,75
+Africa,Benin,26.16,IEA,Energy,Total,All,2023,80,75
+Africa,Benin,43.46,IEA,Other,Total,All,11-30-18,80,75
+Africa,Benin,42.86,IEA,Waste,Total,All,11-30-18,80,75
+Africa,Botswana,110.1,IEA,Agriculture,Total,All,11-30-18,54,87
+Africa,Botswana,5.52,IEA,Energy,Bioenergy,All,2023,54,87
+Africa,Botswana,0.09,IEA,Energy,Other from coal,All,2023,54,87
+Africa,Botswana,0.67,IEA,Energy,Other from oil and gas,All,2023,54,87
+Africa,Botswana,6.27,IEA,Energy,Total,All,2023,54,87
+Africa,Botswana,2.28,IEA,Other,Total,All,11-30-18,54,87
+Africa,Botswana,843.61,IEA,Waste,Total,All,11-30-18,54,87
+Africa,Cameroon,287.56,IEA,Agriculture,Total,All,11-30-18,61,47
+Africa,Cameroon,77.11,IEA,Energy,Bioenergy,All,2023,61,47
+Africa,Cameroon,0.67,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,61,47
+Africa,Cameroon,1.07,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,61,47
+Africa,Cameroon,3.29,IEA,Energy,Offshore gas,Fugitive,2023,61,47
+Africa,Cameroon,8.21,IEA,Energy,Offshore gas,Vented,2023,61,47
+Africa,Cameroon,55.05,IEA,Energy,Offshore oil,Flared,2023,61,47
+Africa,Cameroon,16.47,IEA,Energy,Offshore oil,Fugitive,2023,61,47
+Africa,Cameroon,65.88,IEA,Energy,Offshore oil,Vented,2023,61,47
+Africa,Cameroon,0.08,IEA,Energy,Onshore gas,Fugitive,2023,61,47
+Africa,Cameroon,0.2,IEA,Energy,Onshore gas,Vented,2023,61,47
+Africa,Cameroon,1.05,IEA,Energy,Other from oil and gas,All,2023,61,47
+Africa,Cameroon,229.08,IEA,Energy,Total,All,2023,61,47
+Africa,Cameroon,28.75,IEA,Other,Total,All,11-30-18,61,47
+Africa,Cameroon,196.93,IEA,Waste,Total,All,11-30-18,61,47
+Africa,Chad,1280.98,IEA,Agriculture,Total,All,11-30-18,43,64
+Africa,Chad,28.82,IEA,Energy,Bioenergy,All,2023,43,64
+Africa,Chad,9.7,IEA,Energy,Onshore oil,Flared,2023,43,64
+Africa,Chad,9.51,IEA,Energy,Onshore oil,Fugitive,2023,43,64
+Africa,Chad,38.06,IEA,Energy,Onshore oil,Vented,2023,43,64
+Africa,Chad,0.25,IEA,Energy,Other from oil and gas,All,2023,43,64
+Africa,Chad,86.34,IEA,Energy,Total,All,2023,43,64
+Africa,Chad,17.1,IEA,Other,Total,All,11-30-18,43,64
+Africa,Chad,71.21,IEA,Waste,Total,All,11-30-18,43,64
+Africa,Congo,21.96,IEA,Agriculture,Total,All,11-30-18,72,41
+Africa,Congo,15.96,IEA,Energy,Bioenergy,All,2023,72,41
+Africa,Congo,0.72,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,72,41
+Africa,Congo,1.14,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,72,41
+Africa,Congo,0.74,IEA,Energy,Offshore gas,Fugitive,2023,72,41
+Africa,Congo,1.85,IEA,Energy,Offshore gas,Vented,2023,72,41
+Africa,Congo,39.68,IEA,Energy,Offshore oil,Flared,2023,72,41
+Africa,Congo,36.06,IEA,Energy,Offshore oil,Fugitive,2023,72,41
+Africa,Congo,144.22,IEA,Energy,Offshore oil,Vented,2023,72,41
+Africa,Congo,0.61,IEA,Energy,Onshore gas,Fugitive,2023,72,41
+Africa,Congo,1.53,IEA,Energy,Onshore gas,Vented,2023,72,41
+Africa,Congo,7.3,IEA,Energy,Onshore oil,Flared,2023,72,41
+Africa,Congo,6.17,IEA,Energy,Onshore oil,Fugitive,2023,72,41
+Africa,Congo,24.69,IEA,Energy,Onshore oil,Vented,2023,72,41
+Africa,Congo,0.31,IEA,Energy,Other from oil and gas,All,2023,72,41
+Africa,Congo,280.97,IEA,Energy,Total,All,2023,72,41
+Africa,Congo,12.67,IEA,Other,Total,All,11-30-18,72,41
+Africa,Congo,30.54,IEA,Waste,Total,All,11-30-18,72,41
+Africa,Cote d'Ivoire,195.98,IEA,Agriculture,Total,All,11-30-18,66,65
+Africa,Cote d'Ivoire,51.01,IEA,Energy,Bioenergy,All,2023,66,65
+Africa,Cote d'Ivoire,1.89,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,66,65
+Africa,Cote d'Ivoire,2.99,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,66,65
+Africa,Cote d'Ivoire,2.92,IEA,Energy,Offshore gas,Fugitive,2023,66,65
+Africa,Cote d'Ivoire,7.29,IEA,Energy,Offshore gas,Vented,2023,66,65
+Africa,Cote d'Ivoire,2.98,IEA,Energy,Offshore oil,Flared,2023,66,65
+Africa,Cote d'Ivoire,2.46,IEA,Energy,Offshore oil,Fugitive,2023,66,65
+Africa,Cote d'Ivoire,9.83,IEA,Energy,Offshore oil,Vented,2023,66,65
+Africa,Cote d'Ivoire,1.51,IEA,Energy,Other from oil and gas,All,2023,66,65
+Africa,Cote d'Ivoire,82.89,IEA,Energy,Total,All,2023,66,65
+Africa,Cote d'Ivoire,29.75,IEA,Other,Total,All,11-30-18,66,65
+Africa,Cote d'Ivoire,222.79,IEA,Waste,Total,All,11-30-18,66,65
+Africa,Democratic Republic of Congo,557.68,IEA,Agriculture,Total,All,11-30-18,39,45
+Africa,Democratic Republic of Congo,219.44,IEA,Energy,Bioenergy,All,2023,39,45
+Africa,Democratic Republic of Congo,5.34,IEA,Energy,Offshore oil,Flared,2023,39,45
+Africa,Democratic Republic of Congo,2.47,IEA,Energy,Offshore oil,Fugitive,2023,39,45
+Africa,Democratic Republic of Congo,9.86,IEA,Energy,Offshore oil,Vented,2023,39,45
+Africa,Democratic Republic of Congo,3.13,IEA,Energy,Onshore oil,Flared,2023,39,45
+Africa,Democratic Republic of Congo,1.45,IEA,Energy,Onshore oil,Fugitive,2023,39,45
+Africa,Democratic Republic of Congo,5.79,IEA,Energy,Onshore oil,Vented,2023,39,45
+Africa,Democratic Republic of Congo,0.59,IEA,Energy,Other from oil and gas,All,2023,39,45
+Africa,Democratic Republic of Congo,248.06,IEA,Energy,Total,All,2023,39,45
+Africa,Democratic Republic of Congo,239.54,IEA,Other,Total,All,11-30-18,39,45
+Africa,Democratic Republic of Congo,577.87,IEA,Waste,Total,All,11-30-18,39,45
+Africa,Egypt,538.51,IEA,Agriculture,Total,All,11-30-18,30,28
+Africa,Egypt,15.57,IEA,Energy,Bioenergy,All,2023,30,28
+Africa,Egypt,45.26,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,30,28
+Africa,Egypt,71.49,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,30,28
+Africa,Egypt,58.42,IEA,Energy,Offshore gas,Fugitive,2023,30,28
+Africa,Egypt,145.78,IEA,Energy,Offshore gas,Vented,2023,30,28
+Africa,Egypt,26.63,IEA,Energy,Offshore oil,Flared,2023,30,28
+Africa,Egypt,21.81,IEA,Energy,Offshore oil,Fugitive,2023,30,28
+Africa,Egypt,87.24,IEA,Energy,Offshore oil,Vented,2023,30,28
+Africa,Egypt,12.77,IEA,Energy,Onshore gas,Fugitive,2023,30,28
+Africa,Egypt,31.87,IEA,Energy,Onshore gas,Vented,2023,30,28
+Africa,Egypt,79.46,IEA,Energy,Onshore oil,Flared,2023,30,28
+Africa,Egypt,42.13,IEA,Energy,Onshore oil,Fugitive,2023,30,28
+Africa,Egypt,168.5,IEA,Energy,Onshore oil,Vented,2023,30,28
+Africa,Egypt,0.86,IEA,Energy,Other from coal,All,2023,30,28
+Africa,Egypt,18.1,IEA,Energy,Other from oil and gas,All,2023,30,28
+Africa,Egypt,825.9,IEA,Energy,Total,All,2023,30,28
+Africa,Egypt,13.88,IEA,Other,Total,All,11-30-18,30,28
+Africa,Egypt,962.25,IEA,Waste,Total,All,11-30-18,30,28
+Africa,Equatorial Guinea,0.44,IEA,Agriculture,Total,All,11-30-18,87,63
+Africa,Equatorial Guinea,1.18,IEA,Energy,Bioenergy,All,2023,87,63
+Africa,Equatorial Guinea,2.78,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,87,63
+Africa,Equatorial Guinea,4.4,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,87,63
+Africa,Equatorial Guinea,12.38,IEA,Energy,Offshore gas,Fugitive,2023,87,63
+Africa,Equatorial Guinea,30.9,IEA,Energy,Offshore gas,Vented,2023,87,63
+Africa,Equatorial Guinea,5.96,IEA,Energy,Offshore oil,Flared,2023,87,63
+Africa,Equatorial Guinea,8.19,IEA,Energy,Offshore oil,Fugitive,2023,87,63
+Africa,Equatorial Guinea,32.74,IEA,Energy,Offshore oil,Vented,2023,87,63
+Africa,Equatorial Guinea,0.17,IEA,Energy,Other from oil and gas,All,2023,87,63
+Africa,Equatorial Guinea,98.72,IEA,Energy,Total,All,2023,87,63
+Africa,Equatorial Guinea,2,IEA,Other,Total,All,11-30-18,87,63
+Africa,Equatorial Guinea,11.81,IEA,Waste,Total,All,11-30-18,87,63
+Africa,Eritrea,120.24,IEA,Agriculture,Total,All,11-30-18,83,88
+Africa,Eritrea,5.97,IEA,Energy,Bioenergy,All,2023,83,88
+Africa,Eritrea,0.06,IEA,Energy,Other from oil and gas,All,2023,83,88
+Africa,Eritrea,6.03,IEA,Energy,Total,All,2023,83,88
+Africa,Eritrea,2.81,IEA,Other,Total,All,11-30-18,83,88
+Africa,Eritrea,24.38,IEA,Waste,Total,All,11-30-18,83,88
+Africa,Ethiopia,2147.59,IEA,Agriculture,Total,All,11-30-18,24,36
+Africa,Ethiopia,476.67,IEA,Energy,Bioenergy,All,2023,24,36
+Africa,Ethiopia,0.1,IEA,Energy,Other from coal,All,2023,24,36
+Africa,Ethiopia,1.7,IEA,Energy,Other from oil and gas,All,2023,24,36
+Africa,Ethiopia,478.47,IEA,Energy,Total,All,2023,24,36
+Africa,Ethiopia,187.22,IEA,Other,Total,All,11-30-18,24,36
+Africa,Ethiopia,419.51,IEA,Waste,Total,All,11-30-18,24,36
+Africa,Gabon,5.31,IEA,Agriculture,Total,All,11-30-18,76,44
+Africa,Gabon,16.95,IEA,Energy,Bioenergy,All,2023,76,44
+Africa,Gabon,0.49,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,76,44
+Africa,Gabon,0.77,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,76,44
+Africa,Gabon,0.49,IEA,Energy,Offshore gas,Fugitive,2023,76,44
+Africa,Gabon,1.21,IEA,Energy,Offshore gas,Vented,2023,76,44
+Africa,Gabon,24.34,IEA,Energy,Offshore oil,Flared,2023,76,44
+Africa,Gabon,18.1,IEA,Energy,Offshore oil,Fugitive,2023,76,44
+Africa,Gabon,72.4,IEA,Energy,Offshore oil,Vented,2023,76,44
+Africa,Gabon,0.4,IEA,Energy,Onshore gas,Fugitive,2023,76,44
+Africa,Gabon,0.99,IEA,Energy,Onshore gas,Vented,2023,76,44
+Africa,Gabon,23.79,IEA,Energy,Onshore oil,Flared,2023,76,44
+Africa,Gabon,17.7,IEA,Energy,Onshore oil,Fugitive,2023,76,44
+Africa,Gabon,70.79,IEA,Energy,Onshore oil,Vented,2023,76,44
+Africa,Gabon,0.17,IEA,Energy,Other from oil and gas,All,2023,76,44
+Africa,Gabon,248.57,IEA,Energy,Total,All,2023,76,44
+Africa,Gabon,5.29,IEA,Other,Total,All,11-30-18,76,44
+Africa,Gabon,21.48,IEA,Waste,Total,All,11-30-18,76,44
+Africa,Ghana,174.41,IEA,Agriculture,Total,All,11-30-18,67,57
+Africa,Ghana,30.11,IEA,Energy,Bioenergy,All,2023,67,57
+Africa,Ghana,0.92,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,67,57
+Africa,Ghana,1.46,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,67,57
+Africa,Ghana,2.24,IEA,Energy,Offshore gas,Fugitive,2023,67,57
+Africa,Ghana,5.6,IEA,Energy,Offshore gas,Vented,2023,67,57
+Africa,Ghana,17.97,IEA,Energy,Offshore oil,Flared,2023,67,57
+Africa,Ghana,10.58,IEA,Energy,Offshore oil,Fugitive,2023,67,57
+Africa,Ghana,42.31,IEA,Energy,Offshore oil,Vented,2023,67,57
+Africa,Ghana,1.71,IEA,Energy,Onshore oil,Flared,2023,67,57
+Africa,Ghana,2.01,IEA,Energy,Onshore oil,Fugitive,2023,67,57
+Africa,Ghana,8.05,IEA,Energy,Onshore oil,Vented,2023,67,57
+Africa,Ghana,3.06,IEA,Energy,Other from oil and gas,All,2023,67,57
+Africa,Ghana,126.01,IEA,Energy,Total,All,2023,67,57
+Africa,Ghana,27.98,IEA,Other,Total,All,11-30-18,67,57
+Africa,Ghana,161.49,IEA,Waste,Total,All,11-30-18,67,57
+Africa,Kenya,1264.96,IEA,Agriculture,Total,All,11-30-18,40,58
+Africa,Kenya,120.2,IEA,Energy,Bioenergy,All,2023,40,58
+Africa,Kenya,0.25,IEA,Energy,Other from coal,All,2023,40,58
+Africa,Kenya,2.86,IEA,Energy,Other from oil and gas,All,2023,40,58
+Africa,Kenya,123.31,IEA,Energy,Total,All,2023,40,58
+Africa,Kenya,37.52,IEA,Other,Total,All,11-30-18,40,58
+Africa,Kenya,181.27,IEA,Waste,Total,All,11-30-18,40,58
+Africa,Libya,65.54,IEA,Agriculture,Total,All,11-30-18,35,17
+Africa,Libya,3.02,IEA,Energy,Bioenergy,All,2023,35,17
+Africa,Libya,7.71,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,35,17
+Africa,Libya,12.18,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,35,17
+Africa,Libya,6.18,IEA,Energy,Offshore gas,Fugitive,2023,35,17
+Africa,Libya,15.41,IEA,Energy,Offshore gas,Vented,2023,35,17
+Africa,Libya,25.03,IEA,Energy,Offshore oil,Flared,2023,35,17
+Africa,Libya,12,IEA,Energy,Offshore oil,Fugitive,2023,35,17
+Africa,Libya,47.99,IEA,Energy,Offshore oil,Vented,2023,35,17
+Africa,Libya,9.78,IEA,Energy,Onshore gas,Fugitive,2023,35,17
+Africa,Libya,24.4,IEA,Energy,Onshore gas,Vented,2023,35,17
+Africa,Libya,533.14,IEA,Energy,Onshore oil,Flared,2023,35,17
+Africa,Libya,199.76,IEA,Energy,Onshore oil,Fugitive,2023,35,17
+Africa,Libya,799.05,IEA,Energy,Onshore oil,Vented,2023,35,17
+Africa,Libya,7.14,IEA,Energy,Other from oil and gas,All,2023,35,17
+Africa,Libya,6.4,IEA,Energy,Satellite-detected large oil and gas emissions,All,2023,35,17
+Africa,Libya,1709.18,IEA,Energy,Total,All,2023,35,17
+Africa,Libya,3.77,IEA,Other,Total,All,11-30-18,35,17
+Africa,Libya,84.26,IEA,Waste,Total,All,11-30-18,35,17
+Africa,Morocco,292.37,IEA,Agriculture,Total,All,11-30-18,62,78
+Africa,Morocco,14.19,IEA,Energy,Bioenergy,All,2023,62,78
+Africa,Morocco,0.79,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,62,78
+Africa,Morocco,1.25,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,62,78
+Africa,Morocco,0.06,IEA,Energy,Onshore gas,Fugitive,2023,62,78
+Africa,Morocco,0.16,IEA,Energy,Onshore gas,Vented,2023,62,78
+Africa,Morocco,0.01,IEA,Energy,Onshore oil,Fugitive,2023,62,78
+Africa,Morocco,0.03,IEA,Energy,Onshore oil,Vented,2023,62,78
+Africa,Morocco,0.3,IEA,Energy,Other from coal,All,2023,62,78
+Africa,Morocco,3.79,IEA,Energy,Other from oil and gas,All,2023,62,78
+Africa,Morocco,20.59,IEA,Energy,Total,All,2023,62,78
+Africa,Morocco,6.02,IEA,Other,Total,All,11-30-18,62,78
+Africa,Morocco,407.07,IEA,Waste,Total,All,11-30-18,62,78
+Africa,Mozambique,184.47,IEA,Agriculture,Total,All,11-30-18,63,51
+Africa,Mozambique,60.81,IEA,Energy,Bioenergy,All,2023,63,51
+Africa,Mozambique,54.52,IEA,Energy,Coking coal,All,2023,63,51
+Africa,Mozambique,0.83,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,63,51
+Africa,Mozambique,1.31,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,63,51
+Africa,Mozambique,5.28,IEA,Energy,Offshore gas,Fugitive,2023,63,51
+Africa,Mozambique,13.16,IEA,Energy,Offshore gas,Vented,2023,63,51
+Africa,Mozambique,0.21,IEA,Energy,Offshore oil,Fugitive,2023,63,51
+Africa,Mozambique,0.84,IEA,Energy,Offshore oil,Vented,2023,63,51
+Africa,Mozambique,5.69,IEA,Energy,Onshore gas,Fugitive,2023,63,51
+Africa,Mozambique,14.2,IEA,Energy,Onshore gas,Vented,2023,63,51
+Africa,Mozambique,0.15,IEA,Energy,Onshore oil,Flared,2023,63,51
+Africa,Mozambique,0.03,IEA,Energy,Onshore oil,Fugitive,2023,63,51
+Africa,Mozambique,0.11,IEA,Energy,Onshore oil,Vented,2023,63,51
+Africa,Mozambique,0,IEA,Energy,Other from coal,All,2023,63,51
+Africa,Mozambique,0.83,IEA,Energy,Other from oil and gas,All,2023,63,51
+Africa,Mozambique,37,IEA,Energy,Steam coal,All,2023,63,51
+Africa,Mozambique,194.97,IEA,Energy,Total,All,2023,63,51
+Africa,Mozambique,132.66,IEA,Other,Total,All,11-30-18,63,51
+Africa,Mozambique,151.72,IEA,Waste,Total,All,11-30-18,63,51
+Africa,Namibia,197.57,IEA,Agriculture,Total,All,11-30-18,81,90
+Africa,Namibia,1.96,IEA,Energy,Bioenergy,All,2023,81,90
+Africa,Namibia,0,IEA,Energy,Other from coal,All,2023,81,90
+Africa,Namibia,0.68,IEA,Energy,Other from oil and gas,All,2023,81,90
+Africa,Namibia,2.64,IEA,Energy,Total,All,2023,81,90
+Africa,Namibia,1.23,IEA,Other,Total,All,11-30-18,81,90
+Africa,Namibia,16.05,IEA,Waste,Total,All,11-30-18,81,90
+Africa,Niger,716.98,IEA,Agriculture,Total,All,11-30-18,55,69
+Africa,Niger,35.1,IEA,Energy,Bioenergy,All,2023,55,69
+Africa,Niger,1.76,IEA,Energy,Onshore oil,Flared,2023,55,69
+Africa,Niger,1.24,IEA,Energy,Onshore oil,Fugitive,2023,55,69
+Africa,Niger,4.98,IEA,Energy,Onshore oil,Vented,2023,55,69
+Africa,Niger,0,IEA,Energy,Other from coal,All,2023,55,69
+Africa,Niger,0.43,IEA,Energy,Other from oil and gas,All,2023,55,69
+Africa,Niger,43.51,IEA,Energy,Total,All,2023,55,69
+Africa,Niger,10.91,IEA,Other,Total,All,11-30-18,55,69
+Africa,Niger,156.21,IEA,Waste,Total,All,11-30-18,55,69
+Africa,Nigeria,2055.24,IEA,Agriculture,Total,All,11-30-18,9,7
+Africa,Nigeria,1363.19,IEA,Energy,Bioenergy,All,2023,9,7
+Africa,Nigeria,27.64,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,9,7
+Africa,Nigeria,43.65,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,9,7
+Africa,Nigeria,23.11,IEA,Energy,Offshore gas,Fugitive,2023,9,7
+Africa,Nigeria,57.66,IEA,Energy,Offshore gas,Vented,2023,9,7
+Africa,Nigeria,127.52,IEA,Energy,Offshore oil,Flared,2023,9,7
+Africa,Nigeria,177.42,IEA,Energy,Offshore oil,Fugitive,2023,9,7
+Africa,Nigeria,709.69,IEA,Energy,Offshore oil,Vented,2023,9,7
+Africa,Nigeria,48.24,IEA,Energy,Onshore gas,Fugitive,2023,9,7
+Africa,Nigeria,120.38,IEA,Energy,Onshore gas,Vented,2023,9,7
+Africa,Nigeria,87.7,IEA,Energy,Onshore oil,Flared,2023,9,7
+Africa,Nigeria,85.6,IEA,Energy,Onshore oil,Fugitive,2023,9,7
+Africa,Nigeria,342.39,IEA,Energy,Onshore oil,Vented,2023,9,7
+Africa,Nigeria,0.65,IEA,Energy,Other from coal,All,2023,9,7
+Africa,Nigeria,22.41,IEA,Energy,Other from oil and gas,All,2023,9,7
+Africa,Nigeria,3237.23,IEA,Energy,Total,All,2023,9,7
+Africa,Nigeria,357.52,IEA,Other,Total,All,11-30-18,9,7
+Africa,Nigeria,878.34,IEA,Waste,Total,All,11-30-18,9,7
+Africa,Senegal,267.78,IEA,Agriculture,Total,All,11-30-18,70,83
+Africa,Senegal,12.16,IEA,Energy,Bioenergy,All,2023,70,83
+Africa,Senegal,0.02,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,70,83
+Africa,Senegal,0.03,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,70,83
+Africa,Senegal,0.01,IEA,Energy,Onshore gas,Fugitive,2023,70,83
+Africa,Senegal,0.02,IEA,Energy,Onshore gas,Vented,2023,70,83
+Africa,Senegal,0.07,IEA,Energy,Onshore oil,Fugitive,2023,70,83
+Africa,Senegal,0.27,IEA,Energy,Onshore oil,Vented,2023,70,83
+Africa,Senegal,0.15,IEA,Energy,Other from coal,All,2023,70,83
+Africa,Senegal,0.75,IEA,Energy,Other from oil and gas,All,2023,70,83
+Africa,Senegal,13.49,IEA,Energy,Total,All,2023,70,83
+Africa,Senegal,4.78,IEA,Other,Total,All,11-30-18,70,83
+Africa,Senegal,104.22,IEA,Waste,Total,All,11-30-18,70,83
+Africa,South Africa,753.92,IEA,Agriculture,Total,All,11-30-18,22,18
+Africa,South Africa,38.41,IEA,Energy,Bioenergy,All,2023,22,18
+Africa,South Africa,41.3,IEA,Energy,Coking coal,All,2023,22,18
+Africa,South Africa,3.22,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,22,18
+Africa,South Africa,5.08,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,22,18
+Africa,South Africa,0.03,IEA,Energy,Offshore gas,Fugitive,2023,22,18
+Africa,South Africa,0.06,IEA,Energy,Offshore gas,Vented,2023,22,18
+Africa,South Africa,0.13,IEA,Energy,Offshore oil,Fugitive,2023,22,18
+Africa,South Africa,0.53,IEA,Energy,Offshore oil,Vented,2023,22,18
+Africa,South Africa,0.01,IEA,Energy,Onshore gas,Fugitive,2023,22,18
+Africa,South Africa,0.01,IEA,Energy,Onshore gas,Vented,2023,22,18
+Africa,South Africa,0.1,IEA,Energy,Onshore oil,Flared,2023,22,18
+Africa,South Africa,9.14,IEA,Energy,Onshore oil,Fugitive,2023,22,18
+Africa,South Africa,36.55,IEA,Energy,Onshore oil,Vented,2023,22,18
+Africa,South Africa,43.14,IEA,Energy,Other from coal,All,2023,22,18
+Africa,South Africa,11.69,IEA,Energy,Other from oil and gas,All,2023,22,18
+Africa,South Africa,1484.35,IEA,Energy,Steam coal,All,2023,22,18
+Africa,South Africa,1673.75,IEA,Energy,Total,All,2023,22,18
+Africa,South Africa,33.63,IEA,Other,Total,All,11-30-18,22,18
+Africa,South Africa,845.27,IEA,Waste,Total,All,11-30-18,22,18
+Africa,South Sudan,751.98,IEA,Agriculture,Total,All,11-30-18,53,66
+Africa,South Sudan,2.36,IEA,Energy,Bioenergy,All,2023,53,66
+Africa,South Sudan,0.01,IEA,Energy,Onshore oil,Flared,2023,53,66
+Africa,South Sudan,15.39,IEA,Energy,Onshore oil,Fugitive,2023,53,66
+Africa,South Sudan,61.57,IEA,Energy,Onshore oil,Vented,2023,53,66
+Africa,South Sudan,0.18,IEA,Energy,Other from oil and gas,All,2023,53,66
+Africa,South Sudan,79.51,IEA,Energy,Total,All,2023,53,66
+Africa,South Sudan,20,IEA,Other,Total,All,11-30-18,53,66
+Africa,South Sudan,122.83,IEA,Waste,Total,All,11-30-18,53,66
+Africa,Sudan,1567.65,IEA,Agriculture,Total,All,11-30-18,34,56
+Africa,Sudan,80.62,IEA,Energy,Bioenergy,All,2023,34,56
+Africa,Sudan,13.19,IEA,Energy,Onshore oil,Flared,2023,34,56
+Africa,Sudan,8.58,IEA,Energy,Onshore oil,Fugitive,2023,34,56
+Africa,Sudan,34.31,IEA,Energy,Onshore oil,Vented,2023,34,56
+Africa,Sudan,2.86,IEA,Energy,Other from oil and gas,All,2023,34,56
+Africa,Sudan,139.57,IEA,Energy,Total,All,2023,34,56
+Africa,Sudan,34.88,IEA,Other,Total,All,11-30-18,34,56
+Africa,Sudan,238.51,IEA,Waste,Total,All,11-30-18,34,56
+Africa,Tanzania,1187.13,IEA,Agriculture,Total,All,11-30-18,25,49
+Africa,Tanzania,193.67,IEA,Energy,Bioenergy,All,2023,25,49
+Africa,Tanzania,0.69,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,25,49
+Africa,Tanzania,1.08,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,25,49
+Africa,Tanzania,1.09,IEA,Energy,Offshore gas,Fugitive,2023,25,49
+Africa,Tanzania,2.72,IEA,Energy,Offshore gas,Vented,2023,25,49
+Africa,Tanzania,1.99,IEA,Energy,Onshore gas,Fugitive,2023,25,49
+Africa,Tanzania,4.97,IEA,Energy,Onshore gas,Vented,2023,25,49
+Africa,Tanzania,0.2,IEA,Energy,Other from coal,All,2023,25,49
+Africa,Tanzania,2.15,IEA,Energy,Other from oil and gas,All,2023,25,49
+Africa,Tanzania,208.57,IEA,Energy,Total,All,2023,25,49
+Africa,Tanzania,1223.73,IEA,Other,Total,All,11-30-18,25,49
+Africa,Tanzania,230.86,IEA,Waste,Total,All,11-30-18,25,49
+Africa,Togo,53.52,IEA,Agriculture,Total,All,11-30-18,86,80
+Africa,Togo,19.19,IEA,Energy,Bioenergy,All,2023,86,80
+Africa,Togo,0.04,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,86,80
+Africa,Togo,0.06,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,86,80
+Africa,Togo,0.32,IEA,Energy,Other from oil and gas,All,2023,86,80
+Africa,Togo,19.6,IEA,Energy,Total,All,2023,86,80
+Africa,Togo,10.22,IEA,Other,Total,All,11-30-18,86,80
+Africa,Togo,38.51,IEA,Waste,Total,All,11-30-18,86,80
+Africa,Tunisia,96.86,IEA,Agriculture,Total,All,11-30-18,77,68
+Africa,Tunisia,9.65,IEA,Energy,Bioenergy,All,2023,77,68
+Africa,Tunisia,4.32,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,77,68
+Africa,Tunisia,6.82,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,77,68
+Africa,Tunisia,0.82,IEA,Energy,Offshore gas,Fugitive,2023,77,68
+Africa,Tunisia,2.06,IEA,Energy,Offshore gas,Vented,2023,77,68
+Africa,Tunisia,4.45,IEA,Energy,Offshore oil,Flared,2023,77,68
+Africa,Tunisia,1.92,IEA,Energy,Offshore oil,Fugitive,2023,77,68
+Africa,Tunisia,7.69,IEA,Energy,Offshore oil,Vented,2023,77,68
+Africa,Tunisia,1.7,IEA,Energy,Onshore gas,Fugitive,2023,77,68
+Africa,Tunisia,4.24,IEA,Energy,Onshore gas,Vented,2023,77,68
+Africa,Tunisia,5.47,IEA,Energy,Onshore oil,Flared,2023,77,68
+Africa,Tunisia,2.21,IEA,Energy,Onshore oil,Fugitive,2023,77,68
+Africa,Tunisia,8.83,IEA,Energy,Onshore oil,Vented,2023,77,68
+Africa,Tunisia,2.24,IEA,Energy,Other from oil and gas,All,2023,77,68
+Africa,Tunisia,62.42,IEA,Energy,Total,All,2023,77,68
+Africa,Tunisia,4.26,IEA,Other,Total,All,11-30-18,77,68
+Africa,Tunisia,109.23,IEA,Waste,Total,All,11-30-18,77,68
+Asia Pacific,Australia,2357.84,IEA,Agriculture,Total,All,11-30-18,12,15
+Asia Pacific,Australia,18.01,IEA,Energy,Bioenergy,All,2023,12,15
+Asia Pacific,Australia,857.77,IEA,Energy,Coking coal,All,2023,12,15
+Asia Pacific,Australia,14.64,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,12,15
+Asia Pacific,Australia,23.12,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,12,15
+Asia Pacific,Australia,55.01,IEA,Energy,Offshore gas,Fugitive,2023,12,15
+Asia Pacific,Australia,137.26,IEA,Energy,Offshore gas,Vented,2023,12,15
+Asia Pacific,Australia,4.58,IEA,Energy,Offshore oil,Flared,2023,12,15
+Asia Pacific,Australia,8.66,IEA,Energy,Offshore oil,Fugitive,2023,12,15
+Asia Pacific,Australia,34.64,IEA,Energy,Offshore oil,Vented,2023,12,15
+Asia Pacific,Australia,33.97,IEA,Energy,Onshore gas,Fugitive,2023,12,15
+Asia Pacific,Australia,84.78,IEA,Energy,Onshore gas,Vented,2023,12,15
+Asia Pacific,Australia,8.78,IEA,Energy,Onshore oil,Flared,2023,12,15
+Asia Pacific,Australia,2.24,IEA,Energy,Onshore oil,Fugitive,2023,12,15
+Asia Pacific,Australia,8.96,IEA,Energy,Onshore oil,Vented,2023,12,15
+Asia Pacific,Australia,7.26,IEA,Energy,Other from coal,All,2023,12,15
+Asia Pacific,Australia,23.51,IEA,Energy,Other from oil and gas,All,2023,12,15
+Asia Pacific,Australia,802.97,IEA,Energy,Steam coal,All,2023,12,15
+Asia Pacific,Australia,2126.14,IEA,Energy,Total,All,2023,12,15
+Asia Pacific,Australia,194.84,IEA,Other,Total,All,11-30-18,12,15
+Asia Pacific,Australia,607.61,IEA,Waste,Total,All,11-30-18,12,15
+Asia Pacific,Bangladesh,2401.47,IEA,Agriculture,Total,All,11-30-18,20,42
+Asia Pacific,Bangladesh,95.52,IEA,Energy,Bioenergy,All,2023,20,42
+Asia Pacific,Bangladesh,23.58,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,20,42
+Asia Pacific,Bangladesh,37.24,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,20,42
+Asia Pacific,Bangladesh,27.82,IEA,Energy,Onshore gas,Fugitive,2023,20,42
+Asia Pacific,Bangladesh,69.41,IEA,Energy,Onshore gas,Vented,2023,20,42
+Asia Pacific,Bangladesh,0.85,IEA,Energy,Onshore oil,Flared,2023,20,42
+Asia Pacific,Bangladesh,0.79,IEA,Energy,Onshore oil,Fugitive,2023,20,42
+Asia Pacific,Bangladesh,3.15,IEA,Energy,Onshore oil,Vented,2023,20,42
+Asia Pacific,Bangladesh,0.97,IEA,Energy,Other from coal,All,2023,20,42
+Asia Pacific,Bangladesh,7.7,IEA,Energy,Other from oil and gas,All,2023,20,42
+Asia Pacific,Bangladesh,267.03,IEA,Energy,Total,All,2023,20,42
+Asia Pacific,Bangladesh,52.79,IEA,Other,Total,All,11-30-18,20,42
+Asia Pacific,Bangladesh,830.42,IEA,Waste,Total,All,11-30-18,20,42
+Asia Pacific,Brunei,0.86,IEA,Agriculture,Total,All,11-30-18,90,70
+Asia Pacific,Brunei,1.37,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,90,70
+Asia Pacific,Brunei,2.16,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,90,70
+Asia Pacific,Brunei,4.23,IEA,Energy,Offshore gas,Fugitive,2023,90,70
+Asia Pacific,Brunei,10.56,IEA,Energy,Offshore gas,Vented,2023,90,70
+Asia Pacific,Brunei,2.06,IEA,Energy,Offshore oil,Flared,2023,90,70
+Asia Pacific,Brunei,3.51,IEA,Energy,Offshore oil,Fugitive,2023,90,70
+Asia Pacific,Brunei,14.04,IEA,Energy,Offshore oil,Vented,2023,90,70
+Asia Pacific,Brunei,0.44,IEA,Energy,Onshore gas,Fugitive,2023,90,70
+Asia Pacific,Brunei,1.1,IEA,Energy,Onshore gas,Vented,2023,90,70
+Asia Pacific,Brunei,0.45,IEA,Energy,Onshore oil,Flared,2023,90,70
+Asia Pacific,Brunei,0.24,IEA,Energy,Onshore oil,Fugitive,2023,90,70
+Asia Pacific,Brunei,0.95,IEA,Energy,Onshore oil,Vented,2023,90,70
+Asia Pacific,Brunei,0.02,IEA,Energy,Other from coal,All,2023,90,70
+Asia Pacific,Brunei,0.5,IEA,Energy,Other from oil and gas,All,2023,90,70
+Asia Pacific,Brunei,41.63,IEA,Energy,Total,All,2023,90,70
+Asia Pacific,Brunei,0.51,IEA,Other,Total,All,11-30-18,90,70
+Asia Pacific,Brunei,9.78,IEA,Waste,Total,All,11-30-18,90,70
+Asia Pacific,China,18559.57,IEA,Agriculture,Total,All,11-30-18,1,1
+Asia Pacific,China,997.71,IEA,Energy,Bioenergy,All,2023,1,1
+Asia Pacific,China,5191.46,IEA,Energy,Coking coal,All,2023,1,1
+Asia Pacific,China,211.08,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,1,1
+Asia Pacific,China,333.38,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,1,1
+Asia Pacific,China,17.6,IEA,Energy,Offshore gas,Fugitive,2023,1,1
+Asia Pacific,China,43.92,IEA,Energy,Offshore gas,Vented,2023,1,1
+Asia Pacific,China,12.04,IEA,Energy,Offshore oil,Flared,2023,1,1
+Asia Pacific,China,67.91,IEA,Energy,Offshore oil,Fugitive,2023,1,1
+Asia Pacific,China,271.65,IEA,Energy,Offshore oil,Vented,2023,1,1
+Asia Pacific,China,231.64,IEA,Energy,Onshore gas,Fugitive,2023,1,1
+Asia Pacific,China,578.01,IEA,Energy,Onshore gas,Vented,2023,1,1
+Asia Pacific,China,37,IEA,Energy,Onshore oil,Flared,2023,1,1
+Asia Pacific,China,223.55,IEA,Energy,Onshore oil,Fugitive,2023,1,1
+Asia Pacific,China,894.2,IEA,Energy,Onshore oil,Vented,2023,1,1
+Asia Pacific,China,730.9,IEA,Energy,Other from coal,All,2023,1,1
+Asia Pacific,China,402.53,IEA,Energy,Other from oil and gas,All,2023,1,1
+Asia Pacific,China,14178.6,IEA,Energy,Steam coal,All,2023,1,1
+Asia Pacific,China,24423.16,IEA,Energy,Total,All,2023,1,1
+Asia Pacific,China,1455.78,IEA,Other,Total,All,11-30-18,1,1
+Asia Pacific,China,10507.98,IEA,Waste,Total,All,11-30-18,1,1
+Asia Pacific,India,18348.34,IEA,Agriculture,Total,All,11-30-18,3,5
+Asia Pacific,India,1384.33,IEA,Energy,Bioenergy,All,2023,3,5
+Asia Pacific,India,482.38,IEA,Energy,Coking coal,All,2023,3,5
+Asia Pacific,India,68.94,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,3,5
+Asia Pacific,India,108.88,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,3,5
+Asia Pacific,India,49.47,IEA,Energy,Offshore gas,Fugitive,2023,3,5
+Asia Pacific,India,123.45,IEA,Energy,Offshore gas,Vented,2023,3,5
+Asia Pacific,India,37.03,IEA,Energy,Offshore oil,Flared,2023,3,5
+Asia Pacific,India,59.55,IEA,Energy,Offshore oil,Fugitive,2023,3,5
+Asia Pacific,India,238.21,IEA,Energy,Offshore oil,Vented,2023,3,5
+Asia Pacific,India,22.16,IEA,Energy,Onshore gas,Fugitive,2023,3,5
+Asia Pacific,India,55.29,IEA,Energy,Onshore gas,Vented,2023,3,5
+Asia Pacific,India,34.05,IEA,Energy,Onshore oil,Flared,2023,3,5
+Asia Pacific,India,39.99,IEA,Energy,Onshore oil,Fugitive,2023,3,5
+Asia Pacific,India,159.94,IEA,Energy,Onshore oil,Vented,2023,3,5
+Asia Pacific,India,109.85,IEA,Energy,Other from coal,All,2023,3,5
+Asia Pacific,India,102.6,IEA,Energy,Other from oil and gas,All,2023,3,5
+Asia Pacific,India,2450.07,IEA,Energy,Steam coal,All,2023,3,5
+Asia Pacific,India,5526.18,IEA,Energy,Total,All,2023,3,5
+Asia Pacific,India,592.2,IEA,Other,Total,All,11-30-18,3,5
+Asia Pacific,India,5587.4,IEA,Waste,Total,All,11-30-18,3,5
+Asia Pacific,Indonesia,3521.12,IEA,Agriculture,Total,All,11-30-18,6,8
+Asia Pacific,Indonesia,150.42,IEA,Energy,Bioenergy,All,2023,6,8
+Asia Pacific,Indonesia,42.7,IEA,Energy,Coking coal,All,2023,6,8
+Asia Pacific,Indonesia,43.21,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,6,8
+Asia Pacific,Indonesia,68.24,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,6,8
+Asia Pacific,Indonesia,68.83,IEA,Energy,Offshore gas,Fugitive,2023,6,8
+Asia Pacific,Indonesia,171.75,IEA,Energy,Offshore gas,Vented,2023,6,8
+Asia Pacific,Indonesia,8.63,IEA,Energy,Offshore oil,Flared,2023,6,8
+Asia Pacific,Indonesia,18.45,IEA,Energy,Offshore oil,Fugitive,2023,6,8
+Asia Pacific,Indonesia,73.82,IEA,Energy,Offshore oil,Vented,2023,6,8
+Asia Pacific,Indonesia,43.24,IEA,Energy,Onshore gas,Fugitive,2023,6,8
+Asia Pacific,Indonesia,107.89,IEA,Energy,Onshore gas,Vented,2023,6,8
+Asia Pacific,Indonesia,45,IEA,Energy,Onshore oil,Flared,2023,6,8
+Asia Pacific,Indonesia,71.9,IEA,Energy,Onshore oil,Fugitive,2023,6,8
+Asia Pacific,Indonesia,287.59,IEA,Energy,Onshore oil,Vented,2023,6,8
+Asia Pacific,Indonesia,10.91,IEA,Energy,Other from coal,All,2023,6,8
+Asia Pacific,Indonesia,45.4,IEA,Energy,Other from oil and gas,All,2023,6,8
+Asia Pacific,Indonesia,1796.79,IEA,Energy,Steam coal,All,2023,6,8
+Asia Pacific,Indonesia,3054.76,IEA,Energy,Total,All,2023,6,8
+Asia Pacific,Indonesia,237.46,IEA,Other,Total,All,11-30-18,6,8
+Asia Pacific,Indonesia,4662.68,IEA,Waste,Total,All,11-30-18,6,8
+Asia Pacific,Japan,988.08,IEA,Agriculture,Total,All,11-30-18,44,50
+Asia Pacific,Japan,29.09,IEA,Energy,Bioenergy,All,2023,44,50
+Asia Pacific,Japan,31.45,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,44,50
+Asia Pacific,Japan,49.66,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,44,50
+Asia Pacific,Japan,0.19,IEA,Energy,Offshore gas,Fugitive,2023,44,50
+Asia Pacific,Japan,0.48,IEA,Energy,Offshore gas,Vented,2023,44,50
+Asia Pacific,Japan,0.03,IEA,Energy,Offshore oil,Fugitive,2023,44,50
+Asia Pacific,Japan,0.11,IEA,Energy,Offshore oil,Vented,2023,44,50
+Asia Pacific,Japan,4.07,IEA,Energy,Onshore gas,Fugitive,2023,44,50
+Asia Pacific,Japan,10.16,IEA,Energy,Onshore gas,Vented,2023,44,50
+Asia Pacific,Japan,0.3,IEA,Energy,Onshore oil,Fugitive,2023,44,50
+Asia Pacific,Japan,1.19,IEA,Energy,Onshore oil,Vented,2023,44,50
+Asia Pacific,Japan,7.99,IEA,Energy,Other from coal,All,2023,44,50
+Asia Pacific,Japan,69.54,IEA,Energy,Other from oil and gas,All,2023,44,50
+Asia Pacific,Japan,1.5,IEA,Energy,Steam coal,All,2023,44,50
+Asia Pacific,Japan,205.76,IEA,Energy,Total,All,2023,44,50
+Asia Pacific,Japan,23.2,IEA,Other,Total,All,11-30-18,44,50
+Asia Pacific,Japan,233.14,IEA,Waste,Total,All,11-30-18,44,50
+Asia Pacific,Korea,513.74,IEA,Agriculture,Total,All,11-30-18,48,60
+Asia Pacific,Korea,7.12,IEA,Energy,Bioenergy,All,2023,48,60
+Asia Pacific,Korea,22.46,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,48,60
+Asia Pacific,Korea,35.47,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,48,60
+Asia Pacific,Korea,6.7,IEA,Energy,Other from coal,All,2023,48,60
+Asia Pacific,Korea,38.27,IEA,Energy,Other from oil and gas,All,2023,48,60
+Asia Pacific,Korea,11.4,IEA,Energy,Steam coal,All,2023,48,60
+Asia Pacific,Korea,121.4,IEA,Energy,Total,All,2023,48,60
+Asia Pacific,Korea,28.48,IEA,Other,Total,All,11-30-18,48,60
+Asia Pacific,Korea,560.05,IEA,Waste,Total,All,11-30-18,48,60
+Asia Pacific,Malaysia,186.83,IEA,Agriculture,Total,All,11-30-18,36,32
+Asia Pacific,Malaysia,1.2,IEA,Energy,Bioenergy,All,2023,36,32
+Asia Pacific,Malaysia,30.85,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,36,32
+Asia Pacific,Malaysia,48.72,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,36,32
+Asia Pacific,Malaysia,94.37,IEA,Energy,Offshore gas,Fugitive,2023,36,32
+Asia Pacific,Malaysia,235.49,IEA,Energy,Offshore gas,Vented,2023,36,32
+Asia Pacific,Malaysia,34.06,IEA,Energy,Offshore oil,Flared,2023,36,32
+Asia Pacific,Malaysia,51.3,IEA,Energy,Offshore oil,Fugitive,2023,36,32
+Asia Pacific,Malaysia,205.19,IEA,Energy,Offshore oil,Vented,2023,36,32
+Asia Pacific,Malaysia,7.11,IEA,Energy,Onshore oil,Flared,2023,36,32
+Asia Pacific,Malaysia,2.29,IEA,Energy,Onshore oil,Fugitive,2023,36,32
+Asia Pacific,Malaysia,9.16,IEA,Energy,Onshore oil,Vented,2023,36,32
+Asia Pacific,Malaysia,0.96,IEA,Energy,Other from coal,All,2023,36,32
+Asia Pacific,Malaysia,17.98,IEA,Energy,Other from oil and gas,All,2023,36,32
+Asia Pacific,Malaysia,738.68,IEA,Energy,Total,All,2023,36,32
+Asia Pacific,Malaysia,15.07,IEA,Other,Total,All,11-30-18,36,32
+Asia Pacific,Malaysia,899.69,IEA,Waste,Total,All,11-30-18,36,32
+Asia Pacific,Mongolia,530.95,IEA,Agriculture,Total,All,11-30-18,47,33
+Asia Pacific,Mongolia,0.58,IEA,Energy,Bioenergy,All,2023,47,33
+Asia Pacific,Mongolia,507.41,IEA,Energy,Coking coal,All,2023,47,33
+Asia Pacific,Mongolia,8.4,IEA,Energy,Other from coal,All,2023,47,33
+Asia Pacific,Mongolia,0.91,IEA,Energy,Other from oil and gas,All,2023,47,33
+Asia Pacific,Mongolia,188.45,IEA,Energy,Steam coal,All,2023,47,33
+Asia Pacific,Mongolia,705.76,IEA,Energy,Total,All,2023,47,33
+Asia Pacific,Mongolia,6.19,IEA,Other,Total,All,11-30-18,47,33
+Asia Pacific,Mongolia,17.23,IEA,Waste,Total,All,11-30-18,47,33
+Asia Pacific,New Zealand,1139.3,IEA,Agriculture,Total,All,11-30-18,45,73
+Asia Pacific,New Zealand,3.39,IEA,Energy,Bioenergy,All,2023,45,73
+Asia Pacific,New Zealand,4.93,IEA,Energy,Coking coal,All,2023,45,73
+Asia Pacific,New Zealand,1.05,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,45,73
+Asia Pacific,New Zealand,1.65,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,45,73
+Asia Pacific,New Zealand,1.44,IEA,Energy,Offshore gas,Fugitive,2023,45,73
+Asia Pacific,New Zealand,3.6,IEA,Energy,Offshore gas,Vented,2023,45,73
+Asia Pacific,New Zealand,0.12,IEA,Energy,Offshore oil,Flared,2023,45,73
+Asia Pacific,New Zealand,0.6,IEA,Energy,Offshore oil,Fugitive,2023,45,73
+Asia Pacific,New Zealand,2.41,IEA,Energy,Offshore oil,Vented,2023,45,73
+Asia Pacific,New Zealand,1.09,IEA,Energy,Onshore gas,Fugitive,2023,45,73
+Asia Pacific,New Zealand,2.73,IEA,Energy,Onshore gas,Vented,2023,45,73
+Asia Pacific,New Zealand,0.07,IEA,Energy,Onshore oil,Flared,2023,45,73
+Asia Pacific,New Zealand,0.2,IEA,Energy,Onshore oil,Fugitive,2023,45,73
+Asia Pacific,New Zealand,0.78,IEA,Energy,Onshore oil,Vented,2023,45,73
+Asia Pacific,New Zealand,0.75,IEA,Energy,Other from coal,All,2023,45,73
+Asia Pacific,New Zealand,3.54,IEA,Energy,Other from oil and gas,All,2023,45,73
+Asia Pacific,New Zealand,1.16,IEA,Energy,Steam coal,All,2023,45,73
+Asia Pacific,New Zealand,29.51,IEA,Energy,Total,All,2023,45,73
+Asia Pacific,New Zealand,6.04,IEA,Other,Total,All,11-30-18,45,73
+Asia Pacific,New Zealand,163.09,IEA,Waste,Total,All,11-30-18,45,73
+Asia Pacific,Other countries in Southeast Asia,3320.48,IEA,Agriculture,Total,All,11-30-18,,
+Asia Pacific,Other countries in Southeast Asia,171.57,IEA,Energy,Bioenergy,All,2023,,
+Asia Pacific,Other countries in Southeast Asia,12.28,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,,
+Asia Pacific,Other countries in Southeast Asia,19.39,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,,
+Asia Pacific,Other countries in Southeast Asia,23.58,IEA,Energy,Offshore gas,Fugitive,2023,,
+Asia Pacific,Other countries in Southeast Asia,58.84,IEA,Energy,Offshore gas,Vented,2023,,
+Asia Pacific,Other countries in Southeast Asia,0.51,IEA,Energy,Onshore gas,Fugitive,2023,,
+Asia Pacific,Other countries in Southeast Asia,1.27,IEA,Energy,Onshore gas,Vented,2023,,
+Asia Pacific,Other countries in Southeast Asia,0.82,IEA,Energy,Onshore oil,Flared,2023,,
+Asia Pacific,Other countries in Southeast Asia,0.98,IEA,Energy,Onshore oil,Fugitive,2023,,
+Asia Pacific,Other countries in Southeast Asia,3.92,IEA,Energy,Onshore oil,Vented,2023,,
+Asia Pacific,Other countries in Southeast Asia,10.36,IEA,Energy,Other from coal,All,2023,,
+Asia Pacific,Other countries in Southeast Asia,11.32,IEA,Energy,Other from oil and gas,All,2023,,
+Asia Pacific,Other countries in Southeast Asia,172.37,IEA,Energy,Steam coal,All,2023,,
+Asia Pacific,Other countries in Southeast Asia,487.22,IEA,Energy,Total,All,2023,,
+Asia Pacific,Other countries in Southeast Asia,209.7,IEA,Other,Total,All,11-30-18,,
+Asia Pacific,Other countries in Southeast Asia,433.6,IEA,Waste,Total,All,11-30-18,,
+Asia Pacific,Pakistan,5386.8,IEA,Agriculture,Total,All,11-30-18,8,24
+Asia Pacific,Pakistan,421.72,IEA,Energy,Bioenergy,All,2023,8,24
+Asia Pacific,Pakistan,53.28,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,8,24
+Asia Pacific,Pakistan,84.16,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,8,24
+Asia Pacific,Pakistan,78.97,IEA,Energy,Onshore gas,Fugitive,2023,8,24
+Asia Pacific,Pakistan,197.06,IEA,Energy,Onshore gas,Vented,2023,8,24
+Asia Pacific,Pakistan,11.38,IEA,Energy,Onshore oil,Flared,2023,8,24
+Asia Pacific,Pakistan,16.09,IEA,Energy,Onshore oil,Fugitive,2023,8,24
+Asia Pacific,Pakistan,64.37,IEA,Energy,Onshore oil,Vented,2023,8,24
+Asia Pacific,Pakistan,4.46,IEA,Energy,Other from coal,All,2023,8,24
+Asia Pacific,Pakistan,23.4,IEA,Energy,Other from oil and gas,All,2023,8,24
+Asia Pacific,Pakistan,1,IEA,Energy,Satellite-detected large oil and gas emissions,All,2023,8,24
+Asia Pacific,Pakistan,955.89,IEA,Energy,Total,All,2023,8,24
+Asia Pacific,Pakistan,167.33,IEA,Other,Total,All,11-30-18,8,24
+Asia Pacific,Pakistan,860.59,IEA,Waste,Total,All,11-30-18,8,24
+Asia Pacific,Philippines,1720.64,IEA,Agriculture,Total,All,11-30-18,27,62
+Asia Pacific,Philippines,74.51,IEA,Energy,Bioenergy,All,2023,27,62
+Asia Pacific,Philippines,2.34,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,27,62
+Asia Pacific,Philippines,3.7,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,27,62
+Asia Pacific,Philippines,2.85,IEA,Energy,Offshore gas,Fugitive,2023,27,62
+Asia Pacific,Philippines,7.1,IEA,Energy,Offshore gas,Vented,2023,27,62
+Asia Pacific,Philippines,0.09,IEA,Energy,Offshore oil,Flared,2023,27,62
+Asia Pacific,Philippines,1.27,IEA,Energy,Offshore oil,Fugitive,2023,27,62
+Asia Pacific,Philippines,5.08,IEA,Energy,Offshore oil,Vented,2023,27,62
+Asia Pacific,Philippines,0.4,IEA,Energy,Onshore oil,Flared,2023,27,62
+Asia Pacific,Philippines,1.52,IEA,Energy,Other from coal,All,2023,27,62
+Asia Pacific,Philippines,9.22,IEA,Energy,Other from oil and gas,All,2023,27,62
+Asia Pacific,Philippines,108.08,IEA,Energy,Total,All,2023,27,62
+Asia Pacific,Philippines,51.16,IEA,Other,Total,All,11-30-18,27,62
+Asia Pacific,Philippines,650.97,IEA,Waste,Total,All,11-30-18,27,62
+Asia Pacific,Thailand,2122.34,IEA,Agriculture,Total,All,11-30-18,21,35
+Asia Pacific,Thailand,45.63,IEA,Energy,Bioenergy,All,2023,21,35
+Asia Pacific,Thailand,50.4,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,21,35
+Asia Pacific,Thailand,79.59,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,21,35
+Asia Pacific,Thailand,35.85,IEA,Energy,Offshore gas,Fugitive,2023,21,35
+Asia Pacific,Thailand,89.45,IEA,Energy,Offshore gas,Vented,2023,21,35
+Asia Pacific,Thailand,3.43,IEA,Energy,Offshore oil,Flared,2023,21,35
+Asia Pacific,Thailand,27.25,IEA,Energy,Offshore oil,Fugitive,2023,21,35
+Asia Pacific,Thailand,109,IEA,Energy,Offshore oil,Vented,2023,21,35
+Asia Pacific,Thailand,1.91,IEA,Energy,Onshore gas,Fugitive,2023,21,35
+Asia Pacific,Thailand,4.76,IEA,Energy,Onshore gas,Vented,2023,21,35
+Asia Pacific,Thailand,9.47,IEA,Energy,Onshore oil,Flared,2023,21,35
+Asia Pacific,Thailand,4.65,IEA,Energy,Onshore oil,Fugitive,2023,21,35
+Asia Pacific,Thailand,18.62,IEA,Energy,Onshore oil,Vented,2023,21,35
+Asia Pacific,Thailand,3.71,IEA,Energy,Other from coal,All,2023,21,35
+Asia Pacific,Thailand,24.42,IEA,Energy,Other from oil and gas,All,2023,21,35
+Asia Pacific,Thailand,508.14,IEA,Energy,Total,All,2023,21,35
+Asia Pacific,Thailand,67.15,IEA,Other,Total,All,11-30-18,21,35
+Asia Pacific,Thailand,697.19,IEA,Waste,Total,All,11-30-18,21,35
+Asia Pacific,Viet Nam,2186.54,IEA,Agriculture,Total,All,11-30-18,17,31
+Asia Pacific,Viet Nam,35.52,IEA,Energy,Bioenergy,All,2023,17,31
+Asia Pacific,Viet Nam,1.82,IEA,Energy,Coking coal,All,2023,17,31
+Asia Pacific,Viet Nam,5.97,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,17,31
+Asia Pacific,Viet Nam,9.44,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,17,31
+Asia Pacific,Viet Nam,7.11,IEA,Energy,Offshore gas,Fugitive,2023,17,31
+Asia Pacific,Viet Nam,17.73,IEA,Energy,Offshore gas,Vented,2023,17,31
+Asia Pacific,Viet Nam,38.9,IEA,Energy,Offshore oil,Flared,2023,17,31
+Asia Pacific,Viet Nam,19.56,IEA,Energy,Offshore oil,Fugitive,2023,17,31
+Asia Pacific,Viet Nam,78.24,IEA,Energy,Offshore oil,Vented,2023,17,31
+Asia Pacific,Viet Nam,0.95,IEA,Energy,Onshore oil,Flared,2023,17,31
+Asia Pacific,Viet Nam,12.87,IEA,Energy,Other from coal,All,2023,17,31
+Asia Pacific,Viet Nam,10.55,IEA,Energy,Other from oil and gas,All,2023,17,31
+Asia Pacific,Viet Nam,542.16,IEA,Energy,Steam coal,All,2023,17,31
+Asia Pacific,Viet Nam,780.81,IEA,Energy,Total,All,2023,17,31
+Asia Pacific,Viet Nam,42.53,IEA,Other,Total,All,11-30-18,17,31
+Asia Pacific,Viet Nam,787.53,IEA,Waste,Total,All,11-30-18,17,31
+Central and South America,Argentina,3167.03,IEA,Agriculture,Total,All,11-30-18,13,21
+Central and South America,Argentina,7.07,IEA,Energy,Bioenergy,All,2023,13,21
+Central and South America,Argentina,39.46,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,13,21
+Central and South America,Argentina,62.33,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,13,21
+Central and South America,Argentina,10.51,IEA,Energy,Offshore gas,Fugitive,2023,13,21
+Central and South America,Argentina,26.21,IEA,Energy,Offshore gas,Vented,2023,13,21
+Central and South America,Argentina,0.21,IEA,Energy,Offshore oil,Flared,2023,13,21
+Central and South America,Argentina,1.24,IEA,Energy,Offshore oil,Fugitive,2023,13,21
+Central and South America,Argentina,4.95,IEA,Energy,Offshore oil,Vented,2023,13,21
+Central and South America,Argentina,86.14,IEA,Energy,Onshore gas,Fugitive,2023,13,21
+Central and South America,Argentina,214.94,IEA,Energy,Onshore gas,Vented,2023,13,21
+Central and South America,Argentina,64.42,IEA,Energy,Onshore oil,Flared,2023,13,21
+Central and South America,Argentina,116.06,IEA,Energy,Onshore oil,Fugitive,2023,13,21
+Central and South America,Argentina,464.24,IEA,Energy,Onshore oil,Vented,2023,13,21
+Central and South America,Argentina,0.06,IEA,Energy,Other from coal,All,2023,13,21
+Central and South America,Argentina,23.42,IEA,Energy,Other from oil and gas,All,2023,13,21
+Central and South America,Argentina,27.5,IEA,Energy,Satellite-detected large oil and gas emissions,All,2023,13,21
+Central and South America,Argentina,1148.75,IEA,Energy,Total,All,2023,13,21
+Central and South America,Argentina,87.72,IEA,Other,Total,All,11-30-18,13,21
+Central and South America,Argentina,702.53,IEA,Waste,Total,All,11-30-18,13,21
+Central and South America,Bolivia,685.83,IEA,Agriculture,Total,All,11-30-18,51,59
+Central and South America,Bolivia,1.88,IEA,Energy,Bioenergy,All,2023,51,59
+Central and South America,Bolivia,4.09,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,51,59
+Central and South America,Bolivia,6.47,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,51,59
+Central and South America,Bolivia,21.9,IEA,Energy,Onshore gas,Fugitive,2023,51,59
+Central and South America,Bolivia,54.66,IEA,Energy,Onshore gas,Vented,2023,51,59
+Central and South America,Bolivia,1.5,IEA,Energy,Onshore oil,Flared,2023,51,59
+Central and South America,Bolivia,5.26,IEA,Energy,Onshore oil,Fugitive,2023,51,59
+Central and South America,Bolivia,21.05,IEA,Energy,Onshore oil,Vented,2023,51,59
+Central and South America,Bolivia,0,IEA,Energy,Other from coal,All,2023,51,59
+Central and South America,Bolivia,5.17,IEA,Energy,Other from oil and gas,All,2023,51,59
+Central and South America,Bolivia,121.99,IEA,Energy,Total,All,2023,51,59
+Central and South America,Bolivia,138.51,IEA,Other,Total,All,11-30-18,51,59
+Central and South America,Bolivia,87.83,IEA,Waste,Total,All,11-30-18,51,59
+Central and South America,Brazil,13833.02,IEA,Agriculture,Total,All,11-30-18,5,16
+Central and South America,Brazil,244.18,IEA,Energy,Bioenergy,All,2023,5,16
+Central and South America,Brazil,31.03,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,5,16
+Central and South America,Brazil,49.01,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,5,16
+Central and South America,Brazil,26.15,IEA,Energy,Offshore gas,Fugitive,2023,5,16
+Central and South America,Brazil,65.25,IEA,Energy,Offshore gas,Vented,2023,5,16
+Central and South America,Brazil,39.48,IEA,Energy,Offshore oil,Flared,2023,5,16
+Central and South America,Brazil,259.92,IEA,Energy,Offshore oil,Fugitive,2023,5,16
+Central and South America,Brazil,1039.67,IEA,Energy,Offshore oil,Vented,2023,5,16
+Central and South America,Brazil,8.42,IEA,Energy,Onshore gas,Fugitive,2023,5,16
+Central and South America,Brazil,21.01,IEA,Energy,Onshore gas,Vented,2023,5,16
+Central and South America,Brazil,3.2,IEA,Energy,Onshore oil,Flared,2023,5,16
+Central and South America,Brazil,19.62,IEA,Energy,Onshore oil,Fugitive,2023,5,16
+Central and South America,Brazil,78.49,IEA,Energy,Onshore oil,Vented,2023,5,16
+Central and South America,Brazil,2.86,IEA,Energy,Other from coal,All,2023,5,16
+Central and South America,Brazil,55.62,IEA,Energy,Other from oil and gas,All,2023,5,16
+Central and South America,Brazil,8.94,IEA,Energy,Steam coal,All,2023,5,16
+Central and South America,Brazil,1952.87,IEA,Energy,Total,All,2023,5,16
+Central and South America,Brazil,441.31,IEA,Other,Total,All,11-30-18,5,16
+Central and South America,Brazil,3756.44,IEA,Waste,Total,All,11-30-18,5,16
+Central and South America,Colombia,1804.21,IEA,Agriculture,Total,All,11-30-18,23,29
+Central and South America,Colombia,34.4,IEA,Energy,Bioenergy,All,2023,23,29
+Central and South America,Colombia,13.79,IEA,Energy,Coking coal,All,2023,23,29
+Central and South America,Colombia,7.61,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,23,29
+Central and South America,Colombia,12.02,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,23,29
+Central and South America,Colombia,1.15,IEA,Energy,Offshore gas,Fugitive,2023,23,29
+Central and South America,Colombia,2.86,IEA,Energy,Offshore gas,Vented,2023,23,29
+Central and South America,Colombia,10.91,IEA,Energy,Onshore gas,Fugitive,2023,23,29
+Central and South America,Colombia,27.22,IEA,Energy,Onshore gas,Vented,2023,23,29
+Central and South America,Colombia,17.71,IEA,Energy,Onshore oil,Flared,2023,23,29
+Central and South America,Colombia,53.72,IEA,Energy,Onshore oil,Fugitive,2023,23,29
+Central and South America,Colombia,214.87,IEA,Energy,Onshore oil,Vented,2023,23,29
+Central and South America,Colombia,1.67,IEA,Energy,Other from coal,All,2023,23,29
+Central and South America,Colombia,11.74,IEA,Energy,Other from oil and gas,All,2023,23,29
+Central and South America,Colombia,384.36,IEA,Energy,Steam coal,All,2023,23,29
+Central and South America,Colombia,794.01,IEA,Energy,Total,All,2023,23,29
+Central and South America,Colombia,20.36,IEA,Other,Total,All,11-30-18,23,29
+Central and South America,Colombia,661.7,IEA,Waste,Total,All,11-30-18,23,29
+Central and South America,Cuba,261.49,IEA,Agriculture,Total,All,11-30-18,69,79
+Central and South America,Cuba,2.01,IEA,Energy,Bioenergy,All,2023,69,79
+Central and South America,Cuba,0.79,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,69,79
+Central and South America,Cuba,1.25,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,69,79
+Central and South America,Cuba,0.06,IEA,Energy,Offshore oil,Flared,2023,69,79
+Central and South America,Cuba,0.76,IEA,Energy,Offshore oil,Fugitive,2023,69,79
+Central and South America,Cuba,3.05,IEA,Energy,Offshore oil,Vented,2023,69,79
+Central and South America,Cuba,0.16,IEA,Energy,Onshore oil,Flared,2023,69,79
+Central and South America,Cuba,2,IEA,Energy,Onshore oil,Fugitive,2023,69,79
+Central and South America,Cuba,7.98,IEA,Energy,Onshore oil,Vented,2023,69,79
+Central and South America,Cuba,0,IEA,Energy,Other from coal,All,2023,69,79
+Central and South America,Cuba,1.59,IEA,Energy,Other from oil and gas,All,2023,69,79
+Central and South America,Cuba,19.66,IEA,Energy,Total,All,2023,69,79
+Central and South America,Cuba,2.67,IEA,Other,Total,All,11-30-18,69,79
+Central and South America,Cuba,161.14,IEA,Waste,Total,All,11-30-18,69,79
+Central and South America,Ecuador,367.09,IEA,Agriculture,Total,All,11-30-18,56,39
+Central and South America,Ecuador,2.47,IEA,Energy,Bioenergy,All,2023,56,39
+Central and South America,Ecuador,0.47,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,56,39
+Central and South America,Ecuador,0.74,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,56,39
+Central and South America,Ecuador,0.46,IEA,Energy,Offshore gas,Fugitive,2023,56,39
+Central and South America,Ecuador,1.16,IEA,Energy,Offshore gas,Vented,2023,56,39
+Central and South America,Ecuador,0.5,IEA,Energy,Offshore oil,Fugitive,2023,56,39
+Central and South America,Ecuador,1.98,IEA,Energy,Offshore oil,Vented,2023,56,39
+Central and South America,Ecuador,0.03,IEA,Energy,Onshore gas,Fugitive,2023,56,39
+Central and South America,Ecuador,0.06,IEA,Energy,Onshore gas,Vented,2023,56,39
+Central and South America,Ecuador,33.24,IEA,Energy,Onshore oil,Flared,2023,56,39
+Central and South America,Ecuador,52.54,IEA,Energy,Onshore oil,Fugitive,2023,56,39
+Central and South America,Ecuador,210.17,IEA,Energy,Onshore oil,Vented,2023,56,39
+Central and South America,Ecuador,5.92,IEA,Energy,Other from oil and gas,All,2023,56,39
+Central and South America,Ecuador,309.74,IEA,Energy,Total,All,2023,56,39
+Central and South America,Ecuador,3.99,IEA,Other,Total,All,11-30-18,56,39
+Central and South America,Ecuador,237.79,IEA,Waste,Total,All,11-30-18,56,39
+Central and South America,Guyana,56.46,IEA,Agriculture,Total,All,11-30-18,84,67
+Central and South America,Guyana,0.36,IEA,Energy,Bioenergy,All,2023,84,67
+Central and South America,Guyana,0.06,IEA,Energy,Offshore oil,Flared,2023,84,67
+Central and South America,Guyana,13.6,IEA,Energy,Offshore oil,Fugitive,2023,84,67
+Central and South America,Guyana,54.42,IEA,Energy,Offshore oil,Vented,2023,84,67
+Central and South America,Guyana,0.52,IEA,Energy,Other from oil and gas,All,2023,84,67
+Central and South America,Guyana,68.97,IEA,Energy,Total,All,2023,84,67
+Central and South America,Guyana,1.93,IEA,Other,Total,All,11-30-18,84,67
+Central and South America,Guyana,8.35,IEA,Waste,Total,All,11-30-18,84,67
+Central and South America,Paraguay,850.37,IEA,Agriculture,Total,All,11-30-18,52,81
+Central and South America,Paraguay,14.72,IEA,Energy,Bioenergy,All,2023,52,81
+Central and South America,Paraguay,0,IEA,Energy,Other from coal,All,2023,52,81
+Central and South America,Paraguay,1.43,IEA,Energy,Other from oil and gas,All,2023,52,81
+Central and South America,Paraguay,16.15,IEA,Energy,Total,All,2023,52,81
+Central and South America,Paraguay,10.45,IEA,Other,Total,All,11-30-18,52,81
+Central and South America,Paraguay,116.42,IEA,Waste,Total,All,11-30-18,52,81
+Central and South America,Peru,639.72,IEA,Agriculture,Total,All,11-30-18,49,52
+Central and South America,Peru,29.77,IEA,Energy,Bioenergy,All,2023,49,52
+Central and South America,Peru,4.22,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,49,52
+Central and South America,Peru,6.67,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,49,52
+Central and South America,Peru,0.19,IEA,Energy,Offshore gas,Fugitive,2023,49,52
+Central and South America,Peru,0.48,IEA,Energy,Offshore gas,Vented,2023,49,52
+Central and South America,Peru,0.17,IEA,Energy,Offshore oil,Flared,2023,49,52
+Central and South America,Peru,0.39,IEA,Energy,Offshore oil,Fugitive,2023,49,52
+Central and South America,Peru,1.54,IEA,Energy,Offshore oil,Vented,2023,49,52
+Central and South America,Peru,22.75,IEA,Energy,Onshore gas,Fugitive,2023,49,52
+Central and South America,Peru,56.77,IEA,Energy,Onshore gas,Vented,2023,49,52
+Central and South America,Peru,2.58,IEA,Energy,Onshore oil,Flared,2023,49,52
+Central and South America,Peru,7.24,IEA,Energy,Onshore oil,Fugitive,2023,49,52
+Central and South America,Peru,28.96,IEA,Energy,Onshore oil,Vented,2023,49,52
+Central and South America,Peru,0.14,IEA,Energy,Other from coal,All,2023,49,52
+Central and South America,Peru,8.02,IEA,Energy,Other from oil and gas,All,2023,49,52
+Central and South America,Peru,169.88,IEA,Energy,Total,All,2023,49,52
+Central and South America,Peru,52.28,IEA,Other,Total,All,11-30-18,49,52
+Central and South America,Peru,358.09,IEA,Waste,Total,All,11-30-18,49,52
+Central and South America,Trinidad and Tobago,4.2,IEA,Agriculture,Total,All,11-30-18,79,55
+Central and South America,Trinidad and Tobago,0.13,IEA,Energy,Bioenergy,All,2023,79,55
+Central and South America,Trinidad and Tobago,9.79,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,79,55
+Central and South America,Trinidad and Tobago,15.46,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,79,55
+Central and South America,Trinidad and Tobago,25.41,IEA,Energy,Offshore gas,Fugitive,2023,79,55
+Central and South America,Trinidad and Tobago,63.4,IEA,Energy,Offshore gas,Vented,2023,79,55
+Central and South America,Trinidad and Tobago,4.34,IEA,Energy,Offshore oil,Flared,2023,79,55
+Central and South America,Trinidad and Tobago,3.61,IEA,Energy,Offshore oil,Fugitive,2023,79,55
+Central and South America,Trinidad and Tobago,14.43,IEA,Energy,Offshore oil,Vented,2023,79,55
+Central and South America,Trinidad and Tobago,0.97,IEA,Energy,Onshore gas,Fugitive,2023,79,55
+Central and South America,Trinidad and Tobago,2.43,IEA,Energy,Onshore gas,Vented,2023,79,55
+Central and South America,Trinidad and Tobago,2.79,IEA,Energy,Onshore oil,Flared,2023,79,55
+Central and South America,Trinidad and Tobago,1.73,IEA,Energy,Onshore oil,Fugitive,2023,79,55
+Central and South America,Trinidad and Tobago,6.93,IEA,Energy,Onshore oil,Vented,2023,79,55
+Central and South America,Trinidad and Tobago,0.84,IEA,Energy,Other from oil and gas,All,2023,79,55
+Central and South America,Trinidad and Tobago,152.26,IEA,Energy,Total,All,2023,79,55
+Central and South America,Trinidad and Tobago,5.92,IEA,Other,Total,All,11-30-18,79,55
+Central and South America,Trinidad and Tobago,62.18,IEA,Waste,Total,All,11-30-18,79,55
+Central and South America,Uruguay,737.65,IEA,Agriculture,Total,All,11-30-18,58,86
+Central and South America,Uruguay,6.55,IEA,Energy,Bioenergy,All,2023,58,86
+Central and South America,Uruguay,0.03,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,58,86
+Central and South America,Uruguay,0.04,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,58,86
+Central and South America,Uruguay,0,IEA,Energy,Other from coal,All,2023,58,86
+Central and South America,Uruguay,1.13,IEA,Energy,Other from oil and gas,All,2023,58,86
+Central and South America,Uruguay,7.75,IEA,Energy,Total,All,2023,58,86
+Central and South America,Uruguay,3.2,IEA,Other,Total,All,11-30-18,58,86
+Central and South America,Uruguay,131.07,IEA,Waste,Total,All,11-30-18,58,86
+Central and South America,Venezuela,1027.22,IEA,Agriculture,Total,All,11-30-18,15,9
+Central and South America,Venezuela,2.11,IEA,Energy,Bioenergy,All,2023,15,9
+Central and South America,Venezuela,40.87,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,15,9
+Central and South America,Venezuela,64.55,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,15,9
+Central and South America,Venezuela,13,IEA,Energy,Offshore gas,Fugitive,2023,15,9
+Central and South America,Venezuela,32.45,IEA,Energy,Offshore gas,Vented,2023,15,9
+Central and South America,Venezuela,93.5,IEA,Energy,Offshore oil,Flared,2023,15,9
+Central and South America,Venezuela,41.7,IEA,Energy,Offshore oil,Fugitive,2023,15,9
+Central and South America,Venezuela,166.8,IEA,Energy,Offshore oil,Vented,2023,15,9
+Central and South America,Venezuela,45.66,IEA,Energy,Onshore gas,Fugitive,2023,15,9
+Central and South America,Venezuela,113.94,IEA,Energy,Onshore gas,Vented,2023,15,9
+Central and South America,Venezuela,399.33,IEA,Energy,Onshore oil,Flared,2023,15,9
+Central and South America,Venezuela,396.58,IEA,Energy,Onshore oil,Fugitive,2023,15,9
+Central and South America,Venezuela,1586.32,IEA,Energy,Onshore oil,Vented,2023,15,9
+Central and South America,Venezuela,0.02,IEA,Energy,Other from coal,All,2023,15,9
+Central and South America,Venezuela,6.16,IEA,Energy,Other from oil and gas,All,2023,15,9
+Central and South America,Venezuela,0.49,IEA,Energy,Steam coal,All,2023,15,9
+Central and South America,Venezuela,3003.46,IEA,Energy,Total,All,2023,15,9
+Central and South America,Venezuela,11.87,IEA,Other,Total,All,11-30-18,15,9
+Central and South America,Venezuela,380.29,IEA,Waste,Total,All,11-30-18,15,9
+Europe,Denmark,248.56,IEA,Agriculture,Total,All,11-30-18,73,74
+Europe,Denmark,15.84,IEA,Energy,Bioenergy,All,2023,73,74
+Europe,Denmark,0.72,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,73,74
+Europe,Denmark,1.13,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,73,74
+Europe,Denmark,0.32,IEA,Energy,Offshore gas,Fugitive,2023,73,74
+Europe,Denmark,0.79,IEA,Energy,Offshore gas,Vented,2023,73,74
+Europe,Denmark,0.88,IEA,Energy,Offshore oil,Flared,2023,73,74
+Europe,Denmark,1.36,IEA,Energy,Offshore oil,Fugitive,2023,73,74
+Europe,Denmark,5.45,IEA,Energy,Offshore oil,Vented,2023,73,74
+Europe,Denmark,0.03,IEA,Energy,Onshore oil,Flared,2023,73,74
+Europe,Denmark,0.13,IEA,Energy,Other from coal,All,2023,73,74
+Europe,Denmark,2.65,IEA,Energy,Other from oil and gas,All,2023,73,74
+Europe,Denmark,29.3,IEA,Energy,Total,All,2023,73,74
+Europe,Denmark,5.83,IEA,Other,Total,All,11-30-18,73,74
+Europe,Denmark,55.37,IEA,Waste,Total,All,11-30-18,73,74
+Europe,Estonia,28.17,IEA,Agriculture,Total,All,11-30-18,89,84
+Europe,Estonia,6.13,IEA,Energy,Bioenergy,All,2023,89,84
+Europe,Estonia,0.13,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,89,84
+Europe,Estonia,0.21,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,89,84
+Europe,Estonia,0.65,IEA,Energy,Onshore oil,Fugitive,2023,89,84
+Europe,Estonia,2.58,IEA,Energy,Onshore oil,Vented,2023,89,84
+Europe,Estonia,0.06,IEA,Energy,Other from coal,All,2023,89,84
+Europe,Estonia,0.54,IEA,Energy,Other from oil and gas,All,2023,89,84
+Europe,Estonia,10.3,IEA,Energy,Total,All,2023,89,84
+Europe,Estonia,1.97,IEA,Other,Total,All,11-30-18,89,84
+Europe,Estonia,23.53,IEA,Waste,Total,All,11-30-18,89,84
+Europe,France,1561.82,IEA,Agriculture,Total,All,11-30-18,29,53
+Europe,France,101.07,IEA,Energy,Bioenergy,All,2023,29,53
+Europe,France,12.61,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,29,53
+Europe,France,19.92,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,29,53
+Europe,France,0.03,IEA,Energy,Onshore gas,Fugitive,2023,29,53
+Europe,France,0.07,IEA,Energy,Onshore gas,Vented,2023,29,53
+Europe,France,0.06,IEA,Energy,Onshore oil,Flared,2023,29,53
+Europe,France,0.66,IEA,Energy,Onshore oil,Fugitive,2023,29,53
+Europe,France,2.62,IEA,Energy,Onshore oil,Vented,2023,29,53
+Europe,France,1.61,IEA,Energy,Other from coal,All,2023,29,53
+Europe,France,26.42,IEA,Energy,Other from oil and gas,All,2023,29,53
+Europe,France,165.07,IEA,Energy,Total,All,2023,29,53
+Europe,France,40.3,IEA,Other,Total,All,11-30-18,29,53
+Europe,France,603.07,IEA,Waste,Total,All,11-30-18,29,53
+Europe,Germany,1244.53,IEA,Agriculture,Total,All,11-30-18,32,40
+Europe,Germany,121.92,IEA,Energy,Bioenergy,All,2023,32,40
+Europe,Germany,27.1,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,32,40
+Europe,Germany,42.8,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,32,40
+Europe,Germany,0.02,IEA,Energy,Offshore gas,Fugitive,2023,32,40
+Europe,Germany,0.04,IEA,Energy,Offshore gas,Vented,2023,32,40
+Europe,Germany,0.01,IEA,Energy,Offshore oil,Flared,2023,32,40
+Europe,Germany,0.85,IEA,Energy,Offshore oil,Fugitive,2023,32,40
+Europe,Germany,3.4,IEA,Energy,Offshore oil,Vented,2023,32,40
+Europe,Germany,3.68,IEA,Energy,Onshore gas,Fugitive,2023,32,40
+Europe,Germany,9.19,IEA,Energy,Onshore gas,Vented,2023,32,40
+Europe,Germany,0.01,IEA,Energy,Onshore oil,Flared,2023,32,40
+Europe,Germany,0.82,IEA,Energy,Onshore oil,Fugitive,2023,32,40
+Europe,Germany,3.28,IEA,Energy,Onshore oil,Vented,2023,32,40
+Europe,Germany,30.94,IEA,Energy,Other from coal,All,2023,32,40
+Europe,Germany,43.79,IEA,Energy,Other from oil and gas,All,2023,32,40
+Europe,Germany,287.85,IEA,Energy,Total,All,2023,32,40
+Europe,Germany,111.38,IEA,Other,Total,All,11-30-18,32,40
+Europe,Germany,509.1,IEA,Waste,Total,All,11-30-18,32,40
+Europe,Israel,40.28,IEA,Agriculture,Total,All,11-30-18,71,71
+Europe,Israel,0.23,IEA,Energy,Bioenergy,All,2023,71,71
+Europe,Israel,4.15,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,71,71
+Europe,Israel,6.56,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,71,71
+Europe,Israel,4.35,IEA,Energy,Offshore gas,Fugitive,2023,71,71
+Europe,Israel,10.84,IEA,Energy,Offshore gas,Vented,2023,71,71
+Europe,Israel,0,IEA,Energy,Onshore oil,Flared,2023,71,71
+Europe,Israel,0.05,IEA,Energy,Onshore oil,Fugitive,2023,71,71
+Europe,Israel,0.2,IEA,Energy,Onshore oil,Vented,2023,71,71
+Europe,Israel,0.17,IEA,Energy,Other from coal,All,2023,71,71
+Europe,Israel,5.24,IEA,Energy,Other from oil and gas,All,2023,71,71
+Europe,Israel,0.9,IEA,Energy,Satellite-detected large oil and gas emissions,All,2023,71,71
+Europe,Israel,32.69,IEA,Energy,Total,All,2023,71,71
+Europe,Israel,0.78,IEA,Other,Total,All,11-30-18,71,71
+Europe,Israel,291.05,IEA,Waste,Total,All,11-30-18,71,71
+Europe,Italy,802.99,IEA,Agriculture,Total,All,11-30-18,41,48
+Europe,Italy,89.13,IEA,Energy,Bioenergy,All,2023,41,48
+Europe,Italy,29.01,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,41,48
+Europe,Italy,45.81,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,41,48
+Europe,Italy,0.42,IEA,Energy,Offshore gas,Fugitive,2023,41,48
+Europe,Italy,1.04,IEA,Energy,Offshore gas,Vented,2023,41,48
+Europe,Italy,0.24,IEA,Energy,Offshore oil,Fugitive,2023,41,48
+Europe,Italy,0.95,IEA,Energy,Offshore oil,Vented,2023,41,48
+Europe,Italy,0.43,IEA,Energy,Onshore gas,Fugitive,2023,41,48
+Europe,Italy,1.08,IEA,Energy,Onshore gas,Vented,2023,41,48
+Europe,Italy,2.43,IEA,Energy,Onshore oil,Fugitive,2023,41,48
+Europe,Italy,9.7,IEA,Energy,Onshore oil,Vented,2023,41,48
+Europe,Italy,0.51,IEA,Energy,Other from coal,All,2023,41,48
+Europe,Italy,30.31,IEA,Energy,Other from oil and gas,All,2023,41,48
+Europe,Italy,211.04,IEA,Energy,Total,All,2023,41,48
+Europe,Italy,35.89,IEA,Other,Total,All,11-30-18,41,48
+Europe,Italy,553.31,IEA,Waste,Total,All,11-30-18,41,48
+Europe,Netherlands,458.7,IEA,Agriculture,Total,All,11-30-18,65,76
+Europe,Netherlands,12.94,IEA,Energy,Bioenergy,All,2023,65,76
+Europe,Netherlands,0.56,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,65,76
+Europe,Netherlands,0.88,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,65,76
+Europe,Netherlands,0.18,IEA,Energy,Offshore gas,Fugitive,2023,65,76
+Europe,Netherlands,0.45,IEA,Energy,Offshore gas,Vented,2023,65,76
+Europe,Netherlands,0.01,IEA,Energy,Offshore oil,Flared,2023,65,76
+Europe,Netherlands,0.01,IEA,Energy,Offshore oil,Fugitive,2023,65,76
+Europe,Netherlands,0.05,IEA,Energy,Offshore oil,Vented,2023,65,76
+Europe,Netherlands,0.12,IEA,Energy,Onshore gas,Fugitive,2023,65,76
+Europe,Netherlands,0.31,IEA,Energy,Onshore gas,Vented,2023,65,76
+Europe,Netherlands,0.01,IEA,Energy,Onshore oil,Flared,2023,65,76
+Europe,Netherlands,0.01,IEA,Energy,Onshore oil,Fugitive,2023,65,76
+Europe,Netherlands,0.03,IEA,Energy,Onshore oil,Vented,2023,65,76
+Europe,Netherlands,0.24,IEA,Energy,Other from coal,All,2023,65,76
+Europe,Netherlands,9.69,IEA,Energy,Other from oil and gas,All,2023,65,76
+Europe,Netherlands,25.48,IEA,Energy,Total,All,2023,65,76
+Europe,Netherlands,17.79,IEA,Other,Total,All,11-30-18,65,76
+Europe,Netherlands,136.6,IEA,Waste,Total,All,11-30-18,65,76
+Europe,Norway,101.73,IEA,Agriculture,Total,All,11-30-18,82,77
+Europe,Norway,8.65,IEA,Energy,Bioenergy,All,2023,82,77
+Europe,Norway,0.08,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,82,77
+Europe,Norway,0.13,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,82,77
+Europe,Norway,1.71,IEA,Energy,Offshore gas,Fugitive,2023,82,77
+Europe,Norway,4.28,IEA,Energy,Offshore gas,Vented,2023,82,77
+Europe,Norway,0.17,IEA,Energy,Offshore oil,Flared,2023,82,77
+Europe,Norway,1.4,IEA,Energy,Offshore oil,Fugitive,2023,82,77
+Europe,Norway,5.59,IEA,Energy,Offshore oil,Vented,2023,82,77
+Europe,Norway,0.01,IEA,Energy,Onshore oil,Flared,2023,82,77
+Europe,Norway,0.03,IEA,Energy,Onshore oil,Fugitive,2023,82,77
+Europe,Norway,0.12,IEA,Energy,Onshore oil,Vented,2023,82,77
+Europe,Norway,0.24,IEA,Energy,Other from coal,All,2023,82,77
+Europe,Norway,2.13,IEA,Energy,Other from oil and gas,All,2023,82,77
+Europe,Norway,24.52,IEA,Energy,Total,All,2023,82,77
+Europe,Norway,5.95,IEA,Other,Total,All,11-30-18,82,77
+Europe,Norway,38.45,IEA,Waste,Total,All,11-30-18,82,77
+Europe,Other countries in Europe,2345.13,IEA,Agriculture,Total,All,11-30-18,,
+Europe,Other countries in Europe,91.96,IEA,Energy,Bioenergy,All,2023,,
+Europe,Other countries in Europe,12.39,IEA,Energy,Coking coal,All,2023,,
+Europe,Other countries in Europe,39.5,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,,
+Europe,Other countries in Europe,62.38,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,,
+Europe,Other countries in Europe,0.79,IEA,Energy,Offshore gas,Fugitive,2023,,
+Europe,Other countries in Europe,1.96,IEA,Energy,Offshore gas,Vented,2023,,
+Europe,Other countries in Europe,1.31,IEA,Energy,Onshore gas,Fugitive,2023,,
+Europe,Other countries in Europe,3.26,IEA,Energy,Onshore gas,Vented,2023,,
+Europe,Other countries in Europe,1.33,IEA,Energy,Onshore oil,Flared,2023,,
+Europe,Other countries in Europe,10.38,IEA,Energy,Onshore oil,Fugitive,2023,,
+Europe,Other countries in Europe,41.52,IEA,Energy,Onshore oil,Vented,2023,,
+Europe,Other countries in Europe,103.01,IEA,Energy,Other from coal,All,2023,,
+Europe,Other countries in Europe,38.33,IEA,Energy,Other from oil and gas,All,2023,,
+Europe,Other countries in Europe,3.3,IEA,Energy,Satellite-detected large oil and gas emissions,All,2023,,
+Europe,Other countries in Europe,10.42,IEA,Energy,Steam coal,All,2023,,
+Europe,Other countries in Europe,421.84,IEA,Energy,Total,All,2023,,
+Europe,Other countries in Europe,84.89,IEA,Other,Total,All,11-30-18,,
+Europe,Other countries in Europe,2404.99,IEA,Waste,Total,All,11-30-18,,
+Europe,Other EU17 countries,2813.82,IEA,Agriculture,Total,All,11-30-18,,
+Europe,Other EU17 countries,204.33,IEA,Energy,Bioenergy,All,2023,,
+Europe,Other EU17 countries,39.34,IEA,Energy,Coking coal,All,2023,,
+Europe,Other EU17 countries,35.81,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,,
+Europe,Other EU17 countries,56.56,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,,
+Europe,Other EU17 countries,0.98,IEA,Energy,Offshore gas,Fugitive,2023,,
+Europe,Other EU17 countries,2.44,IEA,Energy,Offshore gas,Vented,2023,,
+Europe,Other EU17 countries,0.11,IEA,Energy,Offshore oil,Flared,2023,,
+Europe,Other EU17 countries,0.09,IEA,Energy,Offshore oil,Fugitive,2023,,
+Europe,Other EU17 countries,0.36,IEA,Energy,Offshore oil,Vented,2023,,
+Europe,Other EU17 countries,2.13,IEA,Energy,Onshore gas,Fugitive,2023,,
+Europe,Other EU17 countries,5.32,IEA,Energy,Onshore gas,Vented,2023,,
+Europe,Other EU17 countries,2.05,IEA,Energy,Onshore oil,Flared,2023,,
+Europe,Other EU17 countries,1.85,IEA,Energy,Onshore oil,Fugitive,2023,,
+Europe,Other EU17 countries,7.39,IEA,Energy,Onshore oil,Vented,2023,,
+Europe,Other EU17 countries,48.23,IEA,Energy,Other from coal,All,2023,,
+Europe,Other EU17 countries,55.76,IEA,Energy,Other from oil and gas,All,2023,,
+Europe,Other EU17 countries,18.07,IEA,Energy,Steam coal,All,2023,,
+Europe,Other EU17 countries,480.82,IEA,Energy,Total,All,2023,,
+Europe,Other EU17 countries,95.41,IEA,Other,Total,All,11-30-18,,
+Europe,Other EU17 countries,1862.55,IEA,Waste,Total,All,11-30-18,,
+Europe,Other EU7 countries,144.88,IEA,Agriculture,Total,All,11-30-18,,
+Europe,Other EU7 countries,27.26,IEA,Energy,Bioenergy,All,2023,,
+Europe,Other EU7 countries,2.52,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,,
+Europe,Other EU7 countries,3.97,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,,
+Europe,Other EU7 countries,0.23,IEA,Energy,Offshore gas,Fugitive,2023,,
+Europe,Other EU7 countries,0.58,IEA,Energy,Offshore gas,Vented,2023,,
+Europe,Other EU7 countries,0.48,IEA,Energy,Onshore gas,Fugitive,2023,,
+Europe,Other EU7 countries,1.2,IEA,Energy,Onshore gas,Vented,2023,,
+Europe,Other EU7 countries,0.12,IEA,Energy,Onshore oil,Flared,2023,,
+Europe,Other EU7 countries,0.69,IEA,Energy,Onshore oil,Fugitive,2023,,
+Europe,Other EU7 countries,2.77,IEA,Energy,Onshore oil,Vented,2023,,
+Europe,Other EU7 countries,8.31,IEA,Energy,Other from coal,All,2023,,
+Europe,Other EU7 countries,5.17,IEA,Energy,Other from oil and gas,All,2023,,
+Europe,Other EU7 countries,0.1,IEA,Energy,Steam coal,All,2023,,
+Europe,Other EU7 countries,53.41,IEA,Energy,Total,All,2023,,
+Europe,Other EU7 countries,9.29,IEA,Other,Total,All,11-30-18,,
+Europe,Other EU7 countries,254.19,IEA,Waste,Total,All,11-30-18,,
+Europe,Poland,616.66,IEA,Agriculture,Total,All,11-30-18,37,27
+Europe,Poland,77.54,IEA,Energy,Bioenergy,All,2023,37,27
+Europe,Poland,254.55,IEA,Energy,Coking coal,All,2023,37,27
+Europe,Poland,8.69,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,37,27
+Europe,Poland,13.73,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,37,27
+Europe,Poland,0.03,IEA,Energy,Offshore gas,Fugitive,2023,37,27
+Europe,Poland,0.06,IEA,Energy,Offshore gas,Vented,2023,37,27
+Europe,Poland,0.27,IEA,Energy,Offshore oil,Flared,2023,37,27
+Europe,Poland,0.31,IEA,Energy,Offshore oil,Fugitive,2023,37,27
+Europe,Poland,1.22,IEA,Energy,Offshore oil,Vented,2023,37,27
+Europe,Poland,4.67,IEA,Energy,Onshore gas,Fugitive,2023,37,27
+Europe,Poland,11.64,IEA,Energy,Onshore gas,Vented,2023,37,27
+Europe,Poland,0.66,IEA,Energy,Onshore oil,Flared,2023,37,27
+Europe,Poland,0.73,IEA,Energy,Onshore oil,Fugitive,2023,37,27
+Europe,Poland,2.93,IEA,Energy,Onshore oil,Vented,2023,37,27
+Europe,Poland,71.57,IEA,Energy,Other from coal,All,2023,37,27
+Europe,Poland,17.75,IEA,Energy,Other from oil and gas,All,2023,37,27
+Europe,Poland,370.52,IEA,Energy,Steam coal,All,2023,37,27
+Europe,Poland,836.88,IEA,Energy,Total,All,2023,37,27
+Europe,Poland,52.54,IEA,Other,Total,All,11-30-18,37,27
+Europe,Poland,302.11,IEA,Waste,Total,All,11-30-18,37,27
+Europe,Romania,368.68,IEA,Agriculture,Total,All,11-30-18,57,43
+Europe,Romania,43.14,IEA,Energy,Bioenergy,All,2023,57,43
+Europe,Romania,16.09,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,57,43
+Europe,Romania,25.42,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,57,43
+Europe,Romania,4.26,IEA,Energy,Offshore gas,Fugitive,2023,57,43
+Europe,Romania,10.63,IEA,Energy,Offshore gas,Vented,2023,57,43
+Europe,Romania,0.23,IEA,Energy,Offshore oil,Flared,2023,57,43
+Europe,Romania,1.47,IEA,Energy,Offshore oil,Fugitive,2023,57,43
+Europe,Romania,5.88,IEA,Energy,Offshore oil,Vented,2023,57,43
+Europe,Romania,22.96,IEA,Energy,Onshore gas,Fugitive,2023,57,43
+Europe,Romania,57.29,IEA,Energy,Onshore gas,Vented,2023,57,43
+Europe,Romania,1.79,IEA,Energy,Onshore oil,Flared,2023,57,43
+Europe,Romania,10.97,IEA,Energy,Onshore oil,Fugitive,2023,57,43
+Europe,Romania,43.9,IEA,Energy,Onshore oil,Vented,2023,57,43
+Europe,Romania,1.13,IEA,Energy,Other from coal,All,2023,57,43
+Europe,Romania,5.45,IEA,Energy,Other from oil and gas,All,2023,57,43
+Europe,Romania,3.4,IEA,Energy,Satellite-detected large oil and gas emissions,All,2023,57,43
+Europe,Romania,254.02,IEA,Energy,Total,All,2023,57,43
+Europe,Romania,10.39,IEA,Other,Total,All,11-30-18,57,43
+Europe,Romania,258.25,IEA,Waste,Total,All,11-30-18,57,43
+Europe,Slovenia,48.45,IEA,Agriculture,Total,All,11-30-18,88,85
+Europe,Slovenia,5.99,IEA,Energy,Bioenergy,All,2023,88,85
+Europe,Slovenia,0.3,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,88,85
+Europe,Slovenia,0.48,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,88,85
+Europe,Slovenia,0,IEA,Energy,Onshore gas,Fugitive,2023,88,85
+Europe,Slovenia,0.01,IEA,Energy,Onshore gas,Vented,2023,88,85
+Europe,Slovenia,0.05,IEA,Energy,Other from coal,All,2023,88,85
+Europe,Slovenia,0.95,IEA,Energy,Other from oil and gas,All,2023,88,85
+Europe,Slovenia,7.78,IEA,Energy,Total,All,2023,88,85
+Europe,Slovenia,1.59,IEA,Other,Total,All,11-30-18,88,85
+Europe,Slovenia,16.31,IEA,Waste,Total,All,11-30-18,88,85
+Europe,Sweden,129.71,IEA,Agriculture,Total,All,11-30-18,75,72
+Europe,Sweden,27.36,IEA,Energy,Bioenergy,All,2023,75,72
+Europe,Sweden,0.31,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,75,72
+Europe,Sweden,0.49,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,75,72
+Europe,Sweden,0.21,IEA,Energy,Other from coal,All,2023,75,72
+Europe,Sweden,3.63,IEA,Energy,Other from oil and gas,All,2023,75,72
+Europe,Sweden,32,IEA,Energy,Total,All,2023,75,72
+Europe,Sweden,10.25,IEA,Other,Total,All,11-30-18,75,72
+Europe,Sweden,157.47,IEA,Waste,Total,All,11-30-18,75,72
+Europe,Ukraine,355.59,IEA,Agriculture,Total,All,11-30-18,38,30
+Europe,Ukraine,25.74,IEA,Energy,Bioenergy,All,2023,38,30
+Europe,Ukraine,24.94,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,38,30
+Europe,Ukraine,39.39,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,38,30
+Europe,Ukraine,2.23,IEA,Energy,Offshore gas,Fugitive,2023,38,30
+Europe,Ukraine,5.56,IEA,Energy,Offshore gas,Vented,2023,38,30
+Europe,Ukraine,35.56,IEA,Energy,Onshore gas,Fugitive,2023,38,30
+Europe,Ukraine,88.72,IEA,Energy,Onshore gas,Vented,2023,38,30
+Europe,Ukraine,3.62,IEA,Energy,Other from coal,All,2023,38,30
+Europe,Ukraine,10.34,IEA,Energy,Other from oil and gas,All,2023,38,30
+Europe,Ukraine,13.3,IEA,Energy,Satellite-detected large oil and gas emissions,All,2023,38,30
+Europe,Ukraine,543.06,IEA,Energy,Steam coal,All,2023,38,30
+Europe,Ukraine,792.46,IEA,Energy,Total,All,2023,38,30
+Europe,Ukraine,74.22,IEA,Other,Total,All,11-30-18,38,30
+Europe,Ukraine,425.42,IEA,Waste,Total,All,11-30-18,38,30
+Europe,United Kingdom,1055.19,IEA,Agriculture,Total,All,11-30-18,28,46
+Europe,United Kingdom,25.78,IEA,Energy,Bioenergy,All,2023,28,46
+Europe,United Kingdom,3.31,IEA,Energy,Coking coal,All,2023,28,46
+Europe,United Kingdom,18.2,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,28,46
+Europe,United Kingdom,28.75,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,28,46
+Europe,United Kingdom,8.24,IEA,Energy,Offshore gas,Fugitive,2023,28,46
+Europe,United Kingdom,20.57,IEA,Energy,Offshore gas,Vented,2023,28,46
+Europe,United Kingdom,8.43,IEA,Energy,Offshore oil,Flared,2023,28,46
+Europe,United Kingdom,15.07,IEA,Energy,Offshore oil,Fugitive,2023,28,46
+Europe,United Kingdom,60.28,IEA,Energy,Offshore oil,Vented,2023,28,46
+Europe,United Kingdom,0.06,IEA,Energy,Onshore gas,Fugitive,2023,28,46
+Europe,United Kingdom,0.15,IEA,Energy,Onshore gas,Vented,2023,28,46
+Europe,United Kingdom,0.6,IEA,Energy,Onshore oil,Flared,2023,28,46
+Europe,United Kingdom,0.47,IEA,Energy,Onshore oil,Fugitive,2023,28,46
+Europe,United Kingdom,1.86,IEA,Energy,Onshore oil,Vented,2023,28,46
+Europe,United Kingdom,5.99,IEA,Energy,Other from coal,All,2023,28,46
+Europe,United Kingdom,29.61,IEA,Energy,Other from oil and gas,All,2023,28,46
+Europe,United Kingdom,4.97,IEA,Energy,Steam coal,All,2023,28,46
+Europe,United Kingdom,232.33,IEA,Energy,Total,All,2023,28,46
+Europe,United Kingdom,61.66,IEA,Other,Total,All,11-30-18,28,46
+Europe,United Kingdom,1109.47,IEA,Waste,Total,All,11-30-18,28,46
+Middle East,Bahrain,0.96,IEA,Agriculture,Total,All,11-30-18,74,54
+Middle East,Bahrain,7.73,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,74,54
+Middle East,Bahrain,12.2,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,74,54
+Middle East,Bahrain,17.5,IEA,Energy,Onshore gas,Fugitive,2023,74,54
+Middle East,Bahrain,43.67,IEA,Energy,Onshore gas,Vented,2023,74,54
+Middle East,Bahrain,8.84,IEA,Energy,Onshore oil,Flared,2023,74,54
+Middle East,Bahrain,12.86,IEA,Energy,Onshore oil,Fugitive,2023,74,54
+Middle East,Bahrain,51.45,IEA,Energy,Onshore oil,Vented,2023,74,54
+Middle East,Bahrain,1.71,IEA,Energy,Other from oil and gas,All,2023,74,54
+Middle East,Bahrain,155.96,IEA,Energy,Total,All,2023,74,54
+Middle East,Bahrain,1.36,IEA,Other,Total,All,11-30-18,74,54
+Middle East,Bahrain,176.02,IEA,Waste,Total,All,11-30-18,74,54
+Middle East,Iran,830.32,IEA,Agriculture,Total,All,11-30-18,7,4
+Middle East,Iran,6.39,IEA,Energy,Bioenergy,All,2023,7,4
+Middle East,Iran,37.66,IEA,Energy,Coking coal,All,2023,7,4
+Middle East,Iran,159.85,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,7,4
+Middle East,Iran,252.46,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,7,4
+Middle East,Iran,265.64,IEA,Energy,Offshore gas,Fugitive,2023,7,4
+Middle East,Iran,662.85,IEA,Energy,Offshore gas,Vented,2023,7,4
+Middle East,Iran,200.86,IEA,Energy,Offshore oil,Flared,2023,7,4
+Middle East,Iran,147.06,IEA,Energy,Offshore oil,Fugitive,2023,7,4
+Middle East,Iran,588.25,IEA,Energy,Offshore oil,Vented,2023,7,4
+Middle East,Iran,70.79,IEA,Energy,Onshore gas,Fugitive,2023,7,4
+Middle East,Iran,176.65,IEA,Energy,Onshore gas,Vented,2023,7,4
+Middle East,Iran,1463.18,IEA,Energy,Onshore oil,Flared,2023,7,4
+Middle East,Iran,386.65,IEA,Energy,Onshore oil,Fugitive,2023,7,4
+Middle East,Iran,1546.61,IEA,Energy,Onshore oil,Vented,2023,7,4
+Middle East,Iran,0.24,IEA,Energy,Other from coal,All,2023,7,4
+Middle East,Iran,83.24,IEA,Energy,Other from oil and gas,All,2023,7,4
+Middle East,Iran,75.3,IEA,Energy,Satellite-detected large oil and gas emissions,All,2023,7,4
+Middle East,Iran,0.43,IEA,Energy,Steam coal,All,2023,7,4
+Middle East,Iran,6124.12,IEA,Energy,Total,All,2023,7,4
+Middle East,Iran,33.92,IEA,Other,Total,All,11-30-18,7,4
+Middle East,Iran,930.56,IEA,Waste,Total,All,11-30-18,7,4
+Middle East,Iraq,166.12,IEA,Agriculture,Total,All,11-30-18,26,14
+Middle East,Iraq,0.14,IEA,Energy,Bioenergy,All,2023,26,14
+Middle East,Iraq,4.45,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,26,14
+Middle East,Iraq,7.03,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,26,14
+Middle East,Iraq,7.59,IEA,Energy,Onshore gas,Fugitive,2023,26,14
+Middle East,Iraq,18.95,IEA,Energy,Onshore gas,Vented,2023,26,14
+Middle East,Iraq,854.03,IEA,Energy,Onshore oil,Flared,2023,26,14
+Middle East,Iraq,275.59,IEA,Energy,Onshore oil,Fugitive,2023,26,14
+Middle East,Iraq,1102.35,IEA,Energy,Onshore oil,Vented,2023,26,14
+Middle East,Iraq,13.83,IEA,Energy,Other from oil and gas,All,2023,26,14
+Middle East,Iraq,14.3,IEA,Energy,Satellite-detected large oil and gas emissions,All,2023,26,14
+Middle East,Iraq,2298.26,IEA,Energy,Total,All,2023,26,14
+Middle East,Iraq,3.5,IEA,Other,Total,All,11-30-18,26,14
+Middle East,Iraq,369.31,IEA,Waste,Total,All,11-30-18,26,14
+Middle East,Jordan,25.6,IEA,Agriculture,Total,All,11-30-18,78,82
+Middle East,Jordan,0.78,IEA,Energy,Bioenergy,All,2023,78,82
+Middle East,Jordan,3.24,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,78,82
+Middle East,Jordan,5.12,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,78,82
+Middle East,Jordan,0.12,IEA,Energy,Onshore gas,Fugitive,2023,78,82
+Middle East,Jordan,0.3,IEA,Energy,Onshore gas,Vented,2023,78,82
+Middle East,Jordan,0.56,IEA,Energy,Onshore oil,Flared,2023,78,82
+Middle East,Jordan,0.48,IEA,Energy,Onshore oil,Fugitive,2023,78,82
+Middle East,Jordan,1.93,IEA,Energy,Onshore oil,Vented,2023,78,82
+Middle East,Jordan,0.09,IEA,Energy,Other from coal,All,2023,78,82
+Middle East,Jordan,2.65,IEA,Energy,Other from oil and gas,All,2023,78,82
+Middle East,Jordan,15.28,IEA,Energy,Total,All,2023,78,82
+Middle East,Jordan,0.58,IEA,Other,Total,All,11-30-18,78,82
+Middle East,Jordan,200.77,IEA,Waste,Total,All,11-30-18,78,82
+Middle East,Kuwait,7.62,IEA,Agriculture,Total,All,11-30-18,46,22
+Middle East,Kuwait,13.85,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,46,22
+Middle East,Kuwait,21.87,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,46,22
+Middle East,Kuwait,0.94,IEA,Energy,Offshore oil,Flared,2023,46,22
+Middle East,Kuwait,5.59,IEA,Energy,Offshore oil,Fugitive,2023,46,22
+Middle East,Kuwait,22.38,IEA,Energy,Offshore oil,Vented,2023,46,22
+Middle East,Kuwait,21.3,IEA,Energy,Onshore gas,Fugitive,2023,46,22
+Middle East,Kuwait,53.15,IEA,Energy,Onshore gas,Vented,2023,46,22
+Middle East,Kuwait,27.74,IEA,Energy,Onshore oil,Flared,2023,46,22
+Middle East,Kuwait,171.7,IEA,Energy,Onshore oil,Fugitive,2023,46,22
+Middle East,Kuwait,686.8,IEA,Energy,Onshore oil,Vented,2023,46,22
+Middle East,Kuwait,7.42,IEA,Energy,Other from oil and gas,All,2023,46,22
+Middle East,Kuwait,0.7,IEA,Energy,Satellite-detected large oil and gas emissions,All,2023,46,22
+Middle East,Kuwait,1033.44,IEA,Energy,Total,All,2023,46,22
+Middle East,Kuwait,0.72,IEA,Other,Total,All,11-30-18,46,22
+Middle East,Kuwait,261.69,IEA,Waste,Total,All,11-30-18,46,22
+Middle East,Lebanon,12.01,IEA,Agriculture,Total,All,11-30-18,85,89
+Middle East,Lebanon,1.55,IEA,Energy,Bioenergy,All,2023,85,89
+Middle East,Lebanon,0.05,IEA,Energy,Other from coal,All,2023,85,89
+Middle East,Lebanon,3.23,IEA,Energy,Other from oil and gas,All,2023,85,89
+Middle East,Lebanon,4.82,IEA,Energy,Total,All,2023,85,89
+Middle East,Lebanon,0.69,IEA,Other,Total,All,11-30-18,85,89
+Middle East,Lebanon,113.09,IEA,Waste,Total,All,11-30-18,85,89
+Middle East,Oman,37.6,IEA,Agriculture,Total,All,11-30-18,59,34
+Middle East,Oman,15.66,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,59,34
+Middle East,Oman,24.73,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,59,34
+Middle East,Oman,0.08,IEA,Energy,Offshore gas,Fugitive,2023,59,34
+Middle East,Oman,0.21,IEA,Energy,Offshore gas,Vented,2023,59,34
+Middle East,Oman,0.35,IEA,Energy,Offshore oil,Flared,2023,59,34
+Middle East,Oman,0.25,IEA,Energy,Offshore oil,Fugitive,2023,59,34
+Middle East,Oman,0.99,IEA,Energy,Offshore oil,Vented,2023,59,34
+Middle East,Oman,43.29,IEA,Energy,Onshore gas,Fugitive,2023,59,34
+Middle East,Oman,108.01,IEA,Energy,Onshore gas,Vented,2023,59,34
+Middle East,Oman,100.47,IEA,Energy,Onshore oil,Flared,2023,59,34
+Middle East,Oman,74.96,IEA,Energy,Onshore oil,Fugitive,2023,59,34
+Middle East,Oman,299.86,IEA,Energy,Onshore oil,Vented,2023,59,34
+Middle East,Oman,6.03,IEA,Energy,Other from oil and gas,All,2023,59,34
+Middle East,Oman,674.9,IEA,Energy,Total,All,2023,59,34
+Middle East,Oman,9.79,IEA,Other,Total,All,11-30-18,59,34
+Middle East,Oman,65.44,IEA,Waste,Total,All,11-30-18,59,34
+Middle East,Qatar,11.18,IEA,Agriculture,Total,All,11-30-18,50,23
+Middle East,Qatar,0.05,IEA,Energy,Bioenergy,All,2023,50,23
+Middle East,Qatar,20.54,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,50,23
+Middle East,Qatar,32.44,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,50,23
+Middle East,Qatar,142.31,IEA,Energy,Offshore gas,Fugitive,2023,50,23
+Middle East,Qatar,355.1,IEA,Energy,Offshore gas,Vented,2023,50,23
+Middle East,Qatar,17.01,IEA,Energy,Offshore oil,Flared,2023,50,23
+Middle East,Qatar,58.23,IEA,Energy,Offshore oil,Fugitive,2023,50,23
+Middle East,Qatar,232.93,IEA,Energy,Offshore oil,Vented,2023,50,23
+Middle East,Qatar,2.51,IEA,Energy,Onshore gas,Fugitive,2023,50,23
+Middle East,Qatar,6.26,IEA,Energy,Onshore gas,Vented,2023,50,23
+Middle East,Qatar,21.14,IEA,Energy,Onshore oil,Flared,2023,50,23
+Middle East,Qatar,18.2,IEA,Energy,Onshore oil,Fugitive,2023,50,23
+Middle East,Qatar,72.8,IEA,Energy,Onshore oil,Vented,2023,50,23
+Middle East,Qatar,4.54,IEA,Energy,Other from oil and gas,All,2023,50,23
+Middle East,Qatar,984.04,IEA,Energy,Total,All,2023,50,23
+Middle East,Qatar,5.72,IEA,Other,Total,All,11-30-18,50,23
+Middle East,Qatar,64.36,IEA,Waste,Total,All,11-30-18,50,23
+Middle East,Saudi Arabia,128.75,IEA,Agriculture,Total,All,11-30-18,18,13
+Middle East,Saudi Arabia,0.07,IEA,Energy,Bioenergy,All,2023,18,13
+Middle East,Saudi Arabia,33.7,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,18,13
+Middle East,Saudi Arabia,53.23,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,18,13
+Middle East,Saudi Arabia,26.47,IEA,Energy,Offshore gas,Fugitive,2023,18,13
+Middle East,Saudi Arabia,66.06,IEA,Energy,Offshore gas,Vented,2023,18,13
+Middle East,Saudi Arabia,39.05,IEA,Energy,Offshore oil,Flared,2023,18,13
+Middle East,Saudi Arabia,166.91,IEA,Energy,Offshore oil,Fugitive,2023,18,13
+Middle East,Saudi Arabia,667.65,IEA,Energy,Offshore oil,Vented,2023,18,13
+Middle East,Saudi Arabia,27.5,IEA,Energy,Onshore gas,Fugitive,2023,18,13
+Middle East,Saudi Arabia,68.62,IEA,Energy,Onshore gas,Vented,2023,18,13
+Middle East,Saudi Arabia,54.91,IEA,Energy,Onshore oil,Flared,2023,18,13
+Middle East,Saudi Arabia,237.47,IEA,Energy,Onshore oil,Fugitive,2023,18,13
+Middle East,Saudi Arabia,949.88,IEA,Energy,Onshore oil,Vented,2023,18,13
+Middle East,Saudi Arabia,44.26,IEA,Energy,Other from oil and gas,All,2023,18,13
+Middle East,Saudi Arabia,23.5,IEA,Energy,Satellite-detected large oil and gas emissions,All,2023,18,13
+Middle East,Saudi Arabia,2459.27,IEA,Energy,Total,All,2023,18,13
+Middle East,Saudi Arabia,28.21,IEA,Other,Total,All,11-30-18,18,13
+Middle East,Saudi Arabia,964.95,IEA,Waste,Total,All,11-30-18,18,13
+Middle East,Syria,143.4,IEA,Agriculture,Total,All,11-30-18,60,37
+Middle East,Syria,0.02,IEA,Energy,Bioenergy,All,2023,60,37
+Middle East,Syria,10.97,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,60,37
+Middle East,Syria,17.33,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,60,37
+Middle East,Syria,7.78,IEA,Energy,Onshore gas,Fugitive,2023,60,37
+Middle East,Syria,19.41,IEA,Energy,Onshore gas,Vented,2023,60,37
+Middle East,Syria,71.5,IEA,Energy,Onshore oil,Flared,2023,60,37
+Middle East,Syria,56.47,IEA,Energy,Onshore oil,Fugitive,2023,60,37
+Middle East,Syria,225.88,IEA,Energy,Onshore oil,Vented,2023,60,37
+Middle East,Syria,0,IEA,Energy,Other from coal,All,2023,60,37
+Middle East,Syria,2.9,IEA,Energy,Other from oil and gas,All,2023,60,37
+Middle East,Syria,23.9,IEA,Energy,Satellite-detected large oil and gas emissions,All,2023,60,37
+Middle East,Syria,436.16,IEA,Energy,Total,All,2023,60,37
+Middle East,Syria,1.06,IEA,Other,Total,All,11-30-18,60,37
+Middle East,Syria,170.4,IEA,Waste,Total,All,11-30-18,60,37
+Middle East,United Arab Emirates,47.71,IEA,Agriculture,Total,All,11-30-18,31,19
+Middle East,United Arab Emirates,0.28,IEA,Energy,Bioenergy,All,2023,31,19
+Middle East,United Arab Emirates,38.21,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,31,19
+Middle East,United Arab Emirates,60.35,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,31,19
+Middle East,United Arab Emirates,18.57,IEA,Energy,Offshore gas,Fugitive,2023,31,19
+Middle East,United Arab Emirates,46.35,IEA,Energy,Offshore gas,Vented,2023,31,19
+Middle East,United Arab Emirates,34.52,IEA,Energy,Offshore oil,Flared,2023,31,19
+Middle East,United Arab Emirates,122.45,IEA,Energy,Offshore oil,Fugitive,2023,31,19
+Middle East,United Arab Emirates,489.79,IEA,Energy,Offshore oil,Vented,2023,31,19
+Middle East,United Arab Emirates,37.17,IEA,Energy,Onshore gas,Fugitive,2023,31,19
+Middle East,United Arab Emirates,92.75,IEA,Energy,Onshore gas,Vented,2023,31,19
+Middle East,United Arab Emirates,37.51,IEA,Energy,Onshore oil,Flared,2023,31,19
+Middle East,United Arab Emirates,131.7,IEA,Energy,Onshore oil,Fugitive,2023,31,19
+Middle East,United Arab Emirates,526.78,IEA,Energy,Onshore oil,Vented,2023,31,19
+Middle East,United Arab Emirates,0.86,IEA,Energy,Other from coal,All,2023,31,19
+Middle East,United Arab Emirates,14.93,IEA,Energy,Other from oil and gas,All,2023,31,19
+Middle East,United Arab Emirates,1652.2,IEA,Energy,Total,All,2023,31,19
+Middle East,United Arab Emirates,3.25,IEA,Other,Total,All,11-30-18,31,19
+Middle East,United Arab Emirates,474.14,IEA,Waste,Total,All,11-30-18,31,19
+Middle East,Yemen,192.62,IEA,Agriculture,Total,All,11-30-18,68,61
+Middle East,Yemen,0.38,IEA,Energy,Bioenergy,All,2023,68,61
+Middle East,Yemen,0.44,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,68,61
+Middle East,Yemen,0.7,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,68,61
+Middle East,Yemen,3.37,IEA,Energy,Onshore gas,Fugitive,2023,68,61
+Middle East,Yemen,8.4,IEA,Energy,Onshore gas,Vented,2023,68,61
+Middle East,Yemen,27.32,IEA,Energy,Onshore oil,Flared,2023,68,61
+Middle East,Yemen,13.51,IEA,Energy,Onshore oil,Fugitive,2023,68,61
+Middle East,Yemen,54.02,IEA,Energy,Onshore oil,Vented,2023,68,61
+Middle East,Yemen,0.03,IEA,Energy,Other from coal,All,2023,68,61
+Middle East,Yemen,1.55,IEA,Energy,Other from oil and gas,All,2023,68,61
+Middle East,Yemen,2.6,IEA,Energy,Satellite-detected large oil and gas emissions,All,2023,68,61
+Middle East,Yemen,112.31,IEA,Energy,Total,All,2023,68,61
+Middle East,Yemen,0.53,IEA,Other,Total,All,11-30-18,68,61
+Middle East,Yemen,163.51,IEA,Waste,Total,All,11-30-18,68,61
+North America,Canada,1065.85,IEA,Agriculture,Total,All,11-30-18,14,12
+North America,Canada,35.41,IEA,Energy,Bioenergy,All,2023,14,12
+North America,Canada,78.04,IEA,Energy,Coking coal,All,2023,14,12
+North America,Canada,55,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,14,12
+North America,Canada,86.87,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,14,12
+North America,Canada,239.55,IEA,Energy,Onshore gas,Fugitive,2023,14,12
+North America,Canada,597.76,IEA,Energy,Onshore gas,Vented,2023,14,12
+North America,Canada,35.17,IEA,Energy,Onshore oil,Flared,2023,14,12
+North America,Canada,265.71,IEA,Energy,Onshore oil,Fugitive,2023,14,12
+North America,Canada,1062.86,IEA,Energy,Onshore oil,Vented,2023,14,12
+North America,Canada,1.43,IEA,Energy,Other from coal,All,2023,14,12
+North America,Canada,56.93,IEA,Energy,Other from oil and gas,All,2023,14,12
+North America,Canada,13.5,IEA,Energy,Steam coal,All,2023,14,12
+North America,Canada,2528.23,IEA,Energy,Total,All,2023,14,12
+North America,Canada,29.74,IEA,Other,Total,All,11-30-18,14,12
+North America,Canada,844.42,IEA,Waste,Total,All,11-30-18,14,12
+North America,Mexico,2450.07,IEA,Agriculture,Total,All,11-30-18,10,20
+North America,Mexico,76.76,IEA,Energy,Bioenergy,All,2023,10,20
+North America,Mexico,10.68,IEA,Energy,Coking coal,All,2023,10,20
+North America,Mexico,49.48,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,10,20
+North America,Mexico,78.15,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,10,20
+North America,Mexico,15.24,IEA,Energy,Offshore gas,Fugitive,2023,10,20
+North America,Mexico,38.02,IEA,Energy,Offshore gas,Vented,2023,10,20
+North America,Mexico,133.04,IEA,Energy,Offshore oil,Flared,2023,10,20
+North America,Mexico,98.51,IEA,Energy,Offshore oil,Fugitive,2023,10,20
+North America,Mexico,394.03,IEA,Energy,Offshore oil,Vented,2023,10,20
+North America,Mexico,23.25,IEA,Energy,Onshore gas,Fugitive,2023,10,20
+North America,Mexico,58.01,IEA,Energy,Onshore gas,Vented,2023,10,20
+North America,Mexico,61.08,IEA,Energy,Onshore oil,Flared,2023,10,20
+North America,Mexico,49.78,IEA,Energy,Onshore oil,Fugitive,2023,10,20
+North America,Mexico,199.13,IEA,Energy,Onshore oil,Vented,2023,10,20
+North America,Mexico,0.71,IEA,Energy,Other from coal,All,2023,10,20
+North America,Mexico,49.6,IEA,Energy,Other from oil and gas,All,2023,10,20
+North America,Mexico,29.24,IEA,Energy,Steam coal,All,2023,10,20
+North America,Mexico,1364.7,IEA,Energy,Total,All,2023,10,20
+North America,Mexico,52.67,IEA,Other,Total,All,11-30-18,10,20
+North America,Mexico,2014.75,IEA,Waste,Total,All,11-30-18,10,20
+North America,United States,9314.22,IEA,Agriculture,Total,All,11-30-18,2,2
+North America,United States,258.91,IEA,Energy,Bioenergy,All,2023,2,2
+North America,United States,792.41,IEA,Energy,Coking coal,All,2023,2,2
+North America,United States,671.55,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,2,2
+North America,United States,1060.63,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,2,2
+North America,United States,20.29,IEA,Energy,Offshore gas,Fugitive,2023,2,2
+North America,United States,50.63,IEA,Energy,Offshore gas,Vented,2023,2,2
+North America,United States,21.76,IEA,Energy,Offshore oil,Flared,2023,2,2
+North America,United States,75.63,IEA,Energy,Offshore oil,Fugitive,2023,2,2
+North America,United States,302.54,IEA,Energy,Offshore oil,Vented,2023,2,2
+North America,United States,1245.15,IEA,Energy,Onshore gas,Fugitive,2023,2,2
+North America,United States,3107.02,IEA,Energy,Onshore gas,Vented,2023,2,2
+North America,United States,400.52,IEA,Energy,Onshore oil,Flared,2023,2,2
+North America,United States,1076.02,IEA,Energy,Onshore oil,Fugitive,2023,2,2
+North America,United States,4304.1,IEA,Energy,Onshore oil,Vented,2023,2,2
+North America,United States,18.84,IEA,Energy,Other from coal,All,2023,2,2
+North America,United States,577.31,IEA,Energy,Other from oil and gas,All,2023,2,2
+North America,United States,869.3,IEA,Energy,Satellite-detected large oil and gas emissions,All,2023,2,2
+North America,United States,1163.92,IEA,Energy,Steam coal,All,2023,2,2
+North America,United States,16016.54,IEA,Energy,Total,All,2023,2,2
+North America,United States,773.76,IEA,Other,Total,All,11-30-18,2,2
+North America,United States,5146.34,IEA,Waste,Total,All,11-30-18,2,2
+Other,Other,7268.55,IEA,Agriculture,Total,All,11-30-18,,
+Other,Other,1087.16,IEA,Energy,Bioenergy,All,2023,,
+Other,Other,28.9,IEA,Energy,Coking coal,All,2023,,
+Other,Other,26.43,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,,
+Other,Other,41.75,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,,
+Other,Other,1.62,IEA,Energy,Offshore gas,Fugitive,2023,,
+Other,Other,4.04,IEA,Energy,Offshore gas,Vented,2023,,
+Other,Other,0,IEA,Energy,Offshore oil,Flared,2023,,
+Other,Other,0.55,IEA,Energy,Offshore oil,Fugitive,2023,,
+Other,Other,2.21,IEA,Energy,Offshore oil,Vented,2023,,
+Other,Other,16.79,IEA,Energy,Onshore gas,Fugitive,2023,,
+Other,Other,41.89,IEA,Energy,Onshore gas,Vented,2023,,
+Other,Other,13.05,IEA,Energy,Onshore oil,Flared,2023,,
+Other,Other,8.05,IEA,Energy,Onshore oil,Fugitive,2023,,
+Other,Other,32.19,IEA,Energy,Onshore oil,Vented,2023,,
+Other,Other,47.37,IEA,Energy,Other from coal,All,2023,,
+Other,Other,125.55,IEA,Energy,Other from oil and gas,All,2023,,
+Other,Other,0.6,IEA,Energy,Satellite-detected large oil and gas emissions,All,2023,,
+Other,Other,761.53,IEA,Energy,Steam coal,All,2023,,
+Other,Other,2239.68,IEA,Energy,Total,All,2023,,
+Other,Other,674.27,IEA,Other,Total,All,11-30-18,,
+Other,Other,3243.17,IEA,Waste,Total,All,11-30-18,,
+Russia & Caspian,Azerbaijan,194.22,IEA,Agriculture,Total,All,11-30-18,64,38
+Russia & Caspian,Azerbaijan,0.34,IEA,Energy,Bioenergy,All,2023,64,38
+Russia & Caspian,Azerbaijan,8.23,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,64,38
+Russia & Caspian,Azerbaijan,12.99,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,64,38
+Russia & Caspian,Azerbaijan,29.49,IEA,Energy,Offshore gas,Fugitive,2023,64,38
+Russia & Caspian,Azerbaijan,73.58,IEA,Energy,Offshore gas,Vented,2023,64,38
+Russia & Caspian,Azerbaijan,7.68,IEA,Energy,Offshore oil,Flared,2023,64,38
+Russia & Caspian,Azerbaijan,41.24,IEA,Energy,Offshore oil,Fugitive,2023,64,38
+Russia & Caspian,Azerbaijan,164.95,IEA,Energy,Offshore oil,Vented,2023,64,38
+Russia & Caspian,Azerbaijan,0.03,IEA,Energy,Onshore gas,Fugitive,2023,64,38
+Russia & Caspian,Azerbaijan,0.07,IEA,Energy,Onshore gas,Vented,2023,64,38
+Russia & Caspian,Azerbaijan,1.17,IEA,Energy,Onshore oil,Flared,2023,64,38
+Russia & Caspian,Azerbaijan,1.68,IEA,Energy,Onshore oil,Fugitive,2023,64,38
+Russia & Caspian,Azerbaijan,6.7,IEA,Energy,Onshore oil,Vented,2023,64,38
+Russia & Caspian,Azerbaijan,3.52,IEA,Energy,Other from oil and gas,All,2023,64,38
+Russia & Caspian,Azerbaijan,351.64,IEA,Energy,Total,All,2023,64,38
+Russia & Caspian,Azerbaijan,0.98,IEA,Other,Total,All,11-30-18,64,38
+Russia & Caspian,Azerbaijan,105.53,IEA,Waste,Total,All,11-30-18,64,38
+Russia & Caspian,Kazakhstan,783.57,IEA,Agriculture,Total,All,11-30-18,16,10
+Russia & Caspian,Kazakhstan,0.29,IEA,Energy,Bioenergy,All,2023,16,10
+Russia & Caspian,Kazakhstan,152.48,IEA,Energy,Coking coal,All,2023,16,10
+Russia & Caspian,Kazakhstan,23.68,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,16,10
+Russia & Caspian,Kazakhstan,37.39,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,16,10
+Russia & Caspian,Kazakhstan,7.3,IEA,Energy,Offshore gas,Fugitive,2023,16,10
+Russia & Caspian,Kazakhstan,18.2,IEA,Energy,Offshore gas,Vented,2023,16,10
+Russia & Caspian,Kazakhstan,17.43,IEA,Energy,Offshore oil,Flared,2023,16,10
+Russia & Caspian,Kazakhstan,48.72,IEA,Energy,Offshore oil,Fugitive,2023,16,10
+Russia & Caspian,Kazakhstan,194.89,IEA,Energy,Offshore oil,Vented,2023,16,10
+Russia & Caspian,Kazakhstan,47.19,IEA,Energy,Onshore gas,Fugitive,2023,16,10
+Russia & Caspian,Kazakhstan,117.74,IEA,Energy,Onshore gas,Vented,2023,16,10
+Russia & Caspian,Kazakhstan,62.31,IEA,Energy,Onshore oil,Flared,2023,16,10
+Russia & Caspian,Kazakhstan,190.51,IEA,Energy,Onshore oil,Fugitive,2023,16,10
+Russia & Caspian,Kazakhstan,762.04,IEA,Energy,Onshore oil,Vented,2023,16,10
+Russia & Caspian,Kazakhstan,51.79,IEA,Energy,Other from coal,All,2023,16,10
+Russia & Caspian,Kazakhstan,12.41,IEA,Energy,Other from oil and gas,All,2023,16,10
+Russia & Caspian,Kazakhstan,321,IEA,Energy,Satellite-detected large oil and gas emissions,All,2023,16,10
+Russia & Caspian,Kazakhstan,832.44,IEA,Energy,Steam coal,All,2023,16,10
+Russia & Caspian,Kazakhstan,2897.79,IEA,Energy,Total,All,2023,16,10
+Russia & Caspian,Kazakhstan,19.57,IEA,Other,Total,All,11-30-18,16,10
+Russia & Caspian,Kazakhstan,191.39,IEA,Waste,Total,All,11-30-18,16,10
+Russia & Caspian,Russia,2035.11,IEA,Agriculture,Total,All,11-30-18,4,3
+Russia & Caspian,Russia,28.11,IEA,Energy,Bioenergy,All,2023,4,3
+Russia & Caspian,Russia,1894.67,IEA,Energy,Coking coal,All,2023,4,3
+Russia & Caspian,Russia,385.4,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,4,3
+Russia & Caspian,Russia,608.7,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,4,3
+Russia & Caspian,Russia,30.74,IEA,Energy,Offshore gas,Fugitive,2023,4,3
+Russia & Caspian,Russia,76.7,IEA,Energy,Offshore gas,Vented,2023,4,3
+Russia & Caspian,Russia,39.3,IEA,Energy,Offshore oil,Flared,2023,4,3
+Russia & Caspian,Russia,47.33,IEA,Energy,Offshore oil,Fugitive,2023,4,3
+Russia & Caspian,Russia,189.31,IEA,Energy,Offshore oil,Vented,2023,4,3
+Russia & Caspian,Russia,881.13,IEA,Energy,Onshore gas,Fugitive,2023,4,3
+Russia & Caspian,Russia,2198.68,IEA,Energy,Onshore gas,Vented,2023,4,3
+Russia & Caspian,Russia,957.65,IEA,Energy,Onshore oil,Flared,2023,4,3
+Russia & Caspian,Russia,1097.43,IEA,Energy,Onshore oil,Fugitive,2023,4,3
+Russia & Caspian,Russia,4389.7,IEA,Energy,Onshore oil,Vented,2023,4,3
+Russia & Caspian,Russia,65.91,IEA,Energy,Other from coal,All,2023,4,3
+Russia & Caspian,Russia,105.18,IEA,Energy,Other from oil and gas,All,2023,4,3
+Russia & Caspian,Russia,273.2,IEA,Energy,Satellite-detected large oil and gas emissions,All,2023,4,3
+Russia & Caspian,Russia,2276.05,IEA,Energy,Steam coal,All,2023,4,3
+Russia & Caspian,Russia,15545.18,IEA,Energy,Total,All,2023,4,3
+Russia & Caspian,Russia,373.4,IEA,Other,Total,All,11-30-18,4,3
+Russia & Caspian,Russia,4149.51,IEA,Waste,Total,All,11-30-18,4,3
+Russia & Caspian,Turkmenistan,294.75,IEA,Agriculture,Total,All,11-30-18,11,6
+Russia & Caspian,Turkmenistan,0.08,IEA,Energy,Bioenergy,All,2023,11,6
+Russia & Caspian,Turkmenistan,74.42,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,11,6
+Russia & Caspian,Turkmenistan,117.53,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,11,6
+Russia & Caspian,Turkmenistan,30.33,IEA,Energy,Offshore gas,Fugitive,2023,11,6
+Russia & Caspian,Turkmenistan,75.68,IEA,Energy,Offshore gas,Vented,2023,11,6
+Russia & Caspian,Turkmenistan,85.7,IEA,Energy,Offshore oil,Flared,2023,11,6
+Russia & Caspian,Turkmenistan,73.09,IEA,Energy,Offshore oil,Fugitive,2023,11,6
+Russia & Caspian,Turkmenistan,292.36,IEA,Energy,Offshore oil,Vented,2023,11,6
+Russia & Caspian,Turkmenistan,413.77,IEA,Energy,Onshore gas,Fugitive,2023,11,6
+Russia & Caspian,Turkmenistan,1032.48,IEA,Energy,Onshore gas,Vented,2023,11,6
+Russia & Caspian,Turkmenistan,89.94,IEA,Energy,Onshore oil,Flared,2023,11,6
+Russia & Caspian,Turkmenistan,75.67,IEA,Energy,Onshore oil,Fugitive,2023,11,6
+Russia & Caspian,Turkmenistan,302.68,IEA,Energy,Onshore oil,Vented,2023,11,6
+Russia & Caspian,Turkmenistan,6.92,IEA,Energy,Other from oil and gas,All,2023,11,6
+Russia & Caspian,Turkmenistan,2546,IEA,Energy,Satellite-detected large oil and gas emissions,All,2023,11,6
+Russia & Caspian,Turkmenistan,5216.67,IEA,Energy,Total,All,2023,11,6
+Russia & Caspian,Turkmenistan,1.23,IEA,Other,Total,All,11-30-18,11,6
+Russia & Caspian,Turkmenistan,48.63,IEA,Waste,Total,All,11-30-18,11,6
+Russia & Caspian,Uzbekistan,888.38,IEA,Agriculture,Total,All,11-30-18,33,25
+Russia & Caspian,Uzbekistan,0.01,IEA,Energy,Bioenergy,All,2023,33,25
+Russia & Caspian,Uzbekistan,82.64,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,33,25
+Russia & Caspian,Uzbekistan,130.52,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,33,25
+Russia & Caspian,Uzbekistan,145.33,IEA,Energy,Onshore gas,Fugitive,2023,33,25
+Russia & Caspian,Uzbekistan,362.64,IEA,Energy,Onshore gas,Vented,2023,33,25
+Russia & Caspian,Uzbekistan,28.75,IEA,Energy,Onshore oil,Flared,2023,33,25
+Russia & Caspian,Uzbekistan,20.37,IEA,Energy,Onshore oil,Fugitive,2023,33,25
+Russia & Caspian,Uzbekistan,81.48,IEA,Energy,Onshore oil,Vented,2023,33,25
+Russia & Caspian,Uzbekistan,4.6,IEA,Energy,Other from coal,All,2023,33,25
+Russia & Caspian,Uzbekistan,19.83,IEA,Energy,Other from oil and gas,All,2023,33,25
+Russia & Caspian,Uzbekistan,57.1,IEA,Energy,Satellite-detected large oil and gas emissions,All,2023,33,25
+Russia & Caspian,Uzbekistan,933.27,IEA,Energy,Total,All,2023,33,25
+Russia & Caspian,Uzbekistan,5.8,IEA,Other,Total,All,11-30-18,33,25
+Russia & Caspian,Uzbekistan,280.52,IEA,Waste,Total,All,11-30-18,33,25
+World,NA,140638.67,IEA,Agriculture,Total,All,11-30-18,,
+World,NA,9147.65,IEA,Energy,Bioenergy,All,2023,,
+World,NA,10502.5,IEA,Energy,Coking coal,All,2023,,
+World,NA,2762.03,IEA,Energy,Gas pipelines and LNG facilities,Fugitive,2023,,
+World,NA,4362.3,IEA,Energy,Gas pipelines and LNG facilities,Vented,2023,,
+World,NA,1166.21,IEA,Energy,Offshore gas,Fugitive,2023,,
+World,NA,2910.04,IEA,Energy,Offshore gas,Vented,2023,,
+World,NA,1271.93,IEA,Energy,Offshore oil,Flared,2023,,
+World,NA,1935.33,IEA,Energy,Offshore oil,Fugitive,2023,,
+World,NA,7741.33,IEA,Energy,Offshore oil,Vented,2023,,
+World,NA,4243.23,IEA,Energy,Onshore gas,Fugitive,2023,,
+World,NA,10588.16,IEA,Energy,Onshore gas,Vented,2023,,
+World,NA,6250.29,IEA,Energy,Onshore oil,Flared,2023,,
+World,NA,5903.13,IEA,Energy,Onshore oil,Fugitive,2023,,
+World,NA,23612.5,IEA,Energy,Onshore oil,Vented,2023,,
+World,NA,1436.12,IEA,Energy,Other from coal,All,2023,,
+World,NA,2450.1,IEA,Energy,Other from oil and gas,All,2023,,
+World,NA,4340.4,IEA,Energy,Satellite-detected large oil and gas emissions,All,2023,,
+World,NA,28084.9,IEA,Energy,Steam coal,All,2023,,
+World,NA,128708.15,IEA,Energy,Total,All,2023,,
+World,NA,9155.18,IEA,Other,Total,All,11-30-18,,
+World,NA,70974.04,IEA,Waste,Total,All,11-30-18,,
+

@@ -1,0 +1,91 @@
+---
+title: "Test final"
+author: "Arturo y valentina"
+format: html
+editor: visual
+---
+```{r}
+library(ggplot2)
+library(readr)
+library(dplyr)
+library(stats)
+```
+
+```{r}
+#Establecemos el entorno de trabajo
+setwd("C:/Users/artur/Documents/Ciencias Ambientales IV/Modelación/Proyecto final")
+```
+
+```{r}
+#Abrimos la base de datos
+IEA <- read_csv("IEA.csv")
+View(IEA)
+```
+Gráfico emisiones por región.
+```{r}
+# Sumamos las emisiones de cada región
+resumen <- aggregate(IEA$`emissions (kt)`, by = list(Region = IEA$region), sum)
+colnames(resumen) <- c("Region", "Emissions")
+
+# Producimos el gráfico
+ggplot(data = resumen, aes(x = reorder(Region, Emissions), y = Emissions)) +
+  geom_bar(stat = "identity", fill = "steelblue") +
+  coord_flip() +
+  labs(title = "Emisiones por Región",
+       x = "Región",
+       y = "Emisiones (kt)") +
+  theme_minimal()
+
+```
+Gráfico por países con mayor y menor emisión
+```{r}
+# Limiamos la base de datos
+IEA_limpio <- IEA %>% filter(!is.na(country))
+
+# Ordenar los datos según las emisiones de cada país
+IEA_ordenado <- IEA_limpio %>% arrange(desc(`emissions (kt)`))
+
+# Seleccionar los países más emisores 
+top_paises <- head(IEA_ordenado, 10) %>% arrange(desc(`emissions (kt)`))
+
+# Seleccionar los países menos emisores 
+bottom_paises <- tail(IEA_ordenado[IEA_ordenado$`emissions (kt)` > 0,], 10) %>% arrange(desc(`emissions (kt)`))
+
+# Gráfico para los países más emisores
+grafico_top <- ggplot(top_paises, aes(x = reorder(country, `emissions (kt)`), y = `emissions (kt)`)) +
+  geom_bar(stat = "identity", fill = "red") +
+  coord_flip() +
+  labs(title = "Top Países Más Emisores",
+       x = "País",
+       y = "Emisiones (kt)") +
+  theme_minimal()
+
+print(grafico_top)
+
+# Gráfico para los países menos emisores
+grafico_bottom <- ggplot(bottom_paises, aes(x = reorder(country, `emissions (kt)`), y = `emissions (kt)`)) +
+  geom_bar(stat = "identity", fill = "green") +
+  coord_flip() +
+  labs(title = "Top Países Menos Emisores",
+       x = "País",
+       y = "Emisiones (kt)") +
+  theme_minimal()
+
+print(grafico_bottom)
+```
+Análisis de regresion lineal para determinar si la emsión de los países depende de la región en la que se encuentra.
+  
+  
+```{r}
+
+# Convertir la columna de regiones a un factor para análisis categórico
+IEA_limpio$region <- as.factor(IEA_limpio$region)
+
+# Realizar análisis de regresión lineal
+modelo <- lm(`emissions (kt)` ~ region, data = IEA_limpio)
+
+# Resumen del modelo
+summary(modelo)
+```
+
+
