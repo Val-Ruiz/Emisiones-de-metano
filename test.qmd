@@ -4,27 +4,29 @@ author: "Arturo y valentina"
 format: html
 editor: visual
 ---
-```{r}
-library(ggplot2)
-library(readr)
-library(dplyr)
-library(stats)
-```
 
 ```{r}
-#Establecemos el entorno de trabajo
-setwd("C:/Users/artur/Documents/Ciencias Ambientales IV/Modelación/Proyecto final")
+install.packages("pacman")
+library(pacman)
+p_load("ggplot2", "readr", "dplyr", "stats")
 ```
 
 ```{r}
 #Abrimos la base de datos
-IEA <- read_csv("IEA.csv")
-View(IEA)
+IEA <- read.csv("IEA.csv")
+head(IEA)
 ```
+
+```{r}
+colnames(IEA)[3] <- "emissions"
+#La columna emisiones tiene las unidades de kilotoneladas (kt)
+```
+
 Gráfico emisiones por región.
+
 ```{r}
 # Sumamos las emisiones de cada región
-resumen <- aggregate(IEA$`emissions (kt)`, by = list(Region = IEA$region), sum)
+resumen <- aggregate(IEA$emissions, by = list(Region = IEA$region), sum)
 colnames(resumen) <- c("Region", "Emissions")
 
 # Producimos el gráfico
@@ -37,22 +39,21 @@ ggplot(data = resumen, aes(x = reorder(Region, Emissions), y = Emissions)) +
   theme_minimal()
 
 ```
+
 Gráfico por países con mayor y menor emisión
+
 ```{r}
 # Limiamos la base de datos
 IEA_limpio <- IEA %>% filter(!is.na(country))
 
 # Ordenar los datos según las emisiones de cada país
-IEA_ordenado <- IEA_limpio %>% arrange(desc(`emissions (kt)`))
+IEA_ordenado <- IEA_limpio %>% arrange(desc(emissions))
 
 # Seleccionar los países más emisores 
-top_paises <- head(IEA_ordenado, 10) %>% arrange(desc(`emissions (kt)`))
-
-# Seleccionar los países menos emisores 
-bottom_paises <- tail(IEA_ordenado[IEA_ordenado$`emissions (kt)` > 0,], 10) %>% arrange(desc(`emissions (kt)`))
+top_paises <- head(IEA_ordenado, 10) %>% arrange(desc(emissions))
 
 # Gráfico para los países más emisores
-grafico_top <- ggplot(top_paises, aes(x = reorder(country, `emissions (kt)`), y = `emissions (kt)`)) +
+grafico_top <- ggplot(top_paises, aes(x = reorder(country, emissions), y = emissions)) +
   geom_bar(stat = "identity", fill = "red") +
   coord_flip() +
   labs(title = "Top Países Más Emisores",
@@ -62,8 +63,13 @@ grafico_top <- ggplot(top_paises, aes(x = reorder(country, `emissions (kt)`), y 
 
 print(grafico_top)
 
+```
+
+```{r}
+# Seleccionar los países menos emisores 
+bottom_paises <- tail(IEA_ordenado[IEA_ordenado$emissions > 0,], 10) %>% arrange(desc(emissions))
 # Gráfico para los países menos emisores
-grafico_bottom <- ggplot(bottom_paises, aes(x = reorder(country, `emissions (kt)`), y = `emissions (kt)`)) +
+grafico_bottom <- ggplot(bottom_paises, aes(x = reorder(country, emissions), y = emissions))+
   geom_bar(stat = "identity", fill = "green") +
   coord_flip() +
   labs(title = "Top Países Menos Emisores",
@@ -73,19 +79,17 @@ grafico_bottom <- ggplot(bottom_paises, aes(x = reorder(country, `emissions (kt)
 
 print(grafico_bottom)
 ```
+
 Análisis de regresion lineal para determinar si la emsión de los países depende de la región en la que se encuentra.
-  
-  
+
 ```{r}
 
 # Convertir la columna de regiones a un factor para análisis categórico
 IEA_limpio$region <- as.factor(IEA_limpio$region)
 
 # Realizar análisis de regresión lineal
-modelo <- lm(`emissions (kt)` ~ region, data = IEA_limpio)
+modelo <- lm(emissions ~ region, data = IEA_limpio)
 
 # Resumen del modelo
 summary(modelo)
 ```
-
-
