@@ -1,7 +1,7 @@
 ---
-title: "Test final"
+title: "Proyecto final"
 author: "Arturo y valentina"
-format: html
+format: pdf
 editor: visual
 ---
 
@@ -27,6 +27,7 @@ Gráfico emisiones por región.
 ```{r}
 # Sumamos las emisiones de cada región
 resumen <- aggregate(IEA$emissions, by = list(Region = IEA$region), sum)
+resumen <- resumen[-9,] #Eliminar la suma total
 colnames(resumen) <- c("Region", "Emissions")
 
 # Producimos el gráfico
@@ -49,6 +50,10 @@ IEA_limpio <- IEA %>% filter(!is.na(country))
 # Ordenar los datos según las emisiones de cada país
 IEA_ordenado <- IEA_limpio %>% arrange(desc(emissions))
 
+
+```
+
+```{r}
 # Seleccionar los países más emisores 
 top_paises <- head(IEA_ordenado, 10) %>% arrange(desc(emissions))
 
@@ -64,6 +69,7 @@ grafico_top <- ggplot(top_paises, aes(x = reorder(country, emissions), y = emiss
 print(grafico_top)
 
 ```
+
 
 ```{r}
 # Seleccionar los países menos emisores 
@@ -93,3 +99,38 @@ modelo <- lm(emissions ~ region, data = IEA_limpio)
 # Resumen del modelo
 summary(modelo)
 ```
+
+Tablas de resumen para tener solo 2 variables
+```{r}
+IEA_limpio$country <- as.factor(IEA_limpio$country) #Paises como factor
+
+#Dataframe con la suma de emisiones de cada tipo de fuente, para cada país
+sumas_pais <- IEA_limpio %>% group_by(country, type) %>% 
+  summarise("emi" = sum(emissions))
+
+#Dataframe solo con país y región, sin duplicados
+pais_region <- IEA_limpio[c(1,2)]
+pais_region <- pais_region[!duplicated(pais_region$country),]
+
+#Agregar la region correspondiente a cada pais en tabla de sumas
+
+sumas_pais <- pais_region %>% inner_join(sumas_pais, by = "country", keep = F)
+
+sumas_pais
+```
+
+```{r}
+#Gráfico de dispersión del dataframe de sumas
+sumas_pais <- sumas_pais[sumas_pais$type!="Other", ]
+
+ggplot(data = sumas_pais, aes(emi, region, colour = type)) +
+  geom_jitter(height = 0, width = .4) +
+  scale_x_continuous(trans="log10") #Escala logaritmica del eje x
+
+##No sé si dejarla porque en realidad no se puede interpretar mucho de ella.
+```
+
+
+
+
+
