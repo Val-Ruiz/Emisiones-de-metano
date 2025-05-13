@@ -6,7 +6,7 @@ editor: visual
 
 ```{r}
 library(pacman)
-p_load("tidyverse", "ggplot2")
+p_load("tidyverse", "ggplot2", "dplyr")
 ```
 
 ```{r}
@@ -39,7 +39,7 @@ emissions$Power_Industry <- as.numeric(emissions$Power_Industry)
 emissions$Transport <- as.numeric(emissions$Transport)
 emissions$Waste <- as.numeric(emissions$Waste)
 
-emi_limpio <- emissions[!is.na(emissions)] #queda una lista de paises pero se borran todas las variables!!
+ #queda una lista de paises pero se borran todas las variables!!
 ```
 
 
@@ -48,32 +48,31 @@ paises <- read_xlsx("CLASS.xlsx")
 paises <- paises[-5]
 colnames(paises)[1] <- "Country"
 emissions <- emissions %>% inner_join(paises, by= "Country", keep=F )
-emissions$Region <- as.factor(emissions$Region)
+emi_limpio<- na.omit(emissions)
 ```
 
 ```{r}
-x_region <- emissions %>% group_by(emissions$Region) %>% 
+metano <-emi_limpio
+metano$Region <-as.factor(metano$Region)
+```
+
+
+```{r}
+x_region <- metano %>% group_by(metano$Region) %>% 
   summarise(sum(Agriculture), sum(Building), sum(Fugitive_Emissions), sum(Industrial_Combustion), sum(Industrial_Processes), sum(Power_Industry), sum(Transport), sum(Waste))
   
-x_region
+x_region <- as.data.frame(x_region)
+colnames(x_region) <- c("Region","Agriculture", "Building", "Fugitive_Emissions", "Industrial_Combustion", "Industrial_Processes", "Power_Industry", "Transport", "Waste" )
 
 ```
-
 
 ```{r}
-#Formas de hacer el modelo de redes. No correrá antes de resolver los NAs
-p_load("igraph", "ggraph", "tidygraph")
-plot(x_region, vertex.size=3) #Vertex.size tamaño del vertice
+nodos <- gather(x_region, key = "sector", value = "Emisiones", -Region ) 
 
-stargraph = make_star(30,"undirected",center =5) #Cual de los nodos es el centro? el 5
-plot(stargraph,vertex.size=3,vertex.label=NA)
-
-ringgraph = make_ring(n = 30,directed = FALSE,circular = TRUE)
-plot(ringgraph)
-
-latticegraph = make_lattice(length = 30, dim =2) #el tamaño del lattice en cada dimensión
-plot(latticegraph,vertex.size=3,vertex.label=NA)
+p_load("igraph", "ggraph","tidygraph","visNetwork","networkD3","RColorBrewer")
+plot(nodos, vertex.size=3, vertex.label=NA)
 ```
+
 
 ```{r}
 
