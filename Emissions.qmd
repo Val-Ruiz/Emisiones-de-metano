@@ -1,0 +1,86 @@
+---
+title: "Methane emmisions"
+format: html
+editor: visual
+---
+
+```{r}
+library(pacman)
+p_load("tidyverse", "ggplot2")
+```
+
+```{r}
+emissions <- read.csv("Methane_Data.csv")
+emissions <- emissions[-4]
+colnames(emissions) <- c("Country", "ISO", "Series", "X2023X")
+emissions <- emissions[-c(2129,2130,2131,2132,2133), ]#Registros vacios o con metadata
+```
+
+
+```{r}
+#Transformacion del dataframe para que las categorías sean una columna cada una
+emissions <- emissions %>%spread(Series, X2023X)
+
+eliminar <- ".."
+emissions <- emissions[ -grep(eliminar, emissions[, , drop = TRUE]), ]
+
+colnames(emissions) <- c("Country", "ISO","Agriculture", "Building", "Fugitive_Emissions", "Industrial_Combustion", "Industrial_Processes", "Power_Industry", "Transport", "Waste" )
+
+# Todos son derivados de la energía usada excepto agricultura y residuos. Todo esta en Mt CO2e
+```
+
+```{r}
+emissions$Agriculture <- as.numeric(emissions$Agriculture)
+emissions$Building <- as.numeric(emissions$Building)
+emissions$Fugitive_Emissions <- as.numeric(emissions$Fugitive_Emissions)
+emissions$Industrial_Combustion <- as.numeric(emissions$Industrial_Combustion)
+emissions$Industrial_Processes <- as.numeric(emissions$Industrial_Processes)
+emissions$Power_Industry <- as.numeric(emissions$Power_Industry)
+emissions$Transport <- as.numeric(emissions$Transport)
+emissions$Waste <- as.numeric(emissions$Waste)
+
+emi_limpio <- emissions[!is.na(emissions)] #queda una lista de paises pero se borran todas las variables!!
+```
+
+
+```{r}
+paises <- read_xlsx("CLASS.xlsx")
+paises <- paises[-5]
+colnames(paises)[1] <- "Country"
+emissions <- emissions %>% inner_join(paises, by= "Country", keep=F )
+emissions$Region <- as.factor(emissions$Region)
+```
+
+```{r}
+x_region <- emissions %>% group_by(emissions$Region) %>% 
+  summarise(sum(Agriculture), sum(Building), sum(Fugitive_Emissions), sum(Industrial_Combustion), sum(Industrial_Processes), sum(Power_Industry), sum(Transport), sum(Waste))
+  
+x_region
+
+```
+
+
+```{r}
+#Formas de hacer el modelo de redes. No correrá antes de resolver los NAs
+p_load("igraph", "ggraph", "tidygraph")
+plot(x_region, vertex.size=3) #Vertex.size tamaño del vertice
+
+stargraph = make_star(30,"undirected",center =5) #Cual de los nodos es el centro? el 5
+plot(stargraph,vertex.size=3,vertex.label=NA)
+
+ringgraph = make_ring(n = 30,directed = FALSE,circular = TRUE)
+plot(ringgraph)
+
+latticegraph = make_lattice(length = 30, dim =2) #el tamaño del lattice en cada dimensión
+plot(latticegraph,vertex.size=3,vertex.label=NA)
+```
+
+```{r}
+
+```
+
+
+
+
+
+
