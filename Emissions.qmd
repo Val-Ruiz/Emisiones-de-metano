@@ -15,7 +15,6 @@ emissions <- read.csv("Methane_Data.csv")
 head(emissions)
 ```
 
-
 ```{r}
 emissions <- emissions[-4] #Se elimina columna con codigo de tipo de emisiones
 colnames(emissions) <- c("Country", "ISO", "Series", "X2023X")  #Renombramos columnas
@@ -27,6 +26,7 @@ emissions <- emissions[ -grep(eliminar, emissions[, , drop = TRUE]), ]
 ```
 
 Todas las emisiones son derivados de la energía usada en los procesos, excepto agricultura y residuos que las emiten directamente. Tienen unidades de Mt CO2e
+
 ```{r}
 #Transformacion del dataframe para que las categorías sean una columna cada una
 emissions <- emissions %>%spread(Series, X2023X)
@@ -48,11 +48,11 @@ emissions$Transport <- as.numeric(emissions$Transport)
 emissions$Waste <- as.numeric(emissions$Waste)
 
 ```
+
 Se ha producido un error porque no todos los ".." fueron eliminados. Ahora son NA se pueden eliminar con una instrucción más simple, se realiza después del siguiente proceso para no repetir la instrucción
 
-
-
 A continuación se leerá otra base de datos con la clasificación de las naciones segun el banco mundial. Esta es en base a su region, nivel de ingreso o tipo de prestamo que el Banco mundial puede otorgar
+
 ```{r}
 paises <- read_xlsx("CLASS.xlsx") 
 paises <- paises[-5] # Se elimina columna de prestamo 
@@ -69,16 +69,17 @@ metano$Region <-as.factor(metano$Region) # Se configura la región como un facto
 ```
 
 A continuación se crea una tabla con las sumas de todas las emisiones por región. Se vuelven a configurar los nombres devido a que se modifican durante la creación de la tabla
+
 ```{r}
 x_region <- metano %>% group_by(metano$Region) %>% 
   summarise(sum(Agriculture), sum(Building), sum(Fugitive_Emissions), sum(Industrial_Combustion), sum(Industrial_Processes), sum(Power_Industry), sum(Transport), sum(Waste))
-  
+
 x_region <- as.data.frame(x_region)
 colnames(x_region) <- c("Region","Agriculture", "Building", "Fugitive_Emissions", "Industrial_Combustion", "Industrial_Processes", "Power_Industry", "Transport", "Waste" )
 
 ```
 
-## Visualización con  igraph
+## Visualización con igraph
 
 ```{r}
 p_load("igraph", "ggraph","tidygraph","RColorBrewer")
@@ -99,13 +100,10 @@ strength(red, mode="in")
 plot(red, edge.arrow.size=.4, weighted = T, edge.color=origen.color) #visualización
 ```
 
-
 ```{r}
-
+graficas <- pivot_longer(metano,
+  cols = c(3:10), names_to = "Sector",
+  values_to = "Emisiones")
+write.csv(graficas, file = "metano.csv")
+read.csv("metano.csv")
 ```
-
-
-
-
-
-

@@ -1,0 +1,729 @@
+"","Country","ISO","Code","Region","Income group","Sector","Emisiones"
+"1","Albania","ALB","ALB","Europe & Central Asia","Upper middle income","Agriculture",1.2293
+"2","Albania","ALB","ALB","Europe & Central Asia","Upper middle income","Building",0.0494
+"3","Albania","ALB","ALB","Europe & Central Asia","Upper middle income","Fugitive_Emissions",0.2337
+"4","Albania","ALB","ALB","Europe & Central Asia","Upper middle income","Industrial_Combustion",0.0021
+"5","Albania","ALB","ALB","Europe & Central Asia","Upper middle income","Industrial_Processes",0.002
+"6","Albania","ALB","ALB","Europe & Central Asia","Upper middle income","Power_Industry",0
+"7","Albania","ALB","ALB","Europe & Central Asia","Upper middle income","Transport",0.0043
+"8","Albania","ALB","ALB","Europe & Central Asia","Upper middle income","Waste",0.5798
+"9","Algeria","DZA","DZA","Middle East & North Africa","Upper middle income","Agriculture",8.7467
+"10","Algeria","DZA","DZA","Middle East & North Africa","Upper middle income","Building",0.0772
+"11","Algeria","DZA","DZA","Middle East & North Africa","Upper middle income","Fugitive_Emissions",38.5382
+"12","Algeria","DZA","DZA","Middle East & North Africa","Upper middle income","Industrial_Combustion",0.0096
+"13","Algeria","DZA","DZA","Middle East & North Africa","Upper middle income","Industrial_Processes",0.0125
+"14","Algeria","DZA","DZA","Middle East & North Africa","Upper middle income","Power_Industry",0.0779
+"15","Algeria","DZA","DZA","Middle East & North Africa","Upper middle income","Transport",0.2746
+"16","Algeria","DZA","DZA","Middle East & North Africa","Upper middle income","Waste",20.7829
+"17","Argentina","ARG","ARG","Latin America & Caribbean","Upper middle income","Agriculture",103.1928
+"18","Argentina","ARG","ARG","Latin America & Caribbean","Upper middle income","Building",0.183
+"19","Argentina","ARG","ARG","Latin America & Caribbean","Upper middle income","Fugitive_Emissions",12.0358
+"20","Argentina","ARG","ARG","Latin America & Caribbean","Upper middle income","Industrial_Combustion",0.0328
+"21","Argentina","ARG","ARG","Latin America & Caribbean","Upper middle income","Industrial_Processes",0.0358
+"22","Argentina","ARG","ARG","Latin America & Caribbean","Upper middle income","Power_Industry",0.0917
+"23","Argentina","ARG","ARG","Latin America & Caribbean","Upper middle income","Transport",0.2439
+"24","Argentina","ARG","ARG","Latin America & Caribbean","Upper middle income","Waste",10.8433
+"25","Armenia","ARM","ARM","Europe & Central Asia","Upper middle income","Agriculture",1.3869
+"26","Armenia","ARM","ARM","Europe & Central Asia","Upper middle income","Building",0.0517
+"27","Armenia","ARM","ARM","Europe & Central Asia","Upper middle income","Fugitive_Emissions",0.3441
+"28","Armenia","ARM","ARM","Europe & Central Asia","Upper middle income","Industrial_Combustion",3e-04
+"29","Armenia","ARM","ARM","Europe & Central Asia","Upper middle income","Industrial_Processes",2e-04
+"30","Armenia","ARM","ARM","Europe & Central Asia","Upper middle income","Power_Industry",0.0022
+"31","Armenia","ARM","ARM","Europe & Central Asia","Upper middle income","Transport",0.0206
+"32","Armenia","ARM","ARM","Europe & Central Asia","Upper middle income","Waste",0.4986
+"33","Australia","AUS","AUS","East Asia & Pacific","High income","Agriculture",75.5359
+"34","Australia","AUS","AUS","East Asia & Pacific","High income","Building",0.4654
+"35","Australia","AUS","AUS","East Asia & Pacific","High income","Fugitive_Emissions",50.3132
+"36","Australia","AUS","AUS","East Asia & Pacific","High income","Industrial_Combustion",0.1521
+"37","Australia","AUS","AUS","East Asia & Pacific","High income","Industrial_Processes",0.0241
+"38","Australia","AUS","AUS","East Asia & Pacific","High income","Power_Industry",0.0977
+"39","Australia","AUS","AUS","East Asia & Pacific","High income","Transport",0.1908
+"40","Australia","AUS","AUS","East Asia & Pacific","High income","Waste",12.5544
+"41","Austria","AUT","AUT","Europe & Central Asia","High income","Agriculture",5.2966
+"42","Austria","AUT","AUT","Europe & Central Asia","High income","Building",0.6264
+"43","Austria","AUT","AUT","Europe & Central Asia","High income","Fugitive_Emissions",0.7697
+"44","Austria","AUT","AUT","Europe & Central Asia","High income","Industrial_Combustion",0.0659
+"45","Austria","AUT","AUT","Europe & Central Asia","High income","Industrial_Processes",0.0176
+"46","Austria","AUT","AUT","Europe & Central Asia","High income","Power_Industry",0.0861
+"47","Austria","AUT","AUT","Europe & Central Asia","High income","Transport",0.0218
+"48","Austria","AUT","AUT","Europe & Central Asia","High income","Waste",2.5605
+"49","Azerbaijan","AZE","AZE","Europe & Central Asia","Upper middle income","Agriculture",7.4175
+"50","Azerbaijan","AZE","AZE","Europe & Central Asia","Upper middle income","Building",0.0351
+"51","Azerbaijan","AZE","AZE","Europe & Central Asia","Upper middle income","Fugitive_Emissions",5.2638
+"52","Azerbaijan","AZE","AZE","Europe & Central Asia","Upper middle income","Industrial_Combustion",0.0019
+"53","Azerbaijan","AZE","AZE","Europe & Central Asia","Upper middle income","Industrial_Processes",4e-04
+"54","Azerbaijan","AZE","AZE","Europe & Central Asia","Upper middle income","Power_Industry",0.0197
+"55","Azerbaijan","AZE","AZE","Europe & Central Asia","Upper middle income","Transport",0.0396
+"56","Azerbaijan","AZE","AZE","Europe & Central Asia","Upper middle income","Waste",3.1733
+"57","Bahrain","BHR","BHR","Middle East & North Africa","High income","Agriculture",0.0279
+"58","Bahrain","BHR","BHR","Middle East & North Africa","High income","Building",6e-04
+"59","Bahrain","BHR","BHR","Middle East & North Africa","High income","Fugitive_Emissions",22.8938
+"60","Bahrain","BHR","BHR","Middle East & North Africa","High income","Industrial_Combustion",0.0011
+"61","Bahrain","BHR","BHR","Middle East & North Africa","High income","Industrial_Processes",0.0301
+"62","Bahrain","BHR","BHR","Middle East & North Africa","High income","Power_Industry",0.0468
+"63","Bahrain","BHR","BHR","Middle East & North Africa","High income","Transport",0.0118
+"64","Bahrain","BHR","BHR","Middle East & North Africa","High income","Waste",1.0701
+"65","Bangladesh","BGD","BGD","South Asia","Lower middle income","Agriculture",106.022
+"66","Bangladesh","BGD","BGD","South Asia","Lower middle income","Building",3.4507
+"67","Bangladesh","BGD","BGD","South Asia","Lower middle income","Fugitive_Emissions",2.3952
+"68","Bangladesh","BGD","BGD","South Asia","Lower middle income","Industrial_Combustion",0.0538
+"69","Bangladesh","BGD","BGD","South Asia","Lower middle income","Industrial_Processes",0
+"70","Bangladesh","BGD","BGD","South Asia","Lower middle income","Power_Industry",0.065
+"71","Bangladesh","BGD","BGD","South Asia","Lower middle income","Transport",0.135
+"72","Bangladesh","BGD","BGD","South Asia","Lower middle income","Waste",16.3376
+"73","Belarus","BLR","BLR","Europe & Central Asia","Upper middle income","Agriculture",12.1355
+"74","Belarus","BLR","BLR","Europe & Central Asia","Upper middle income","Building",0.2839
+"75","Belarus","BLR","BLR","Europe & Central Asia","Upper middle income","Fugitive_Emissions",2.3017
+"76","Belarus","BLR","BLR","Europe & Central Asia","Upper middle income","Industrial_Combustion",0.0101
+"77","Belarus","BLR","BLR","Europe & Central Asia","Upper middle income","Industrial_Processes",0.0065
+"78","Belarus","BLR","BLR","Europe & Central Asia","Upper middle income","Power_Industry",0.0618
+"79","Belarus","BLR","BLR","Europe & Central Asia","Upper middle income","Transport",0.037
+"80","Belarus","BLR","BLR","Europe & Central Asia","Upper middle income","Waste",6.173
+"81","Belgium","BEL","BEL","Europe & Central Asia","High income","Agriculture",6.8437
+"82","Belgium","BEL","BEL","Europe & Central Asia","High income","Building",0.2775
+"83","Belgium","BEL","BEL","Europe & Central Asia","High income","Fugitive_Emissions",2.6665
+"84","Belgium","BEL","BEL","Europe & Central Asia","High income","Industrial_Combustion",0.0413
+"85","Belgium","BEL","BEL","Europe & Central Asia","High income","Industrial_Processes",0.0533
+"86","Belgium","BEL","BEL","Europe & Central Asia","High income","Power_Industry",0.0618
+"87","Belgium","BEL","BEL","Europe & Central Asia","High income","Transport",0.0352
+"88","Belgium","BEL","BEL","Europe & Central Asia","High income","Waste",2.435
+"89","Bhutan","BTN","BTN","South Asia","Lower middle income","Agriculture",0.3861
+"90","Bhutan","BTN","BTN","South Asia","Lower middle income","Building",0.472
+"91","Bhutan","BTN","BTN","South Asia","Lower middle income","Fugitive_Emissions",0.0698
+"92","Bhutan","BTN","BTN","South Asia","Lower middle income","Industrial_Combustion",0.0031
+"93","Bhutan","BTN","BTN","South Asia","Lower middle income","Industrial_Processes",0.0034
+"94","Bhutan","BTN","BTN","South Asia","Lower middle income","Power_Industry",4e-04
+"95","Bhutan","BTN","BTN","South Asia","Lower middle income","Transport",0.0026
+"96","Bhutan","BTN","BTN","South Asia","Lower middle income","Waste",0.159
+"97","Bosnia and Herzegovina","BIH","BIH","Europe & Central Asia","Upper middle income","Agriculture",1.1486
+"98","Bosnia and Herzegovina","BIH","BIH","Europe & Central Asia","Upper middle income","Building",0.4679
+"99","Bosnia and Herzegovina","BIH","BIH","Europe & Central Asia","Upper middle income","Fugitive_Emissions",2.9681
+"100","Bosnia and Herzegovina","BIH","BIH","Europe & Central Asia","Upper middle income","Industrial_Combustion",0.0019
+"101","Bosnia and Herzegovina","BIH","BIH","Europe & Central Asia","Upper middle income","Industrial_Processes",0.0019
+"102","Bosnia and Herzegovina","BIH","BIH","Europe & Central Asia","Upper middle income","Power_Industry",0.0053
+"103","Bosnia and Herzegovina","BIH","BIH","Europe & Central Asia","Upper middle income","Transport",0.0139
+"104","Bosnia and Herzegovina","BIH","BIH","Europe & Central Asia","Upper middle income","Waste",0.9946
+"105","Brazil","BRA","BRA","Latin America & Caribbean","Upper middle income","Agriculture",471.2279
+"106","Brazil","BRA","BRA","Latin America & Caribbean","Upper middle income","Building",3.9682
+"107","Brazil","BRA","BRA","Latin America & Caribbean","Upper middle income","Fugitive_Emissions",34.3689
+"108","Brazil","BRA","BRA","Latin America & Caribbean","Upper middle income","Industrial_Combustion",2.2569
+"109","Brazil","BRA","BRA","Latin America & Caribbean","Upper middle income","Industrial_Processes",0.1596
+"110","Brazil","BRA","BRA","Latin America & Caribbean","Upper middle income","Power_Industry",0.3721
+"111","Brazil","BRA","BRA","Latin America & Caribbean","Upper middle income","Transport",0.7726
+"112","Brazil","BRA","BRA","Latin America & Caribbean","Upper middle income","Waste",133.6238
+"113","Bulgaria","BGR","BGR","Europe & Central Asia","High income","Agriculture",2.0263
+"114","Bulgaria","BGR","BGR","Europe & Central Asia","High income","Building",0.3193
+"115","Bulgaria","BGR","BGR","Europe & Central Asia","High income","Fugitive_Emissions",0.8664
+"116","Bulgaria","BGR","BGR","Europe & Central Asia","High income","Industrial_Combustion",0.0153
+"117","Bulgaria","BGR","BGR","Europe & Central Asia","High income","Industrial_Processes",0.0078
+"118","Bulgaria","BGR","BGR","Europe & Central Asia","High income","Power_Industry",0.027
+"119","Bulgaria","BGR","BGR","Europe & Central Asia","High income","Transport",0.0447
+"120","Bulgaria","BGR","BGR","Europe & Central Asia","High income","Waste",5.6475
+"121","Canada","CAN","CAN","North America","High income","Agriculture",30.6945
+"122","Canada","CAN","CAN","North America","High income","Building",0.8549
+"123","Canada","CAN","CAN","North America","High income","Fugitive_Emissions",68.7362
+"124","Canada","CAN","CAN","North America","High income","Industrial_Combustion",0.2684
+"125","Canada","CAN","CAN","North America","High income","Industrial_Processes",0.1831
+"126","Canada","CAN","CAN","North America","High income","Power_Industry",0.1542
+"127","Canada","CAN","CAN","North America","High income","Transport",0.5704
+"128","Canada","CAN","CAN","North America","High income","Waste",22.704
+"129","Chile","CHL","CHL","Latin America & Caribbean","High income","Agriculture",6.7654
+"130","Chile","CHL","CHL","Latin America & Caribbean","High income","Building",0.6672
+"131","Chile","CHL","CHL","Latin America & Caribbean","High income","Fugitive_Emissions",0.943
+"132","Chile","CHL","CHL","Latin America & Caribbean","High income","Industrial_Combustion",0.0714
+"133","Chile","CHL","CHL","Latin America & Caribbean","High income","Industrial_Processes",0.0274
+"134","Chile","CHL","CHL","Latin America & Caribbean","High income","Power_Industry",0.1738
+"135","Chile","CHL","CHL","Latin America & Caribbean","High income","Transport",0.0682
+"136","Chile","CHL","CHL","Latin America & Caribbean","High income","Waste",11.6136
+"137","China","CHN","CHN","East Asia & Pacific","Upper middle income","Agriculture",631.2643
+"138","China","CHN","CHN","East Asia & Pacific","Upper middle income","Building",43.5899
+"139","China","CHN","CHN","East Asia & Pacific","Upper middle income","Fugitive_Emissions",734.8163
+"140","China","CHN","CHN","East Asia & Pacific","Upper middle income","Industrial_Combustion",4.391
+"141","China","CHN","CHN","East Asia & Pacific","Upper middle income","Industrial_Processes",7.9872
+"142","China","CHN","CHN","East Asia & Pacific","Upper middle income","Power_Industry",3.9361
+"143","China","CHN","CHN","East Asia & Pacific","Upper middle income","Transport",6.4053
+"144","China","CHN","CHN","East Asia & Pacific","Upper middle income","Waste",381.8169
+"145","Colombia","COL","COL","Latin America & Caribbean","Upper middle income","Agriculture",59.7312
+"146","Colombia","COL","COL","Latin America & Caribbean","Upper middle income","Building",0.9366
+"147","Colombia","COL","COL","Latin America & Caribbean","Upper middle income","Fugitive_Emissions",11.8649
+"148","Colombia","COL","COL","Latin America & Caribbean","Upper middle income","Industrial_Combustion",0.0947
+"149","Colombia","COL","COL","Latin America & Caribbean","Upper middle income","Industrial_Processes",0.0092
+"150","Colombia","COL","COL","Latin America & Caribbean","Upper middle income","Power_Industry",0.0331
+"151","Colombia","COL","COL","Latin America & Caribbean","Upper middle income","Transport",0.1873
+"152","Colombia","COL","COL","Latin America & Caribbean","Upper middle income","Waste",22.7707
+"153","Croatia","HRV","HRV","Europe & Central Asia","High income","Agriculture",1.5467
+"154","Croatia","HRV","HRV","Europe & Central Asia","High income","Building",0.4004
+"155","Croatia","HRV","HRV","Europe & Central Asia","High income","Fugitive_Emissions",0.2871
+"156","Croatia","HRV","HRV","Europe & Central Asia","High income","Industrial_Combustion",0.0057
+"157","Croatia","HRV","HRV","Europe & Central Asia","High income","Industrial_Processes",0.0014
+"158","Croatia","HRV","HRV","Europe & Central Asia","High income","Power_Industry",0.0127
+"159","Croatia","HRV","HRV","Europe & Central Asia","High income","Transport",0.0117
+"160","Croatia","HRV","HRV","Europe & Central Asia","High income","Waste",1.2468
+"161","Cuba","CUB","CUB","Latin America & Caribbean","Upper middle income","Agriculture",6.9331
+"162","Cuba","CUB","CUB","Latin America & Caribbean","Upper middle income","Building",0.0374
+"163","Cuba","CUB","CUB","Latin America & Caribbean","Upper middle income","Fugitive_Emissions",0.483
+"164","Cuba","CUB","CUB","Latin America & Caribbean","Upper middle income","Industrial_Combustion",0.0348
+"165","Cuba","CUB","CUB","Latin America & Caribbean","Upper middle income","Industrial_Processes",0
+"166","Cuba","CUB","CUB","Latin America & Caribbean","Upper middle income","Power_Industry",0.0184
+"167","Cuba","CUB","CUB","Latin America & Caribbean","Upper middle income","Transport",0.0056
+"168","Cuba","CUB","CUB","Latin America & Caribbean","Upper middle income","Waste",4.7532
+"169","Czechia","CZE","CZE","Europe & Central Asia","High income","Agriculture",5.1065
+"170","Czechia","CZE","CZE","Europe & Central Asia","High income","Building",1.0044
+"171","Czechia","CZE","CZE","Europe & Central Asia","High income","Fugitive_Emissions",2.2943
+"172","Czechia","CZE","CZE","Europe & Central Asia","High income","Industrial_Combustion",0.036
+"173","Czechia","CZE","CZE","Europe & Central Asia","High income","Industrial_Processes",0.0141
+"174","Czechia","CZE","CZE","Europe & Central Asia","High income","Power_Industry",0.0512
+"175","Czechia","CZE","CZE","Europe & Central Asia","High income","Transport",0.0414
+"176","Czechia","CZE","CZE","Europe & Central Asia","High income","Waste",5.8816
+"177","Denmark","DNK","DNK","Europe & Central Asia","High income","Agriculture",6.4654
+"178","Denmark","DNK","DNK","Europe & Central Asia","High income","Building",0.2694
+"179","Denmark","DNK","DNK","Europe & Central Asia","High income","Fugitive_Emissions",0.4821
+"180","Denmark","DNK","DNK","Europe & Central Asia","High income","Industrial_Combustion",0.0099
+"181","Denmark","DNK","DNK","Europe & Central Asia","High income","Industrial_Processes",0
+"182","Denmark","DNK","DNK","Europe & Central Asia","High income","Power_Industry",0.1122
+"183","Denmark","DNK","DNK","Europe & Central Asia","High income","Transport",0.0152
+"184","Denmark","DNK","DNK","Europe & Central Asia","High income","Waste",3.1308
+"185","Ecuador","ECU","ECU","Latin America & Caribbean","Upper middle income","Agriculture",9.6143
+"186","Ecuador","ECU","ECU","Latin America & Caribbean","Upper middle income","Building",0.074
+"187","Ecuador","ECU","ECU","Latin America & Caribbean","Upper middle income","Fugitive_Emissions",8.7322
+"188","Ecuador","ECU","ECU","Latin America & Caribbean","Upper middle income","Industrial_Combustion",0.011
+"189","Ecuador","ECU","ECU","Latin America & Caribbean","Upper middle income","Industrial_Processes",0
+"190","Ecuador","ECU","ECU","Latin America & Caribbean","Upper middle income","Power_Industry",0.0071
+"191","Ecuador","ECU","ECU","Latin America & Caribbean","Upper middle income","Transport",0.0952
+"192","Ecuador","ECU","ECU","Latin America & Caribbean","Upper middle income","Waste",4.7322
+"193","Egypt, Arab Rep.","EGY","EGY","Middle East & North Africa","Lower middle income","Agriculture",13.599
+"194","Egypt, Arab Rep.","EGY","EGY","Middle East & North Africa","Lower middle income","Building",0.4773
+"195","Egypt, Arab Rep.","EGY","EGY","Middle East & North Africa","Lower middle income","Fugitive_Emissions",20.3182
+"196","Egypt, Arab Rep.","EGY","EGY","Middle East & North Africa","Lower middle income","Industrial_Combustion",0.0444
+"197","Egypt, Arab Rep.","EGY","EGY","Middle East & North Africa","Lower middle income","Industrial_Processes",0.0386
+"198","Egypt, Arab Rep.","EGY","EGY","Middle East & North Africa","Lower middle income","Power_Industry",0.1101
+"199","Egypt, Arab Rep.","EGY","EGY","Middle East & North Africa","Lower middle income","Transport",0.4442
+"200","Egypt, Arab Rep.","EGY","EGY","Middle East & North Africa","Lower middle income","Waste",16.4134
+"201","Equatorial Guinea","GNQ","GNQ","Sub-Saharan Africa","Upper middle income","Agriculture",0.0148
+"202","Equatorial Guinea","GNQ","GNQ","Sub-Saharan Africa","Upper middle income","Building",0.0336
+"203","Equatorial Guinea","GNQ","GNQ","Sub-Saharan Africa","Upper middle income","Fugitive_Emissions",2.4719
+"204","Equatorial Guinea","GNQ","GNQ","Sub-Saharan Africa","Upper middle income","Industrial_Combustion",5e-04
+"205","Equatorial Guinea","GNQ","GNQ","Sub-Saharan Africa","Upper middle income","Industrial_Processes",0.0633
+"206","Equatorial Guinea","GNQ","GNQ","Sub-Saharan Africa","Upper middle income","Power_Industry",8e-04
+"207","Equatorial Guinea","GNQ","GNQ","Sub-Saharan Africa","Upper middle income","Transport",0.0035
+"208","Equatorial Guinea","GNQ","GNQ","Sub-Saharan Africa","Upper middle income","Waste",0.3601
+"209","Estonia","EST","EST","Europe & Central Asia","High income","Agriculture",0.8631
+"210","Estonia","EST","EST","Europe & Central Asia","High income","Building",0.1525
+"211","Estonia","EST","EST","Europe & Central Asia","High income","Fugitive_Emissions",0.0755
+"212","Estonia","EST","EST","Europe & Central Asia","High income","Industrial_Combustion",9e-04
+"213","Estonia","EST","EST","Europe & Central Asia","High income","Industrial_Processes",0
+"214","Estonia","EST","EST","Europe & Central Asia","High income","Power_Industry",0.0318
+"215","Estonia","EST","EST","Europe & Central Asia","High income","Transport",0.0103
+"216","Estonia","EST","EST","Europe & Central Asia","High income","Waste",0.7886
+"217","Finland","FIN","FIN","Europe & Central Asia","High income","Agriculture",2.3611
+"218","Finland","FIN","FIN","Europe & Central Asia","High income","Building",0.506
+"219","Finland","FIN","FIN","Europe & Central Asia","High income","Fugitive_Emissions",0.1416
+"220","Finland","FIN","FIN","Europe & Central Asia","High income","Industrial_Combustion",0.1463
+"221","Finland","FIN","FIN","Europe & Central Asia","High income","Industrial_Processes",0.0358
+"222","Finland","FIN","FIN","Europe & Central Asia","High income","Power_Industry",0.1596
+"223","Finland","FIN","FIN","Europe & Central Asia","High income","Transport",0.0181
+"224","Finland","FIN","FIN","Europe & Central Asia","High income","Waste",2.5602
+"225","France","FRA","FRA","Europe & Central Asia","High income","Agriculture",42.9685
+"226","France","FRA","FRA","Europe & Central Asia","High income","Building",2.4912
+"227","France","FRA","FRA","Europe & Central Asia","High income","Fugitive_Emissions",3.3057
+"228","France","FRA","FRA","Europe & Central Asia","High income","Industrial_Combustion",0.1014
+"229","France","FRA","FRA","Europe & Central Asia","High income","Industrial_Processes",0.0531
+"230","France","FRA","FRA","Europe & Central Asia","High income","Power_Industry",0.2002
+"231","France","FRA","FRA","Europe & Central Asia","High income","Transport",0.1718
+"232","France","FRA","FRA","Europe & Central Asia","High income","Waste",16.5934
+"233","Gabon","GAB","GAB","Sub-Saharan Africa","Upper middle income","Agriculture",0.1105
+"234","Gabon","GAB","GAB","Sub-Saharan Africa","Upper middle income","Building",0.3791
+"235","Gabon","GAB","GAB","Sub-Saharan Africa","Upper middle income","Fugitive_Emissions",14.0793
+"236","Gabon","GAB","GAB","Sub-Saharan Africa","Upper middle income","Industrial_Combustion",0.1002
+"237","Gabon","GAB","GAB","Sub-Saharan Africa","Upper middle income","Industrial_Processes",0.0012
+"238","Gabon","GAB","GAB","Sub-Saharan Africa","Upper middle income","Power_Industry",0.0014
+"239","Gabon","GAB","GAB","Sub-Saharan Africa","Upper middle income","Transport",0.0019
+"240","Gabon","GAB","GAB","Sub-Saharan Africa","Upper middle income","Waste",0.2724
+"241","Georgia","GEO","GEO","Europe & Central Asia","Upper middle income","Agriculture",2.2091
+"242","Georgia","GEO","GEO","Europe & Central Asia","Upper middle income","Building",0.0956
+"243","Georgia","GEO","GEO","Europe & Central Asia","Upper middle income","Fugitive_Emissions",0.1263
+"244","Georgia","GEO","GEO","Europe & Central Asia","Upper middle income","Industrial_Combustion",0.0026
+"245","Georgia","GEO","GEO","Europe & Central Asia","Upper middle income","Industrial_Processes",0.0074
+"246","Georgia","GEO","GEO","Europe & Central Asia","Upper middle income","Power_Industry",0.0011
+"247","Georgia","GEO","GEO","Europe & Central Asia","Upper middle income","Transport",0.021
+"248","Georgia","GEO","GEO","Europe & Central Asia","Upper middle income","Waste",1.7531
+"249","Germany","DEU","DEU","Europe & Central Asia","High income","Agriculture",34.4947
+"250","Germany","DEU","DEU","Europe & Central Asia","High income","Building",3.3773
+"251","Germany","DEU","DEU","Europe & Central Asia","High income","Fugitive_Emissions",9.7332
+"252","Germany","DEU","DEU","Europe & Central Asia","High income","Industrial_Combustion",0.2201
+"253","Germany","DEU","DEU","Europe & Central Asia","High income","Industrial_Processes",0.2353
+"254","Germany","DEU","DEU","Europe & Central Asia","High income","Power_Industry",0.3885
+"255","Germany","DEU","DEU","Europe & Central Asia","High income","Transport",0.1905
+"256","Germany","DEU","DEU","Europe & Central Asia","High income","Waste",10.9289
+"257","Greece","GRC","GRC","Europe & Central Asia","High income","Agriculture",3.8759
+"258","Greece","GRC","GRC","Europe & Central Asia","High income","Building",0.2676
+"259","Greece","GRC","GRC","Europe & Central Asia","High income","Fugitive_Emissions",1.935
+"260","Greece","GRC","GRC","Europe & Central Asia","High income","Industrial_Combustion",0.0079
+"261","Greece","GRC","GRC","Europe & Central Asia","High income","Industrial_Processes",0.0012
+"262","Greece","GRC","GRC","Europe & Central Asia","High income","Power_Industry",0.0182
+"263","Greece","GRC","GRC","Europe & Central Asia","High income","Transport",0.0562
+"264","Greece","GRC","GRC","Europe & Central Asia","High income","Waste",4.1616
+"265","Guatemala","GTM","GTM","Latin America & Caribbean","Upper middle income","Agriculture",7.476
+"266","Guatemala","GTM","GTM","Latin America & Caribbean","Upper middle income","Building",2.6435
+"267","Guatemala","GTM","GTM","Latin America & Caribbean","Upper middle income","Fugitive_Emissions",0.2531
+"268","Guatemala","GTM","GTM","Latin America & Caribbean","Upper middle income","Industrial_Combustion",0.0027
+"269","Guatemala","GTM","GTM","Latin America & Caribbean","Upper middle income","Industrial_Processes",0.0023
+"270","Guatemala","GTM","GTM","Latin America & Caribbean","Upper middle income","Power_Industry",0.0757
+"271","Guatemala","GTM","GTM","Latin America & Caribbean","Upper middle income","Transport",0.0545
+"272","Guatemala","GTM","GTM","Latin America & Caribbean","Upper middle income","Waste",7.5573
+"273","Hungary","HUN","HUN","Europe & Central Asia","High income","Agriculture",3.5379
+"274","Hungary","HUN","HUN","Europe & Central Asia","High income","Building",0.5029
+"275","Hungary","HUN","HUN","Europe & Central Asia","High income","Fugitive_Emissions",2.0902
+"276","Hungary","HUN","HUN","Europe & Central Asia","High income","Industrial_Combustion",0.0182
+"277","Hungary","HUN","HUN","Europe & Central Asia","High income","Industrial_Processes",0.0062
+"278","Hungary","HUN","HUN","Europe & Central Asia","High income","Power_Industry",0.0324
+"279","Hungary","HUN","HUN","Europe & Central Asia","High income","Transport",0.0175
+"280","Hungary","HUN","HUN","Europe & Central Asia","High income","Waste",3.9945
+"281","Iceland","ISL","ISL","Europe & Central Asia","High income","Agriculture",0.2769
+"282","Iceland","ISL","ISL","Europe & Central Asia","High income","Building",0.0013
+"283","Iceland","ISL","ISL","Europe & Central Asia","High income","Fugitive_Emissions",0
+"284","Iceland","ISL","ISL","Europe & Central Asia","High income","Industrial_Combustion",1e-04
+"285","Iceland","ISL","ISL","Europe & Central Asia","High income","Industrial_Processes",0.0044
+"286","Iceland","ISL","ISL","Europe & Central Asia","High income","Power_Industry",0
+"287","Iceland","ISL","ISL","Europe & Central Asia","High income","Transport",0.0021
+"288","Iceland","ISL","ISL","Europe & Central Asia","High income","Waste",0.2686
+"289","India","IND","IND","South Asia","Lower middle income","Agriculture",567.5592
+"290","India","IND","IND","South Asia","Lower middle income","Building",38.9994
+"291","India","IND","IND","South Asia","Lower middle income","Fugitive_Emissions",100.4239
+"292","India","IND","IND","South Asia","Lower middle income","Industrial_Combustion",4.1663
+"293","India","IND","IND","South Asia","Lower middle income","Industrial_Processes",0.4246
+"294","India","IND","IND","South Asia","Lower middle income","Power_Industry",1.0996
+"295","India","IND","IND","South Asia","Lower middle income","Transport",2.2405
+"296","India","IND","IND","South Asia","Lower middle income","Waste",133.6213
+"297","Indonesia","IDN","IDN","East Asia & Pacific","Upper middle income","Agriculture",114.1493
+"298","Indonesia","IDN","IDN","East Asia & Pacific","Upper middle income","Building",3.3402
+"299","Indonesia","IDN","IDN","East Asia & Pacific","Upper middle income","Fugitive_Emissions",261.8733
+"300","Indonesia","IDN","IDN","East Asia & Pacific","Upper middle income","Industrial_Combustion",0.6375
+"301","Indonesia","IDN","IDN","East Asia & Pacific","Upper middle income","Industrial_Processes",0.1422
+"302","Indonesia","IDN","IDN","East Asia & Pacific","Upper middle income","Power_Industry",0.408
+"303","Indonesia","IDN","IDN","East Asia & Pacific","Upper middle income","Transport",0.8882
+"304","Indonesia","IDN","IDN","East Asia & Pacific","Upper middle income","Waste",52.0458
+"305","Iran, Islamic Rep.","IRN","IRN","Middle East & North Africa","Upper middle income","Agriculture",23.3885
+"306","Iran, Islamic Rep.","IRN","IRN","Middle East & North Africa","Upper middle income","Building",0.6431
+"307","Iran, Islamic Rep.","IRN","IRN","Middle East & North Africa","Upper middle income","Fugitive_Emissions",127.7653
+"308","Iran, Islamic Rep.","IRN","IRN","Middle East & North Africa","Upper middle income","Industrial_Combustion",0.0743
+"309","Iran, Islamic Rep.","IRN","IRN","Middle East & North Africa","Upper middle income","Industrial_Processes",0.4545
+"310","Iran, Islamic Rep.","IRN","IRN","Middle East & North Africa","Upper middle income","Power_Industry",0.2667
+"311","Iran, Islamic Rep.","IRN","IRN","Middle East & North Africa","Upper middle income","Transport",2.5972
+"312","Iran, Islamic Rep.","IRN","IRN","Middle East & North Africa","Upper middle income","Waste",15.1096
+"313","Iraq","IRQ","IRQ","Middle East & North Africa","Upper middle income","Agriculture",4.0341
+"314","Iraq","IRQ","IRQ","Middle East & North Africa","Upper middle income","Building",0.0421
+"315","Iraq","IRQ","IRQ","Middle East & North Africa","Upper middle income","Fugitive_Emissions",143.9685
+"316","Iraq","IRQ","IRQ","Middle East & North Africa","Upper middle income","Industrial_Combustion",0.0137
+"317","Iraq","IRQ","IRQ","Middle East & North Africa","Upper middle income","Industrial_Processes",0
+"318","Iraq","IRQ","IRQ","Middle East & North Africa","Upper middle income","Power_Industry",0.0918
+"319","Iraq","IRQ","IRQ","Middle East & North Africa","Upper middle income","Transport",0.1278
+"320","Iraq","IRQ","IRQ","Middle East & North Africa","Upper middle income","Waste",12.3453
+"321","Ireland","IRL","IRL","Europe & Central Asia","High income","Agriculture",15.6624
+"322","Ireland","IRL","IRL","Europe & Central Asia","High income","Building",0.1157
+"323","Ireland","IRL","IRL","Europe & Central Asia","High income","Fugitive_Emissions",1.2397
+"324","Ireland","IRL","IRL","Europe & Central Asia","High income","Industrial_Combustion",0.012
+"325","Ireland","IRL","IRL","Europe & Central Asia","High income","Industrial_Processes",0
+"326","Ireland","IRL","IRL","Europe & Central Asia","High income","Power_Industry",0.0225
+"327","Ireland","IRL","IRL","Europe & Central Asia","High income","Transport",0.0085
+"328","Ireland","IRL","IRL","Europe & Central Asia","High income","Waste",0.5879
+"329","Israel","ISR","ISR","Middle East & North Africa","High income","Agriculture",2.0837
+"330","Israel","ISR","ISR","Middle East & North Africa","High income","Building",0.012
+"331","Israel","ISR","ISR","Middle East & North Africa","High income","Fugitive_Emissions",0.5658
+"332","Israel","ISR","ISR","Middle East & North Africa","High income","Industrial_Combustion",0.005
+"333","Israel","ISR","ISR","Middle East & North Africa","High income","Industrial_Processes",0.002
+"334","Israel","ISR","ISR","Middle East & North Africa","High income","Power_Industry",0.0355
+"335","Israel","ISR","ISR","Middle East & North Africa","High income","Transport",0.0533
+"336","Israel","ISR","ISR","Middle East & North Africa","High income","Waste",7.2026
+"337","Italy","ITA","ITA","Europe & Central Asia","High income","Agriculture",21.799
+"338","Italy","ITA","ITA","Europe & Central Asia","High income","Building",2.2469
+"339","Italy","ITA","ITA","Europe & Central Asia","High income","Fugitive_Emissions",4.5148
+"340","Italy","ITA","ITA","Europe & Central Asia","High income","Industrial_Combustion",0.0537
+"341","Italy","ITA","ITA","Europe & Central Asia","High income","Industrial_Processes",0.0301
+"342","Italy","ITA","ITA","Europe & Central Asia","High income","Power_Industry",0.2263
+"343","Italy","ITA","ITA","Europe & Central Asia","High income","Transport",0.3351
+"344","Italy","ITA","ITA","Europe & Central Asia","High income","Waste",11.2607
+"345","Japan","JPN","JPN","East Asia & Pacific","High income","Agriculture",44.0957
+"346","Japan","JPN","JPN","East Asia & Pacific","High income","Building",1.0465
+"347","Japan","JPN","JPN","East Asia & Pacific","High income","Fugitive_Emissions",3.6627
+"348","Japan","JPN","JPN","East Asia & Pacific","High income","Industrial_Combustion",0.3034
+"349","Japan","JPN","JPN","East Asia & Pacific","High income","Industrial_Processes",0.5106
+"350","Japan","JPN","JPN","East Asia & Pacific","High income","Power_Industry",0.6174
+"351","Japan","JPN","JPN","East Asia & Pacific","High income","Transport",0.4691
+"352","Japan","JPN","JPN","East Asia & Pacific","High income","Waste",6.936
+"353","Kazakhstan","KAZ","KAZ","Europe & Central Asia","Upper middle income","Agriculture",27.849
+"354","Kazakhstan","KAZ","KAZ","Europe & Central Asia","Upper middle income","Building",1.4051
+"355","Kazakhstan","KAZ","KAZ","Europe & Central Asia","Upper middle income","Fugitive_Emissions",27.5654
+"356","Kazakhstan","KAZ","KAZ","Europe & Central Asia","Upper middle income","Industrial_Combustion",0.0584
+"357","Kazakhstan","KAZ","KAZ","Europe & Central Asia","Upper middle income","Industrial_Processes",0.0694
+"358","Kazakhstan","KAZ","KAZ","Europe & Central Asia","Upper middle income","Power_Industry",0.043
+"359","Kazakhstan","KAZ","KAZ","Europe & Central Asia","Upper middle income","Transport",0.1254
+"360","Kazakhstan","KAZ","KAZ","Europe & Central Asia","Upper middle income","Waste",4.7262
+"361","Korea, Dem. People's Rep.","PRK","PRK","East Asia & Pacific","Low income","Agriculture",5.0839
+"362","Korea, Dem. People's Rep.","PRK","PRK","East Asia & Pacific","Low income","Building",1.1279
+"363","Korea, Dem. People's Rep.","PRK","PRK","East Asia & Pacific","Low income","Fugitive_Emissions",10.3377
+"364","Korea, Dem. People's Rep.","PRK","PRK","East Asia & Pacific","Low income","Industrial_Combustion",0.0908
+"365","Korea, Dem. People's Rep.","PRK","PRK","East Asia & Pacific","Low income","Industrial_Processes",0.0019
+"366","Korea, Dem. People's Rep.","PRK","PRK","East Asia & Pacific","Low income","Power_Industry",0.0029
+"367","Korea, Dem. People's Rep.","PRK","PRK","East Asia & Pacific","Low income","Transport",0.0139
+"368","Korea, Dem. People's Rep.","PRK","PRK","East Asia & Pacific","Low income","Waste",4.5566
+"369","Korea, Rep.","KOR","KOR","East Asia & Pacific","High income","Agriculture",19.8171
+"370","Korea, Rep.","KOR","KOR","East Asia & Pacific","High income","Building",0.3505
+"371","Korea, Rep.","KOR","KOR","East Asia & Pacific","High income","Fugitive_Emissions",3.7735
+"372","Korea, Rep.","KOR","KOR","East Asia & Pacific","High income","Industrial_Combustion",0.1484
+"373","Korea, Rep.","KOR","KOR","East Asia & Pacific","High income","Industrial_Processes",0.3286
+"374","Korea, Rep.","KOR","KOR","East Asia & Pacific","High income","Power_Industry",0.2459
+"375","Korea, Rep.","KOR","KOR","East Asia & Pacific","High income","Transport",0.2194
+"376","Korea, Rep.","KOR","KOR","East Asia & Pacific","High income","Waste",21.0208
+"377","Kuwait","KWT","KWT","Middle East & North Africa","High income","Agriculture",0.2544
+"378","Kuwait","KWT","KWT","Middle East & North Africa","High income","Building",0.0024
+"379","Kuwait","KWT","KWT","Middle East & North Africa","High income","Fugitive_Emissions",28.3404
+"380","Kuwait","KWT","KWT","Middle East & North Africa","High income","Industrial_Combustion",0.0102
+"381","Kuwait","KWT","KWT","Middle East & North Africa","High income","Industrial_Processes",0.0226
+"382","Kuwait","KWT","KWT","Middle East & North Africa","High income","Power_Industry",0.0753
+"383","Kuwait","KWT","KWT","Middle East & North Africa","High income","Transport",0.0483
+"384","Kuwait","KWT","KWT","Middle East & North Africa","High income","Waste",10.7286
+"385","Latvia","LVA","LVA","Europe & Central Asia","High income","Agriculture",1.1632
+"386","Latvia","LVA","LVA","Europe & Central Asia","High income","Building",0.1771
+"387","Latvia","LVA","LVA","Europe & Central Asia","High income","Fugitive_Emissions",0.193
+"388","Latvia","LVA","LVA","Europe & Central Asia","High income","Industrial_Combustion",0.0166
+"389","Latvia","LVA","LVA","Europe & Central Asia","High income","Industrial_Processes",0
+"390","Latvia","LVA","LVA","Europe & Central Asia","High income","Power_Industry",0.0204
+"391","Latvia","LVA","LVA","Europe & Central Asia","High income","Transport",0.0052
+"392","Latvia","LVA","LVA","Europe & Central Asia","High income","Waste",0.8247
+"393","Libya","LBY","LBY","Middle East & North Africa","Upper middle income","Agriculture",1.9382
+"394","Libya","LBY","LBY","Middle East & North Africa","Upper middle income","Building",0.0876
+"395","Libya","LBY","LBY","Middle East & North Africa","Upper middle income","Fugitive_Emissions",23.1122
+"396","Libya","LBY","LBY","Middle East & North Africa","Upper middle income","Industrial_Combustion",0.0018
+"397","Libya","LBY","LBY","Middle East & North Africa","Upper middle income","Industrial_Processes",0.0035
+"398","Libya","LBY","LBY","Middle East & North Africa","Upper middle income","Power_Industry",0.0318
+"399","Libya","LBY","LBY","Middle East & North Africa","Upper middle income","Transport",0.1993
+"400","Libya","LBY","LBY","Middle East & North Africa","Upper middle income","Waste",3.0206
+"401","Lithuania","LTU","LTU","Europe & Central Asia","High income","Agriculture",2.0791
+"402","Lithuania","LTU","LTU","Europe & Central Asia","High income","Building",0.1918
+"403","Lithuania","LTU","LTU","Europe & Central Asia","High income","Fugitive_Emissions",0.2582
+"404","Lithuania","LTU","LTU","Europe & Central Asia","High income","Industrial_Combustion",0.0057
+"405","Lithuania","LTU","LTU","Europe & Central Asia","High income","Industrial_Processes",0.0027
+"406","Lithuania","LTU","LTU","Europe & Central Asia","High income","Power_Industry",0.0344
+"407","Lithuania","LTU","LTU","Europe & Central Asia","High income","Transport",0.012
+"408","Lithuania","LTU","LTU","Europe & Central Asia","High income","Waste",0.5196
+"409","Luxembourg","LUX","LUX","Europe & Central Asia","High income","Agriculture",0.4854
+"410","Luxembourg","LUX","LUX","Europe & Central Asia","High income","Building",0.0106
+"411","Luxembourg","LUX","LUX","Europe & Central Asia","High income","Fugitive_Emissions",0.0272
+"412","Luxembourg","LUX","LUX","Europe & Central Asia","High income","Industrial_Combustion",0.0019
+"413","Luxembourg","LUX","LUX","Europe & Central Asia","High income","Industrial_Processes",0
+"414","Luxembourg","LUX","LUX","Europe & Central Asia","High income","Power_Industry",0.0064
+"415","Luxembourg","LUX","LUX","Europe & Central Asia","High income","Transport",0.0034
+"416","Luxembourg","LUX","LUX","Europe & Central Asia","High income","Waste",0.0482
+"417","Malaysia","MYS","MYS","East Asia & Pacific","Upper middle income","Agriculture",6.1271
+"418","Malaysia","MYS","MYS","East Asia & Pacific","Upper middle income","Building",0.0224
+"419","Malaysia","MYS","MYS","East Asia & Pacific","Upper middle income","Fugitive_Emissions",9.7945
+"420","Malaysia","MYS","MYS","East Asia & Pacific","Upper middle income","Industrial_Combustion",0.0235
+"421","Malaysia","MYS","MYS","East Asia & Pacific","Upper middle income","Industrial_Processes",0.2075
+"422","Malaysia","MYS","MYS","East Asia & Pacific","Upper middle income","Power_Industry",0.0856
+"423","Malaysia","MYS","MYS","East Asia & Pacific","Upper middle income","Transport",0.4152
+"424","Malaysia","MYS","MYS","East Asia & Pacific","Upper middle income","Waste",13.576
+"425","Mauritania","MRT","MRT","Sub-Saharan Africa","Lower middle income","Agriculture",7.1491
+"426","Mauritania","MRT","MRT","Sub-Saharan Africa","Lower middle income","Building",0.217
+"427","Mauritania","MRT","MRT","Sub-Saharan Africa","Lower middle income","Fugitive_Emissions",0.5978
+"428","Mauritania","MRT","MRT","Sub-Saharan Africa","Lower middle income","Industrial_Combustion",9e-04
+"429","Mauritania","MRT","MRT","Sub-Saharan Africa","Lower middle income","Industrial_Processes",0
+"430","Mauritania","MRT","MRT","Sub-Saharan Africa","Lower middle income","Power_Industry",0.001
+"431","Mauritania","MRT","MRT","Sub-Saharan Africa","Lower middle income","Transport",0.0155
+"432","Mauritania","MRT","MRT","Sub-Saharan Africa","Lower middle income","Waste",0.8477
+"433","Mexico","MEX","MEX","Latin America & Caribbean","Upper middle income","Agriculture",87.2905
+"434","Mexico","MEX","MEX","Latin America & Caribbean","Upper middle income","Building",2.1125
+"435","Mexico","MEX","MEX","Latin America & Caribbean","Upper middle income","Fugitive_Emissions",12.9107
+"436","Mexico","MEX","MEX","Latin America & Caribbean","Upper middle income","Industrial_Combustion",0.0946
+"437","Mexico","MEX","MEX","Latin America & Caribbean","Upper middle income","Industrial_Processes",0.0913
+"438","Mexico","MEX","MEX","Latin America & Caribbean","Upper middle income","Power_Industry",0.2189
+"439","Mexico","MEX","MEX","Latin America & Caribbean","Upper middle income","Transport",0.7005
+"440","Mexico","MEX","MEX","Latin America & Caribbean","Upper middle income","Waste",66.6745
+"441","Morocco","MAR","MAR","Middle East & North Africa","Lower middle income","Agriculture",8.9614
+"442","Morocco","MAR","MAR","Middle East & North Africa","Lower middle income","Building",0.4179
+"443","Morocco","MAR","MAR","Middle East & North Africa","Lower middle income","Fugitive_Emissions",0.1398
+"444","Morocco","MAR","MAR","Middle East & North Africa","Lower middle income","Industrial_Combustion",0.01
+"445","Morocco","MAR","MAR","Middle East & North Africa","Lower middle income","Industrial_Processes",0
+"446","Morocco","MAR","MAR","Middle East & North Africa","Lower middle income","Power_Industry",0.0094
+"447","Morocco","MAR","MAR","Middle East & North Africa","Lower middle income","Transport",0.0666
+"448","Morocco","MAR","MAR","Middle East & North Africa","Lower middle income","Waste",20.8814
+"449","Myanmar","MMR","MMR","East Asia & Pacific","Lower middle income","Agriculture",60.938
+"450","Myanmar","MMR","MMR","East Asia & Pacific","Lower middle income","Building",3.6268
+"451","Myanmar","MMR","MMR","East Asia & Pacific","Lower middle income","Fugitive_Emissions",1.1987
+"452","Myanmar","MMR","MMR","East Asia & Pacific","Lower middle income","Industrial_Combustion",0.0242
+"453","Myanmar","MMR","MMR","East Asia & Pacific","Lower middle income","Industrial_Processes",0.011
+"454","Myanmar","MMR","MMR","East Asia & Pacific","Lower middle income","Power_Industry",0.009
+"455","Myanmar","MMR","MMR","East Asia & Pacific","Lower middle income","Transport",0.038
+"456","Myanmar","MMR","MMR","East Asia & Pacific","Lower middle income","Waste",3.6923
+"457","Netherlands","NLD","NLD","Europe & Central Asia","High income","Agriculture",12.3464
+"458","Netherlands","NLD","NLD","Europe & Central Asia","High income","Building",0.2929
+"459","Netherlands","NLD","NLD","Europe & Central Asia","High income","Fugitive_Emissions",1.5761
+"460","Netherlands","NLD","NLD","Europe & Central Asia","High income","Industrial_Combustion",0.0146
+"461","Netherlands","NLD","NLD","Europe & Central Asia","High income","Industrial_Processes",0.0915
+"462","Netherlands","NLD","NLD","Europe & Central Asia","High income","Power_Industry",0.1537
+"463","Netherlands","NLD","NLD","Europe & Central Asia","High income","Transport",0.0651
+"464","Netherlands","NLD","NLD","Europe & Central Asia","High income","Waste",4.7886
+"465","New Zealand","NZL","NZL","East Asia & Pacific","High income","Agriculture",30.7571
+"466","New Zealand","NZL","NZL","East Asia & Pacific","High income","Building",0.094
+"467","New Zealand","NZL","NZL","East Asia & Pacific","High income","Fugitive_Emissions",0.6475
+"468","New Zealand","NZL","NZL","East Asia & Pacific","High income","Industrial_Combustion",0.0228
+"469","New Zealand","NZL","NZL","East Asia & Pacific","High income","Industrial_Processes",0.0935
+"470","New Zealand","NZL","NZL","East Asia & Pacific","High income","Power_Industry",0.0197
+"471","New Zealand","NZL","NZL","East Asia & Pacific","High income","Transport",0.0776
+"472","New Zealand","NZL","NZL","East Asia & Pacific","High income","Waste",5.0402
+"473","Nigeria","NGA","NGA","Sub-Saharan Africa","Lower middle income","Agriculture",59.5758
+"474","Nigeria","NGA","NGA","Sub-Saharan Africa","Lower middle income","Building",38.2535
+"475","Nigeria","NGA","NGA","Sub-Saharan Africa","Lower middle income","Fugitive_Emissions",79.0683
+"476","Nigeria","NGA","NGA","Sub-Saharan Africa","Lower middle income","Industrial_Combustion",0.1715
+"477","Nigeria","NGA","NGA","Sub-Saharan Africa","Lower middle income","Industrial_Processes",0.003
+"478","Nigeria","NGA","NGA","Sub-Saharan Africa","Lower middle income","Power_Industry",0.0226
+"479","Nigeria","NGA","NGA","Sub-Saharan Africa","Lower middle income","Transport",0.5267
+"480","Nigeria","NGA","NGA","Sub-Saharan Africa","Lower middle income","Waste",31.8863
+"481","North Macedonia","MKD","MKD","Europe & Central Asia","Upper middle income","Agriculture",0.5845
+"482","North Macedonia","MKD","MKD","Europe & Central Asia","Upper middle income","Building",0.069
+"483","North Macedonia","MKD","MKD","Europe & Central Asia","Upper middle income","Fugitive_Emissions",0.1205
+"484","North Macedonia","MKD","MKD","Europe & Central Asia","Upper middle income","Industrial_Combustion",0.0025
+"485","North Macedonia","MKD","MKD","Europe & Central Asia","Upper middle income","Industrial_Processes",0.0033
+"486","North Macedonia","MKD","MKD","Europe & Central Asia","Upper middle income","Power_Industry",0.0019
+"487","North Macedonia","MKD","MKD","Europe & Central Asia","Upper middle income","Transport",0.0058
+"488","North Macedonia","MKD","MKD","Europe & Central Asia","Upper middle income","Waste",0.7011
+"489","Norway","NOR","NOR","Europe & Central Asia","High income","Agriculture",2.7754
+"490","Norway","NOR","NOR","Europe & Central Asia","High income","Building",0.2146
+"491","Norway","NOR","NOR","Europe & Central Asia","High income","Fugitive_Emissions",4.3329
+"492","Norway","NOR","NOR","Europe & Central Asia","High income","Industrial_Combustion",0.0375
+"493","Norway","NOR","NOR","Europe & Central Asia","High income","Industrial_Processes",0.1288
+"494","Norway","NOR","NOR","Europe & Central Asia","High income","Power_Industry",0.022
+"495","Norway","NOR","NOR","Europe & Central Asia","High income","Transport",0.037
+"496","Norway","NOR","NOR","Europe & Central Asia","High income","Waste",0.8185
+"497","Oman","OMN","OMN","Middle East & North Africa","High income","Agriculture",1.3306
+"498","Oman","OMN","OMN","Middle East & North Africa","High income","Building",0.0582
+"499","Oman","OMN","OMN","Middle East & North Africa","High income","Fugitive_Emissions",26.0294
+"500","Oman","OMN","OMN","Middle East & North Africa","High income","Industrial_Combustion",0.0078
+"501","Oman","OMN","OMN","Middle East & North Africa","High income","Industrial_Processes",0.6196
+"502","Oman","OMN","OMN","Middle East & North Africa","High income","Power_Industry",0.0329
+"503","Oman","OMN","OMN","Middle East & North Africa","High income","Transport",0.042
+"504","Oman","OMN","OMN","Middle East & North Africa","High income","Waste",4.0501
+"505","Pakistan","PAK","PAK","South Asia","Lower middle income","Agriculture",209.7041
+"506","Pakistan","PAK","PAK","South Asia","Lower middle income","Building",11.766
+"507","Pakistan","PAK","PAK","South Asia","Lower middle income","Fugitive_Emissions",16.0321
+"508","Pakistan","PAK","PAK","South Asia","Lower middle income","Industrial_Combustion",0.2588
+"509","Pakistan","PAK","PAK","South Asia","Lower middle income","Industrial_Processes",0
+"510","Pakistan","PAK","PAK","South Asia","Lower middle income","Power_Industry",0.0464
+"511","Pakistan","PAK","PAK","South Asia","Lower middle income","Transport",0.424
+"512","Pakistan","PAK","PAK","South Asia","Lower middle income","Waste",24.6048
+"513","Paraguay","PRY","PRY","Latin America & Caribbean","Upper middle income","Agriculture",24.102
+"514","Paraguay","PRY","PRY","Latin America & Caribbean","Upper middle income","Building",0.3532
+"515","Paraguay","PRY","PRY","Latin America & Caribbean","Upper middle income","Fugitive_Emissions",1.2508
+"516","Paraguay","PRY","PRY","Latin America & Caribbean","Upper middle income","Industrial_Combustion",0.0488
+"517","Paraguay","PRY","PRY","Latin America & Caribbean","Upper middle income","Industrial_Processes",5e-04
+"518","Paraguay","PRY","PRY","Latin America & Caribbean","Upper middle income","Power_Industry",0
+"519","Paraguay","PRY","PRY","Latin America & Caribbean","Upper middle income","Transport",0.0288
+"520","Paraguay","PRY","PRY","Latin America & Caribbean","Upper middle income","Waste",0.629
+"521","Peru","PER","PER","Latin America & Caribbean","Upper middle income","Agriculture",15.421
+"522","Peru","PER","PER","Latin America & Caribbean","Upper middle income","Building",0.807
+"523","Peru","PER","PER","Latin America & Caribbean","Upper middle income","Fugitive_Emissions",2.4822
+"524","Peru","PER","PER","Latin America & Caribbean","Upper middle income","Industrial_Combustion",0.0304
+"525","Peru","PER","PER","Latin America & Caribbean","Upper middle income","Industrial_Processes",0
+"526","Peru","PER","PER","Latin America & Caribbean","Upper middle income","Power_Industry",0.0275
+"527","Peru","PER","PER","Latin America & Caribbean","Upper middle income","Transport",0.106
+"528","Peru","PER","PER","Latin America & Caribbean","Upper middle income","Waste",8.1487
+"529","Philippines","PHL","PHL","East Asia & Pacific","Lower middle income","Agriculture",48.7065
+"530","Philippines","PHL","PHL","East Asia & Pacific","Lower middle income","Building",2.0586
+"531","Philippines","PHL","PHL","East Asia & Pacific","Lower middle income","Fugitive_Emissions",11.1719
+"532","Philippines","PHL","PHL","East Asia & Pacific","Lower middle income","Industrial_Combustion",0.0657
+"533","Philippines","PHL","PHL","East Asia & Pacific","Lower middle income","Industrial_Processes",1e-04
+"534","Philippines","PHL","PHL","East Asia & Pacific","Lower middle income","Power_Industry",0.0472
+"535","Philippines","PHL","PHL","East Asia & Pacific","Lower middle income","Transport",0.1779
+"536","Philippines","PHL","PHL","East Asia & Pacific","Lower middle income","Waste",11.037
+"537","Poland","POL","POL","Europe & Central Asia","High income","Agriculture",19.9297
+"538","Poland","POL","POL","Europe & Central Asia","High income","Building",3.5339
+"539","Poland","POL","POL","Europe & Central Asia","High income","Fugitive_Emissions",14.9707
+"540","Poland","POL","POL","Europe & Central Asia","High income","Industrial_Combustion",0.1155
+"541","Poland","POL","POL","Europe & Central Asia","High income","Industrial_Processes",0.0174
+"542","Poland","POL","POL","Europe & Central Asia","High income","Power_Industry",0.112
+"543","Poland","POL","POL","Europe & Central Asia","High income","Transport",0.214
+"544","Poland","POL","POL","Europe & Central Asia","High income","Waste",9.7976
+"545","Portugal","PRT","PRT","Europe & Central Asia","High income","Agriculture",5.1648
+"546","Portugal","PRT","PRT","Europe & Central Asia","High income","Building",0.2912
+"547","Portugal","PRT","PRT","Europe & Central Asia","High income","Fugitive_Emissions",0.9025
+"548","Portugal","PRT","PRT","Europe & Central Asia","High income","Industrial_Combustion",0.0448
+"549","Portugal","PRT","PRT","Europe & Central Asia","High income","Industrial_Processes",0.0025
+"550","Portugal","PRT","PRT","Europe & Central Asia","High income","Power_Industry",0.0523
+"551","Portugal","PRT","PRT","Europe & Central Asia","High income","Transport",0.023
+"552","Portugal","PRT","PRT","Europe & Central Asia","High income","Waste",4.2634
+"553","Qatar","QAT","QAT","Middle East & North Africa","High income","Agriculture",0.3835
+"554","Qatar","QAT","QAT","Middle East & North Africa","High income","Building",0.0025
+"555","Qatar","QAT","QAT","Middle East & North Africa","High income","Fugitive_Emissions",18.5373
+"556","Qatar","QAT","QAT","Middle East & North Africa","High income","Industrial_Combustion",0.0116
+"557","Qatar","QAT","QAT","Middle East & North Africa","High income","Industrial_Processes",0.0938
+"558","Qatar","QAT","QAT","Middle East & North Africa","High income","Power_Industry",0.0539
+"559","Qatar","QAT","QAT","Middle East & North Africa","High income","Transport",0.0402
+"560","Qatar","QAT","QAT","Middle East & North Africa","High income","Waste",3.5453
+"561","Romania","ROU","ROU","Europe & Central Asia","High income","Agriculture",8.7628
+"562","Romania","ROU","ROU","Europe & Central Asia","High income","Building",1.1571
+"563","Romania","ROU","ROU","Europe & Central Asia","High income","Fugitive_Emissions",2.701
+"564","Romania","ROU","ROU","Europe & Central Asia","High income","Industrial_Combustion",0.0281
+"565","Romania","ROU","ROU","Europe & Central Asia","High income","Industrial_Processes",0.0432
+"566","Romania","ROU","ROU","Europe & Central Asia","High income","Power_Industry",0.0149
+"567","Romania","ROU","ROU","Europe & Central Asia","High income","Transport",0.0235
+"568","Romania","ROU","ROU","Europe & Central Asia","High income","Waste",9.5988
+"569","Russian Federation","RUS","RUS","Europe & Central Asia","High income","Agriculture",61.3317
+"570","Russian Federation","RUS","RUS","Europe & Central Asia","High income","Building",2.1599
+"571","Russian Federation","RUS","RUS","Europe & Central Asia","High income","Fugitive_Emissions",269.6078
+"572","Russian Federation","RUS","RUS","Europe & Central Asia","High income","Industrial_Combustion",0.5446
+"573","Russian Federation","RUS","RUS","Europe & Central Asia","High income","Industrial_Processes",0.5474
+"574","Russian Federation","RUS","RUS","Europe & Central Asia","High income","Power_Industry",0.7284
+"575","Russian Federation","RUS","RUS","Europe & Central Asia","High income","Transport",0.9269
+"576","Russian Federation","RUS","RUS","Europe & Central Asia","High income","Waste",142.9573
+"577","Saudi Arabia","SAU","SAU","Middle East & North Africa","High income","Agriculture",9.3073
+"578","Saudi Arabia","SAU","SAU","Middle East & North Africa","High income","Building",0.0166
+"579","Saudi Arabia","SAU","SAU","Middle East & North Africa","High income","Fugitive_Emissions",70.6689
+"580","Saudi Arabia","SAU","SAU","Middle East & North Africa","High income","Industrial_Combustion",0.071
+"581","Saudi Arabia","SAU","SAU","Middle East & North Africa","High income","Industrial_Processes",0.8343
+"582","Saudi Arabia","SAU","SAU","Middle East & North Africa","High income","Power_Industry",0.3416
+"583","Saudi Arabia","SAU","SAU","Middle East & North Africa","High income","Transport",0.4026
+"584","Saudi Arabia","SAU","SAU","Middle East & North Africa","High income","Waste",33.2807
+"585","Singapore","SGP","SGP","East Asia & Pacific","High income","Agriculture",0.0062
+"586","Singapore","SGP","SGP","East Asia & Pacific","High income","Building",0.0017
+"587","Singapore","SGP","SGP","East Asia & Pacific","High income","Fugitive_Emissions",0.4252
+"588","Singapore","SGP","SGP","East Asia & Pacific","High income","Industrial_Combustion",0.0098
+"589","Singapore","SGP","SGP","East Asia & Pacific","High income","Industrial_Processes",0.0899
+"590","Singapore","SGP","SGP","East Asia & Pacific","High income","Power_Industry",0.0578
+"591","Singapore","SGP","SGP","East Asia & Pacific","High income","Transport",0.0312
+"592","Singapore","SGP","SGP","East Asia & Pacific","High income","Waste",5.197
+"593","Slovak Republic","SVK","SVK","Europe & Central Asia","High income","Agriculture",1.4855
+"594","Slovak Republic","SVK","SVK","Europe & Central Asia","High income","Building",0.2488
+"595","Slovak Republic","SVK","SVK","Europe & Central Asia","High income","Fugitive_Emissions",0.7666
+"596","Slovak Republic","SVK","SVK","Europe & Central Asia","High income","Industrial_Combustion",0.0237
+"597","Slovak Republic","SVK","SVK","Europe & Central Asia","High income","Industrial_Processes",0.0153
+"598","Slovak Republic","SVK","SVK","Europe & Central Asia","High income","Power_Industry",0.0213
+"599","Slovak Republic","SVK","SVK","Europe & Central Asia","High income","Transport",0.0054
+"600","Slovak Republic","SVK","SVK","Europe & Central Asia","High income","Waste",3.5791
+"601","Slovenia","SVN","SVN","Europe & Central Asia","High income","Agriculture",1.5298
+"602","Slovenia","SVN","SVN","Europe & Central Asia","High income","Building",0.1731
+"603","Slovenia","SVN","SVN","Europe & Central Asia","High income","Fugitive_Emissions",0.753
+"604","Slovenia","SVN","SVN","Europe & Central Asia","High income","Industrial_Combustion",0.0057
+"605","Slovenia","SVN","SVN","Europe & Central Asia","High income","Industrial_Processes",0.0071
+"606","Slovenia","SVN","SVN","Europe & Central Asia","High income","Power_Industry",0.0044
+"607","Slovenia","SVN","SVN","Europe & Central Asia","High income","Transport",0.005
+"608","Slovenia","SVN","SVN","Europe & Central Asia","High income","Waste",0.4322
+"609","South Africa","ZAF","ZAF","Sub-Saharan Africa","Upper middle income","Agriculture",25.5662
+"610","South Africa","ZAF","ZAF","Sub-Saharan Africa","Upper middle income","Building",2.0367
+"611","South Africa","ZAF","ZAF","Sub-Saharan Africa","Upper middle income","Fugitive_Emissions",39.6471
+"612","South Africa","ZAF","ZAF","Sub-Saharan Africa","Upper middle income","Industrial_Combustion",0.1562
+"613","South Africa","ZAF","ZAF","Sub-Saharan Africa","Upper middle income","Industrial_Processes",0.1307
+"614","South Africa","ZAF","ZAF","Sub-Saharan Africa","Upper middle income","Power_Industry",0.0448
+"615","South Africa","ZAF","ZAF","Sub-Saharan Africa","Upper middle income","Transport",0.2175
+"616","South Africa","ZAF","ZAF","Sub-Saharan Africa","Upper middle income","Waste",22.5436
+"617","Spain","ESP","ESP","Europe & Central Asia","High income","Agriculture",28.0713
+"618","Spain","ESP","ESP","Europe & Central Asia","High income","Building",0.8022
+"619","Spain","ESP","ESP","Europe & Central Asia","High income","Fugitive_Emissions",1.3429
+"620","Spain","ESP","ESP","Europe & Central Asia","High income","Industrial_Combustion",0.0932
+"621","Spain","ESP","ESP","Europe & Central Asia","High income","Industrial_Processes",0.0351
+"622","Spain","ESP","ESP","Europe & Central Asia","High income","Power_Industry",0.1145
+"623","Spain","ESP","ESP","Europe & Central Asia","High income","Transport",0.1481
+"624","Spain","ESP","ESP","Europe & Central Asia","High income","Waste",15.8377
+"625","Sweden","SWE","SWE","Europe & Central Asia","High income","Agriculture",3.8607
+"626","Sweden","SWE","SWE","Europe & Central Asia","High income","Building",0.3512
+"627","Sweden","SWE","SWE","Europe & Central Asia","High income","Fugitive_Emissions",0.1771
+"628","Sweden","SWE","SWE","Europe & Central Asia","High income","Industrial_Combustion",0.1872
+"629","Sweden","SWE","SWE","Europe & Central Asia","High income","Industrial_Processes",0.0128
+"630","Sweden","SWE","SWE","Europe & Central Asia","High income","Power_Industry",0.2235
+"631","Sweden","SWE","SWE","Europe & Central Asia","High income","Transport",0.0574
+"632","Sweden","SWE","SWE","Europe & Central Asia","High income","Waste",3.3743
+"633","Switzerland","CHE","CHE","Europe & Central Asia","High income","Agriculture",4.0751
+"634","Switzerland","CHE","CHE","Europe & Central Asia","High income","Building",0.2451
+"635","Switzerland","CHE","CHE","Europe & Central Asia","High income","Fugitive_Emissions",1.2185
+"636","Switzerland","CHE","CHE","Europe & Central Asia","High income","Industrial_Combustion",0.0204
+"637","Switzerland","CHE","CHE","Europe & Central Asia","High income","Industrial_Processes",0.0025
+"638","Switzerland","CHE","CHE","Europe & Central Asia","High income","Power_Industry",0.0471
+"639","Switzerland","CHE","CHE","Europe & Central Asia","High income","Transport",0.0227
+"640","Switzerland","CHE","CHE","Europe & Central Asia","High income","Waste",0.2448
+"641","Thailand","THA","THA","East Asia & Pacific","Upper middle income","Agriculture",77.2432
+"642","Thailand","THA","THA","East Asia & Pacific","Upper middle income","Building",0.7568
+"643","Thailand","THA","THA","East Asia & Pacific","Upper middle income","Fugitive_Emissions",6.4443
+"644","Thailand","THA","THA","East Asia & Pacific","Upper middle income","Industrial_Combustion",0.3566
+"645","Thailand","THA","THA","East Asia & Pacific","Upper middle income","Industrial_Processes",0.0732
+"646","Thailand","THA","THA","East Asia & Pacific","Upper middle income","Power_Industry",0.4312
+"647","Thailand","THA","THA","East Asia & Pacific","Upper middle income","Transport",0.3265
+"648","Thailand","THA","THA","East Asia & Pacific","Upper middle income","Waste",27.1654
+"649","Trinidad and Tobago","TTO","TTO","Latin America & Caribbean","High income","Agriculture",0.084
+"650","Trinidad and Tobago","TTO","TTO","Latin America & Caribbean","High income","Building",0.0047
+"651","Trinidad and Tobago","TTO","TTO","Latin America & Caribbean","High income","Fugitive_Emissions",1.0805
+"652","Trinidad and Tobago","TTO","TTO","Latin America & Caribbean","High income","Industrial_Combustion",0.0011
+"653","Trinidad and Tobago","TTO","TTO","Latin America & Caribbean","High income","Industrial_Processes",0.3196
+"654","Trinidad and Tobago","TTO","TTO","Latin America & Caribbean","High income","Power_Industry",0.0073
+"655","Trinidad and Tobago","TTO","TTO","Latin America & Caribbean","High income","Transport",0.0111
+"656","Trinidad and Tobago","TTO","TTO","Latin America & Caribbean","High income","Waste",3.7685
+"657","Tunisia","TUN","TUN","Middle East & North Africa","Lower middle income","Agriculture",2.4815
+"658","Tunisia","TUN","TUN","Middle East & North Africa","Lower middle income","Building",0.2893
+"659","Tunisia","TUN","TUN","Middle East & North Africa","Lower middle income","Fugitive_Emissions",2.3817
+"660","Tunisia","TUN","TUN","Middle East & North Africa","Lower middle income","Industrial_Combustion",0.0037
+"661","Tunisia","TUN","TUN","Middle East & North Africa","Lower middle income","Industrial_Processes",0
+"662","Tunisia","TUN","TUN","Middle East & North Africa","Lower middle income","Power_Industry",0.0184
+"663","Tunisia","TUN","TUN","Middle East & North Africa","Lower middle income","Transport",0.0432
+"664","Tunisia","TUN","TUN","Middle East & North Africa","Lower middle income","Waste",3.3577
+"665","Turkmenistan","TKM","TKM","Europe & Central Asia","Upper middle income","Agriculture",10.5109
+"666","Turkmenistan","TKM","TKM","Europe & Central Asia","Upper middle income","Building",0.0759
+"667","Turkmenistan","TKM","TKM","Europe & Central Asia","Upper middle income","Fugitive_Emissions",14.5309
+"668","Turkmenistan","TKM","TKM","Europe & Central Asia","Upper middle income","Industrial_Combustion",3e-04
+"669","Turkmenistan","TKM","TKM","Europe & Central Asia","Upper middle income","Industrial_Processes",0
+"670","Turkmenistan","TKM","TKM","Europe & Central Asia","Upper middle income","Power_Industry",0.024
+"671","Turkmenistan","TKM","TKM","Europe & Central Asia","Upper middle income","Transport",0.041
+"672","Turkmenistan","TKM","TKM","Europe & Central Asia","Upper middle income","Waste",1.6532
+"673","Ukraine","UKR","UKR","Europe & Central Asia","Upper middle income","Agriculture",10.2135
+"674","Ukraine","UKR","UKR","Europe & Central Asia","Upper middle income","Building",0.7989
+"675","Ukraine","UKR","UKR","Europe & Central Asia","Upper middle income","Fugitive_Emissions",34.2164
+"676","Ukraine","UKR","UKR","Europe & Central Asia","Upper middle income","Industrial_Combustion",0.0257
+"677","Ukraine","UKR","UKR","Europe & Central Asia","Upper middle income","Industrial_Processes",0.0389
+"678","Ukraine","UKR","UKR","Europe & Central Asia","Upper middle income","Power_Industry",0.0767
+"679","Ukraine","UKR","UKR","Europe & Central Asia","Upper middle income","Transport",0.0879
+"680","Ukraine","UKR","UKR","Europe & Central Asia","Upper middle income","Waste",11.0312
+"681","United Arab Emirates","ARE","ARE","Middle East & North Africa","High income","Agriculture",1.6359
+"682","United Arab Emirates","ARE","ARE","Middle East & North Africa","High income","Building",0.0147
+"683","United Arab Emirates","ARE","ARE","Middle East & North Africa","High income","Fugitive_Emissions",27.6104
+"684","United Arab Emirates","ARE","ARE","Middle East & North Africa","High income","Industrial_Combustion",0.0575
+"685","United Arab Emirates","ARE","ARE","Middle East & North Africa","High income","Industrial_Processes",0.0252
+"686","United Arab Emirates","ARE","ARE","Middle East & North Africa","High income","Power_Industry",0.1141
+"687","United Arab Emirates","ARE","ARE","Middle East & North Africa","High income","Transport",0.1411
+"688","United Arab Emirates","ARE","ARE","Middle East & North Africa","High income","Waste",7.6684
+"689","United Kingdom","GBR","GBR","Europe & Central Asia","High income","Agriculture",31.9067
+"690","United Kingdom","GBR","GBR","Europe & Central Asia","High income","Building",0.7674
+"691","United Kingdom","GBR","GBR","Europe & Central Asia","High income","Fugitive_Emissions",3.684
+"692","United Kingdom","GBR","GBR","Europe & Central Asia","High income","Industrial_Combustion",0.0748
+"693","United Kingdom","GBR","GBR","Europe & Central Asia","High income","Industrial_Processes",0.0592
+"694","United Kingdom","GBR","GBR","Europe & Central Asia","High income","Power_Industry",0.3345
+"695","United Kingdom","GBR","GBR","Europe & Central Asia","High income","Transport",0.1277
+"696","United Kingdom","GBR","GBR","Europe & Central Asia","High income","Waste",9.6434
+"697","United States","USA","USA","North America","High income","Agriculture",254.9747
+"698","United States","USA","USA","North America","High income","Building",9.1688
+"699","United States","USA","USA","North America","High income","Fugitive_Emissions",442.0622
+"700","United States","USA","USA","North America","High income","Industrial_Combustion",1.4794
+"701","United States","USA","USA","North America","High income","Industrial_Processes",1.1408
+"702","United States","USA","USA","North America","High income","Power_Industry",1.9154
+"703","United States","USA","USA","North America","High income","Transport",3.6152
+"704","United States","USA","USA","North America","High income","Waste",147.0045
+"705","Uruguay","URY","URY","Latin America & Caribbean","High income","Agriculture",21.3296
+"706","Uruguay","URY","URY","Latin America & Caribbean","High income","Building",0.1192
+"707","Uruguay","URY","URY","Latin America & Caribbean","High income","Fugitive_Emissions",0.042
+"708","Uruguay","URY","URY","Latin America & Caribbean","High income","Industrial_Combustion",0.0581
+"709","Uruguay","URY","URY","Latin America & Caribbean","High income","Industrial_Processes",0
+"710","Uruguay","URY","URY","Latin America & Caribbean","High income","Power_Industry",0.0139
+"711","Uruguay","URY","URY","Latin America & Caribbean","High income","Transport",0.0182
+"712","Uruguay","URY","URY","Latin America & Caribbean","High income","Waste",4.4414
+"713","Uzbekistan","UZB","UZB","Europe & Central Asia","Lower middle income","Agriculture",36.2777
+"714","Uzbekistan","UZB","UZB","Europe & Central Asia","Lower middle income","Building",0.2781
+"715","Uzbekistan","UZB","UZB","Europe & Central Asia","Lower middle income","Fugitive_Emissions",18.2576
+"716","Uzbekistan","UZB","UZB","Europe & Central Asia","Lower middle income","Industrial_Combustion",0.0075
+"717","Uzbekistan","UZB","UZB","Europe & Central Asia","Lower middle income","Industrial_Processes",9e-04
+"718","Uzbekistan","UZB","UZB","Europe & Central Asia","Lower middle income","Power_Industry",0.0382
+"719","Uzbekistan","UZB","UZB","Europe & Central Asia","Lower middle income","Transport",0.1359
+"720","Uzbekistan","UZB","UZB","Europe & Central Asia","Lower middle income","Waste",8.2343
+"721","Zimbabwe","ZWE","ZWE","Sub-Saharan Africa","Lower middle income","Agriculture",8.4599
+"722","Zimbabwe","ZWE","ZWE","Sub-Saharan Africa","Lower middle income","Building",2.8225
+"723","Zimbabwe","ZWE","ZWE","Sub-Saharan Africa","Lower middle income","Fugitive_Emissions",1.2594
+"724","Zimbabwe","ZWE","ZWE","Sub-Saharan Africa","Lower middle income","Industrial_Combustion",0.0091
+"725","Zimbabwe","ZWE","ZWE","Sub-Saharan Africa","Lower middle income","Industrial_Processes",0.0044
+"726","Zimbabwe","ZWE","ZWE","Sub-Saharan Africa","Lower middle income","Power_Industry",0.001
+"727","Zimbabwe","ZWE","ZWE","Sub-Saharan Africa","Lower middle income","Transport",0.0099
+"728","Zimbabwe","ZWE","ZWE","Sub-Saharan Africa","Lower middle income","Waste",1.619
