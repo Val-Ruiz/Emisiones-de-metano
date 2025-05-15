@@ -159,11 +159,6 @@ modelo_multi <- lm(emissions ~ region + type, data = IEA_selected)
 # Resumen del modelo
 summary(modelo_multi)
 ```
-Análisis de resultados:
-
-
-
-
 
 Tablas de resumen para tener solo 2 variables
 
@@ -184,17 +179,57 @@ sumas_pais <- pais_region %>% inner_join(sumas_pais, by = "country", keep = F)
 
 sumas_pais
 ```
-
+.............
 ```{r}
-#Gráfico de dispersión del dataframe de sumas
-sumas_pais <- sumas_pais[sumas_pais$type!="Other", ]
+library(shiny)
+library(ggplot2)
+library(dplyr)
 
-ggplot(data = sumas_pais, aes(emi, region, colour = type)) +
-  geom_jitter(height = 0, width = .4) +
-  scale_x_continuous(trans="log10") #Escala logaritmica del eje x
+# Cargamos la base de datos limpia
+IEA_selected <- IEA_limpio %>% filter(type %in% c("Energy", "Agriculture", "Waste", "Other"))
 
-##No sé si dejarla porque en realidad no se puede interpretar mucho de ella.
+# Definimos la interfaz
+ui <- fluidPage(
+  titlePanel("Dashboard de Emisiones por Sectores en cada País"),
+  
+  sidebarLayout(
+    sidebarPanel(
+      selectInput("country", "Selecciona un país:", 
+                  choices = unique(IEA_selected$country),
+                  selected = "United States")
+    ),
+    
+    mainPanel(
+      plotOutput("graficoSector")
+    )
+  )
+)
+
+
+server <- function(input, output) {
+  
+  output$graficoSector <- renderPlot({
+    sector_pais <- IEA_selected %>%
+      filter(country == input$country) %>%
+      group_by(type) %>%
+      summarise(Emissions = sum(emissions))
+    
+    ggplot(sector_pais, aes(x = reorder(type, -Emissions), y = Emissions, fill = type)) +
+      geom_bar(stat = "identity") +
+      labs(title = paste("Emisiones por Sector en", input$country),
+           x = "Sector",
+           y = "Emisiones (kt)") +
+      theme_minimal()
+  })
+}
+
+
+shinyApp(ui = ui, server = server)
 ```
+Análisis de resultados:
+
+......................
+
 
 Referencias IEA – International Energy Agency. (2025). Methane https://www.iea.org/
 
