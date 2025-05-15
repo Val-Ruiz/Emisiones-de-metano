@@ -5,48 +5,19 @@ format: pdf
 editor: visual
 ---
 
-Introducción
-El metano (CH4) es un compuesto gaseoso constituido por un átomo de carbono y
-cuatro de hidrógeno. Es considerado el segundo gas de efecto invernadero que
-más contribuye a los efectos del cambio climático.
+Introducción El metano (CH4) es un compuesto gaseoso constituido por un átomo de carbono y cuatro de hidrógeno. Es considerado el segundo gas de efecto invernadero que más contribuye a los efectos del cambio climático.
 
-Se estima que cada tonelada de metano en la atmósfera posee los mismos
-efectos de retención calorífica equivalentes a 80 toneladas de dióxido de carbono.
-Por ello, el metano es responsable directamente del 30% de los efectos del
-cambio climático a escala global, convirtiéndolo en una de las principales
-amenazas que enfrentan los socioecosistemas en la actualidad. (IEA,2025).
-El estudio de núcleos de hielo de la Antártida y Groenlandia han permitido a los
-científicos determinar su concentración histórica en la atmósfera. La cuál se
-duplicó de 700 partes por billón en los años 1800 hasta la concentración actual de
-1943 para 2025. (NASA, 2025).
+Se estima que cada tonelada de metano en la atmósfera posee los mismos efectos de retención calorífica equivalentes a 80 toneladas de dióxido de carbono. Por ello, el metano es responsable directamente del 30% de los efectos del cambio climático a escala global, convirtiéndolo en una de las principales amenazas que enfrentan los socioecosistemas en la actualidad. (IEA,2025). El estudio de núcleos de hielo de la Antártida y Groenlandia han permitido a los científicos determinar su concentración histórica en la atmósfera. La cuál se duplicó de 700 partes por billón en los años 1800 hasta la concentración actual de 1943 para 2025. (NASA, 2025).
 
-El gas metano es emitido a la atmósfera de forma natural por humedales,
-océanos, erupciones volcánicas y organismos como las termitas. Sin embargo, el
-60% de las emisiones actuales son de origen antrópico. De la cuales el 90% son
-emitidos por tres sectores específicos: Agricultura (60%), quema de combustibles
-fósiles (35%) y residuos de la ganadería (20%).
+El gas metano es emitido a la atmósfera de forma natural por humedales, océanos, erupciones volcánicas y organismos como las termitas. Sin embargo, el 60% de las emisiones actuales son de origen antrópico. De la cuales el 90% son emitidos por tres sectores específicos: Agricultura (60%), quema de combustibles fósiles (35%) y residuos de la ganadería (20%).
 
-Dicha información es obtenida vía satélite por proyectos de observación de la
-Tierra especializados en el estudio de emisiones de metano. Por ejemplo, el
-satélite Sentinel-5P de la Agencia Espacial Europea (ESA) es capaz de diferenciar
-entre emisiones antrópicas y naturales produciendo mapas de concentración y
-emisión de metano a escala global de libre acceso para científicos de todo el
-mundo (ESA,2023).
+Dicha información es obtenida vía satélite por proyectos de observación de la Tierra especializados en el estudio de emisiones de metano. Por ejemplo, el satélite Sentinel-5P de la Agencia Espacial Europea (ESA) es capaz de diferenciar entre emisiones antrópicas y naturales produciendo mapas de concentración y emisión de metano a escala global de libre acceso para científicos de todo el mundo (ESA,2023).
 
-A su vez, el aumento de las temperaturas globales propicia la liberación de
-metano de los reservorios naturales como el permafrost y fomenta los procesos de
-eutrofización. (Earth.org, 2022).
+A su vez, el aumento de las temperaturas globales propicia la liberación de metano de los reservorios naturales como el permafrost y fomenta los procesos de eutrofización. (Earth.org, 2022).
 
-Dados los impactos del gas metano a escala planetaria, resulta toral el desarrollo
-de investigación científica con el objetivo de comprender los procesos de emisión
-y absorción de metano para el desarrollo de estrategias de gestión sostenibles.
+Dados los impactos del gas metano a escala planetaria, resulta toral el desarrollo de investigación científica con el objetivo de comprender los procesos de emisión y absorción de metano para el desarrollo de estrategias de gestión sostenibles.
 
-El presente estudio de caso utiliza una base de datos de emisión de metano por
-países, regiones y sectores económicos desarrollada por la International Energy
-Agency (IEA) con el objetivo de desarrollar un análisis estadístico que clasifique a
-los países por emisión, identifique la relación estadística entre regiones
-geográficas y emisiones, y produzca un modelo de redes de relación de variables.
-
+El presente estudio de caso utiliza una base de datos de emisión de metano por países, regiones y sectores económicos desarrollada por la International Energy Agency (IEA) con el objetivo de desarrollar un análisis estadístico que clasifique a los países por emisión, identifique la relación estadística entre regiones geográficas y emisiones, y produzca un modelo de redes de relación de variables.
 
 ```{r}
 library(pacman)
@@ -100,11 +71,33 @@ IEA_ordenado <- IEA_limpio %>% arrange(desc(emissions))
 ```
 
 ```{r}
-# Seleccionar los países más emisores 
-top_paises <- head(IEA_ordenado, 10) %>% arrange(desc(emissions))
+# Seleccionar los países más emisores y ordenarlos de mayor a menor
+top_paises <- IEA_ordenado[order(IEA_ordenado$emissions, decreasing = TRUE), ][1:10, ]
+
+# Convertir 'country' en un factor con niveles ordenados
+top_paises$country <- factor(top_paises$country, levels = top_paises$country)
 
 # Gráfico para los países más emisores
-grafico_top <- ggplot(top_paises, aes(x = reorder(country, emissions), y = emissions)) +
+grafico_top <- ggplot(top_paises, aes(x = country, y = emissions)) +
+  geom_bar(stat = "identity", fill = "red") +
+  coord_flip() +
+  labs(title = "Top Países Más Emisores",
+       x = "País",
+       y = "Emisiones (kt)") +
+  theme_minimal()
+
+print(grafico_top)
+```
+  Gráfico ordenado
+
+```{r}
+# Ordenamos los países por emisión
+top_paises <- IEA_ordenado %>% filter(country %in% c("China", "United States", "Russia", "India", "Brazil", "Other"))
+
+top_paises$country <- factor(top_paises$country, levels = c("China", "United States", "Russia", "India", "Brazil", "Other"))
+
+# Gráfico para los países más emisores
+grafico_top <- ggplot(top_paises, aes(x = country, y = emissions)) +
   geom_bar(stat = "identity", fill = "red") +
   coord_flip() +
   labs(title = "Top Países Más Emisores",
@@ -130,20 +123,47 @@ grafico_bottom <- ggplot(bottom_paises, aes(x = reorder(country, emissions), y =
 
 print(grafico_bottom)
 ```
-
-Análisis de regresion lineal para determinar si la emsión de los países depende de la región en la que se encuentra.
-
+Gráfico ordenado
 ```{r}
+# Filtramos los países menos emisores en el nuevo orden
+bottom_paises <- IEA_ordenado %>% filter(country %in% c("Uzbekistan", "Germany", "South Sudan", "Netherlands", "Norway", "Slovenia"))
 
-# Convertir la columna de regiones a un factor para análisis categórico
-IEA_limpio$region <- as.factor(IEA_limpio$region)
+bottom_paises <- bottom_paises %>% arrange(match(country, c("Uzbekistan", "Germany", "South Sudan", "Netherlands", "Norway", "Slovenia")))
 
-# Realizar análisis de regresión lineal
-modelo <- lm(emissions ~ region, data = IEA_limpio)
+# Convertir 'country' en un factor con niveles predefinidos
+bottom_paises$country <- factor(bottom_paises$country, levels = c("Uzbekistan", "Germany", "South Sudan", "Netherlands", "Norway", "Slovenia"))
+
+grafico_bottom <- ggplot(bottom_paises, aes(x = country, y = emissions)) +
+  geom_bar(stat = "identity", fill = "green") +
+  coord_flip() +
+  labs(title = "Top Países Menos Emisores",
+       x = "País",
+       y = "Emisiones (kt)") +
+  theme_minimal()
+
+print(grafico_bottom)
+```
+
+Análisis de regresion multivariable utilizandop emsiones, región e industria (energética, agricultura, residuos y otros.)
+```{r}
+# Filtrar datos para incluir Energy, Agriculture, Waste y Other
+IEA_selected <- IEA_limpio %>% filter(type %in% c("Energy", "Agriculture", "Waste", "Other"))
+
+# Convertir las variables categóricas en factores
+IEA_selected$region <- as.factor(IEA_selected$region)
+IEA_selected$type <- as.factor(IEA_selected$type)
+
+# Realizar análisis de regresión multivariable
+modelo_multi <- lm(emissions ~ region + type, data = IEA_selected)
 
 # Resumen del modelo
-summary(modelo)
+summary(modelo_multi)
 ```
+Análisis de resultados:
+
+
+
+
 
 Tablas de resumen para tener solo 2 variables
 
@@ -176,18 +196,10 @@ ggplot(data = sumas_pais, aes(emi, region, colour = type)) +
 ##No sé si dejarla porque en realidad no se puede interpretar mucho de ella.
 ```
 
+Referencias IEA – International Energy Agency. (2025). Methane https://www.iea.org/
 
+Methane \| Vital Signs – Climate Change. (NASA, 2025) https://climate.nasa.gov/vital-signs/methane/?intent=121
 
+(Earth.org, 2022). What Are the Major Sources of Methane in the Atmosphere? https://earth.org/sources-of-methane-in-the-atmosphere/
 
-Referencias
-IEA – International Energy Agency. (2025). Methane https://www.iea.org/
-
-Methane | Vital Signs – Climate Change. (NASA, 2025)
-https://climate.nasa.gov/vital-signs/methane/?intent=121
-
-(Earth.org, 2022). What Are the Major Sources of Methane in the Atmosphere?
-https://earth.org/sources-of-methane-in-the-atmosphere/
-
-Trio of Sentinel satellites map methane super-emitters. (ESA, 2023).
-https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Trio_of_Sentinel
-_satellites_map_methane_super-emitters
+Trio of Sentinel satellites map methane super-emitters. (ESA, 2023). https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Trio_of_Sentinel \_satellites_map_methane_super-emitters
