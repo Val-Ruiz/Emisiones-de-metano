@@ -21,6 +21,7 @@ El presente estudio de caso utiliza una base de datos de emisión de metano por 
 
 ```{r}
 library(pacman)
+library(shiny)
 library(ggplot2)
 library(readr)
 library(dplyr)
@@ -179,18 +180,24 @@ sumas_pais <- pais_region %>% inner_join(sumas_pais, by = "country", keep = F)
 
 sumas_pais
 ```
-.............
-```{r}
-library(shiny)
-library(ggplot2)
-library(dplyr)
 
+
+
+```{r}
 # Cargamos la base de datos limpia
 IEA_selected <- IEA_limpio %>% filter(type %in% c("Energy", "Agriculture", "Waste", "Other"))
 
-# Definimos la interfaz
+# Incluímos el el dashboard el código para graficar países con mayores y menoires emisiónes. 
+
+top_paises <- IEA_ordenado %>% filter(country %in% c("China", "United States", "Russia", "India", "Brazil", "Other"))
+top_paises$country <- factor(top_paises$country, levels = c("China", "United States", "Russia", "India", "Brazil", "Other"))
+
+bottom_paises <- IEA_ordenado %>% filter(country %in% c("Uzbekistan", "Germany", "South Sudan", "Netherlands", "Norway", "Slovenia"))
+bottom_paises$country <- factor(bottom_paises$country, levels = c("Uzbekistan", "Germany", "South Sudan", "Netherlands", "Norway", "Slovenia"))
+
+# Definimos la interfaz de usuario para seleccionar el país de interés.
 ui <- fluidPage(
-  titlePanel("Dashboard de Emisiones por Sectores en cada País"),
+  titlePanel("Dashboard de Emisiones por Sectores y Países"),
   
   sidebarLayout(
     sidebarPanel(
@@ -200,12 +207,14 @@ ui <- fluidPage(
     ),
     
     mainPanel(
-      plotOutput("graficoSector")
+      plotOutput("graficoSector"),
+      plotOutput("graficoTop"),
+      plotOutput("graficoBottom")
     )
   )
 )
 
-
+#Establecemos el código para graficar la emisión por tipo de industria
 server <- function(input, output) {
   
   output$graficoSector <- renderPlot({
@@ -221,11 +230,26 @@ server <- function(input, output) {
            y = "Emisiones (kt)") +
       theme_minimal()
   })
+  
+  output$graficoTop <- renderPlot({
+    ggplot(top_paises, aes(x = country, y = emissions)) +
+      geom_bar(stat = "identity", fill = "red") +
+      labs(title = "Top Países Más Emisores", x = "País", y = "Emisiones (kt)") +
+      theme_minimal()
+  })
+  
+  output$graficoBottom <- renderPlot({
+    ggplot(bottom_paises, aes(x = country, y = emissions)) +
+      geom_bar(stat = "identity", fill = "green") +
+      labs(title = "Top Países Menos Emisores", x = "País", y = "Emisiones (kt)") +
+      theme_minimal()
+  })
 }
 
-
+# Abrimos el dashboard
 shinyApp(ui = ui, server = server)
 ```
+
 Análisis de resultados:
 
 ......................
