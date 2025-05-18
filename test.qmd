@@ -252,7 +252,32 @@ shinyApp(ui = ui, server = server)
 
 Análisis de resultados:
 
-......................
+
+Derivado de los análisis estadísticos se obtuvieron los siguientes resultados:
+
+El valor de R cuadrada obtenido de análisis de regresión multivariable es (0.08626). lo cual indica que dicho modelo explica aproximadamente el 8.6% de la variabilidad entre variables. 
+
+Al tratarse de una cifra reducida se concluye que existen factores y variables dependientes que no se han considerado en el modelo o no pueden explicarse únicamente con la información disponible.
+
+Las regiones Asia-Pacific, North America y Russian-Caspian poseen un alto nivel de significancia con tipos de emisiones específicas. Lo cual, indica que las emisiones de metano son producidas en su mayor parte por un solo tipo de industria en la región. 
+
+Los P values obtenidos por sector son:
+
+Sector energético (2e-16)
+Residuos: (0.000169)
+Otros: (1.70e-12)
+
+Lo cuál indican que su significancia estadística es menor en comparación con la variable agriculture. 
+
+
+
+Conclusiones:
+
+....................
+
+
+
+
 
 
 Referencias IEA – International Energy Agency. (2025). Methane https://www.iea.org/
