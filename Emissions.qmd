@@ -5,7 +5,7 @@ editor: visual
 ---
 
 ```{r}
-install.packages("pacman")
+#install.packages("pacman")
 library(pacman)
 p_load("tidyverse", "ggplot2", "dplyr", "readxl")
 ```
@@ -90,14 +90,20 @@ nodos <- gather(x_region, key = "sector", value = "Emisiones", -Region )
 #Se crea un objeto o "grafo"
 red <- graph_from_data_frame(nodos, directed=T)
 
-E(red)$width <- seq(ecount(red)) #tamaño de la flecha
+#E(red)$width <- seq(ecount(red)) #tamaño de la flecha
 E(red)$size <- seq(ecount(red)) #longitud 
 
 #ponderadación. Se buscan cambios en el tamaño de los nodos pero no se logra
 E(red)$weight <- seq(ecount(red))
 strength(red, mode="in")
+layout <- layout_with_fr(red, weights = E(red)$weight) # Usamos los pesos en el layout
 
-plot(red, edge.arrow.size=.4, weighted = T, edge.color=origen.color) #visualización
+plot(red, 
+     layout = layout, 
+     edge.arrow.size = 0.4, 
+     edge.width = 2) # Mantener ancho fijo para evitar confusión
+
+plot(red, edge.arrow.size=.4, weighted = T) #visualización
 ```
 
 ```{r}
@@ -106,4 +112,25 @@ graficas <- pivot_longer(metano,
   values_to = "Emisiones")
 write.csv(graficas, file = "metano.csv")
 read.csv("metano.csv")
+```
+
+```{r}
+p_load("igraph")
+p_load("visNetwork")
+p_load("tidygraph")
+
+# Creación del grafo
+nodos <- gather(x_region, key = "sector", value = "Emisiones", -Region ) 
+red <- graph_from_data_frame(nodos, directed=T)
+
+# Asignación de pesos y tamaños de bordes
+E(red)$weight <- seq(ecount(red)) 
+
+# Convertir grafo a formato compatible con `visNetwork`
+net <- toVisNetworkData(red)
+
+# Visualización interactiva
+visNetwork(net$nodes, net$edges) %>%
+  visLayout(randomSeed = 123) %>% #Para el mismo orden
+  visOptions(highlightNearest = TRUE, nodesIdSelection = TRUE)
 ```

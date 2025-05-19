@@ -5,7 +5,8 @@ format: pdf
 editor: visual
 ---
 
-Introducción El metano (CH4) es un compuesto gaseoso constituido por un átomo de carbono y cuatro de hidrógeno. Es considerado el segundo gas de efecto invernadero que más contribuye a los efectos del cambio climático.
+Introducción 
+El metano (CH4) es un compuesto gaseoso constituido por un átomo de carbono y cuatro de hidrógeno. Es considerado el segundo gas de efecto invernadero que más contribuye a los efectos del cambio climático.
 
 Se estima que cada tonelada de metano en la atmósfera posee los mismos efectos de retención calorífica equivalentes a 80 toneladas de dióxido de carbono. Por ello, el metano es responsable directamente del 30% de los efectos del cambio climático a escala global, convirtiéndolo en una de las principales amenazas que enfrentan los socioecosistemas en la actualidad. (IEA,2025). El estudio de núcleos de hielo de la Antártida y Groenlandia han permitido a los científicos determinar su concentración histórica en la atmósfera. La cuál se duplicó de 700 partes por billón en los años 1800 hasta la concentración actual de 1943 para 2025. (NASA, 2025).
 
@@ -20,13 +21,9 @@ Dados los impactos del gas metano a escala planetaria, resulta toral el desarrol
 El presente estudio de caso utiliza una base de datos de emisión de metano por países, regiones y sectores económicos desarrollada por la International Energy Agency (IEA) con el objetivo de desarrollar un análisis estadístico que clasifique a los países por emisión, identifique la relación estadística entre regiones geográficas y emisiones, y produzca un modelo de redes de relación de variables.
 
 ```{r}
+install.packages("pacman")
 library(pacman)
-library(shiny)
-library(ggplot2)
-library(readr)
-library(dplyr)
-library(stats)
-p_load("ggplot2", "readr", "dplyr", "stats")
+p_load("ggplot2", "readr", "dplyr", "stats", "shiny")
 ```
 
 ```{r}
@@ -89,7 +86,8 @@ grafico_top <- ggplot(top_paises, aes(x = country, y = emissions)) +
 
 print(grafico_top)
 ```
-  Gráfico ordenado
+
+Gráfico ordenado
 
 ```{r}
 # Ordenamos los países por emisión
@@ -124,7 +122,9 @@ grafico_bottom <- ggplot(bottom_paises, aes(x = reorder(country, emissions), y =
 
 print(grafico_bottom)
 ```
+
 Gráfico ordenado
+
 ```{r}
 # Filtramos los países menos emisores en el nuevo orden
 bottom_paises <- IEA_ordenado %>% filter(country %in% c("Uzbekistan", "Germany", "South Sudan", "Netherlands", "Norway", "Slovenia"))
@@ -146,6 +146,7 @@ print(grafico_bottom)
 ```
 
 Análisis de regresion multivariable utilizandop emsiones, región e industria (energética, agricultura, residuos y otros.)
+
 ```{r}
 # Filtrar datos para incluir Energy, Agriculture, Waste y Other
 IEA_selected <- IEA_limpio %>% filter(type %in% c("Energy", "Agriculture", "Waste", "Other"))
@@ -181,8 +182,6 @@ sumas_pais <- pais_region %>% inner_join(sumas_pais, by = "country", keep = F)
 sumas_pais
 ```
 
-
-
 ```{r}
 # Cargamos la base de datos limpia
 IEA_selected <- IEA_limpio %>% filter(type %in% c("Energy", "Agriculture", "Waste", "Other"))
@@ -198,14 +197,13 @@ bottom_paises$country <- factor(bottom_paises$country, levels = c("Uzbekistan", 
 # Definimos la interfaz de usuario para seleccionar el país de interés.
 ui <- fluidPage(
   titlePanel("Dashboard de Emisiones por Sectores y Países"),
-  
   sidebarLayout(
     sidebarPanel(
       selectInput("country", "Selecciona un país:", 
                   choices = unique(IEA_selected$country),
                   selected = "United States")
     ),
-    
+  
     mainPanel(
       plotOutput("graficoSector"),
       plotOutput("graficoTop"),
@@ -252,35 +250,40 @@ shinyApp(ui = ui, server = server)
 
 Análisis de resultados:
 
-
 Derivado de los análisis estadísticos se obtuvieron los siguientes resultados:
 
-El valor de R cuadrada obtenido de análisis de regresión multivariable es (0.08626). lo cual indica que dicho modelo explica aproximadamente el 8.6% de la variabilidad entre variables. 
+El valor de R cuadrada obtenido de análisis de regresión multivariable es (0.08626). lo cual indica que dicho modelo explica aproximadamente el 8.6% de la variabilidad entre variables.
 
-Al tratarse de una cifra reducida se concluye que existen factores y variables dependientes que no se han considerado en el modelo o no pueden explicarse únicamente con la información disponible.
+Al tratarse de una cifra reducida se concluye que existen factores y variables independientes que no se han considerado en el modelo o no pueden explicarse únicamente con la información disponible.
 
-Las regiones Asia-Pacific, North America y Russian-Caspian poseen un alto nivel de significancia con tipos de emisiones específicas. Lo cual, indica que las emisiones de metano son producidas en su mayor parte por un solo tipo de industria en la región. 
+Las regiones Asia-Pacific, North America y Russian-Caspian poseen un alto nivel de significancia con tipos de emisiones específicas. Lo cual, indica que las emisiones de metano son producidas en su mayor parte por un solo tipo de industria en la región.
 
 Los P values obtenidos por sector son:
 
-Sector energético (2e-16)
-Residuos: (0.000169)
-Otros: (1.70e-12)
+Sector energético (2e-16) Residuos: (0.000169) Otros: (1.70e-12)
 
-Lo cuál indican que su significancia estadística es menor en comparación con la variable agriculture. 
+Lo cuál indican que su significancia estadística es menor en comparación con la variable agriculture.
 
 
 
 Conclusiones:
 
-....................
+El análisis de redes demuestra que los sectores con mayor producción de metano son la agricultura, construcción y emisiones no controladas. 
+
+Dado que las flechas más largas denotan mayores emisiones, se observa lo siguiente: 
+
+El Sureste asiático y del Pacífico tiene las mayores emisiones en los sectores de agricultura y construcción, probablemente relacionada a la alta producción de leguminosas y cereales. Por ejemplo, los cultivos de arroz, los cuales son cultivados en planicies o terrazas inundadas fomentando la producción de humedales. 
+
+Se concluye que las emisiones de Norteamérica se diversifican en diversos sectores de la economía al encontrarse en el centro del gráfico de redes.
+
+Para la regulación de emisiones de metano se debe diversificar y limitar los sectores agrícolas y de construcción. Mientras que el primer sector es más difícil de reducir por las implicaciones socioculturales, las emisiones de construcción se podrían reducir si se promueve el uso de materiales sustentables a diferencia del concreto.
+
+El desarrollo de estrategias exitosas de mitigación de emisiones de metano depende de su adaptabilidad a los socioecosistemas de cada región. Puesto que cada país tiene necesidades y fuentes de emisión específicas.
 
 
+Referencias
 
-
-
-
-Referencias IEA – International Energy Agency. (2025). Methane https://www.iea.org/
+IEA – International Energy Agency. (2025). Methane https://www.iea.org/
 
 Methane \| Vital Signs – Climate Change. (NASA, 2025) https://climate.nasa.gov/vital-signs/methane/?intent=121
 
