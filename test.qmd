@@ -31,7 +31,6 @@ p_load("ggplot2", #Gráficos
        "tidyverse","dplyr", #Manejo de datos
        "stats", #gráficos y estadística
        "flexdashboard", "shiny") #Dashboard
-
 ```
 
 ##Limpieza y manipulación de datos
@@ -46,8 +45,12 @@ head(IEA)
 
 # Limpieza de la base de datos
 IEA_limpio<- IEA[1:5][-4]
-IEA_limpio <- IEA %>% filter(!is.na(country))
-IEA_limpio$country <- as.factor(IEA_limpio$country) #Paises como factor
+IEA_limpio <- IEA_limpio %>% filter(!is.na(country))
+
+# Convertir las variables categóricas en factores
+IEA_limpio$country <- as.factor(IEA_limpio$country) 
+IEA_limpio$region <- as.factor(IEA_limpio$region)
+IEA_limpio$type <- as.factor(IEA_limpio$type)
 
 resumen_pais <- IEA_limpio %>% group_by(country, type) %>% 
   summarise("Total_Emissions" = sum(emissions..kt.))
@@ -93,7 +96,7 @@ emissions$Power_Industry <- as.numeric(emissions$Power_Industry)
 emissions$Transport <- as.numeric(emissions$Transport)
 emissions$Waste <- as.numeric(emissions$Waste)
 
-paises <- read.xlsx("CLASS.xlsx") 
+paises <- read_xlsx("CLASS.xlsx")  
 paises <- paises[-5] # Se elimina columna de prestamo 
 colnames(paises)[1] <- "Country" # Se cambia nombre de la columna para que coincida en ambas bases de datos
 emissions <- emissions %>% inner_join(paises, by= "Country", keep=F ) #Se unen las bases de datos
@@ -124,6 +127,10 @@ x_region <- metano %>% group_by(metano$Region) %>%
   summarise(sum(Agriculture), sum(Building), sum(Fugitive_Emissions), sum(Industrial_Combustion), sum(Industrial_Processes), sum(Power_Industry), sum(Transport), sum(Waste))
 
 colnames(x_region) <- c("Region","Agriculture", "Building", "Fugitive_Emissions", "Industrial_Combustion", "Industrial_Processes", "Power_Industry", "Transport", "Waste" )
+
+# Las variables se incluyen en una sola fila. 
+nodos <- gather(x_region, key = "sector", value = "Emisiones", -Region ) 
+
 ```
 
 
@@ -161,13 +168,13 @@ Gráfico por países con mayor y menor emisión
 
 ```{r}
 # Seleccionar los países más emisores y ordenarlos de mayor a menor
-top_paises <- IEA_ordenado[order(IEA_ordenado$emissions, decreasing = TRUE), ][1:10, ]
+top_paises <- IEA_ordenado[1:10, ]
 
 # Convertir 'country' en un factor con niveles ordenados
 top_paises$country <- factor(top_paises$country)
 
 # Gráfico para los países más emisores
-grafico_top <- ggplot(top_paises, aes(x = country, y = emissions)) +
+grafico_top <- ggplot(top_paises, aes(x = country, y = Total_Emissions)) +
   geom_bar(stat = "identity", fill = "red") +
   coord_flip() +
   labs(title = "Top Países Más Emisores",
@@ -187,7 +194,7 @@ top_paises <- IEA_ordenado %>% filter(country %in% c("China", "United States", "
 top_paises$country <- factor(top_paises$country, levels = c("China", "United States", "Russia", "India", "Brazil", "Other"))
 
 # Gráfico para los países más emisores
-grafico_top <- ggplot(top_paises, aes(x = country, y = emissions)) +
+grafico_top <- ggplot(top_paises, aes(x = country, y = Total_Emissions)) +
   geom_bar(stat = "identity", fill = "red") +
   coord_flip() +
   labs(title = "Top Países Más Emisores",
@@ -202,10 +209,10 @@ print(grafico_top)
 
 ```{r}
 # Seleccionar los países menos emisores 
-bottom_paises <- tail(IEA_ordenado[IEA_ordenado$emissions > 0,], 10) %>% arrange(desc(emissions))
+bottom_paises <- tail(IEA_ordenado[IEA_ordenado$Total_Emissions > 0,], 10) %>% arrange(desc(Total_Emissions))
 
 # Gráfico para los países menos emisores
-grafico_bottom <- ggplot(bottom_paises, aes(x = reorder(country, -emissions), y = emissions))+
+grafico_bottom <- ggplot(bottom_paises, aes(x = reorder(country, -Total_Emissions), y = Total_Emissions))+
   geom_bar(stat = "identity", fill = "green") +
   coord_flip() +
   labs(title = "Top Países Menos Emisores",
@@ -229,7 +236,7 @@ bottom_paises <- bottom_paises %>% arrange(match(country, c("Uzbekistan", "Germa
 # Convertir 'country' en un factor con niveles predefinidos
 bottom_paises$country <- factor(bottom_paises$country, levels = c("Uzbekistan", "Germany", "South Sudan", "Netherlands", "Norway", "Slovenia"))
 
-grafico_bottom <- ggplot(bottom_paises, aes(x = country, y = emissions)) +
+grafico_bottom <- ggplot(bottom_paises, aes(x = country, y = Total_Emissions)) +
   geom_bar(stat = "identity", fill = "green") +
   coord_flip() +
   labs(title = "Top Países Menos Emisores",
@@ -244,16 +251,9 @@ print(grafico_bottom)
 Análisis de regresion multivariable utilizando emsiones, región e industria (energética, agricultura, residuos y otros.)
 
 ```{r}
-# Filtrar datos para incluir Energy, Agriculture, Waste y Other
-IEA_selected <- IEA_limpio %>% filter(type %in% c("Energy", "Agriculture", "Waste", "Other"))
-
-# Convertir las variables categóricas en factores
-IEA_selected$region <- as.factor(IEA_selected$region)
-IEA_selected$type <- as.factor(IEA_selected$type)
 
 # Realizar análisis de regresión multivariable
-modelo_multi <- lm(emissions ~ region + type, data = IEA_selected)
-
+modelo_multi <- lm(emissions..kt. ~ region + type, data = IEA_limpio)
 # Resumen del modelo
 summary(modelo_multi)
 
@@ -268,9 +268,6 @@ summary(multivar)
 
 ```{r}
 p_load("igraph", "ggraph","tidygraph","RColorBrewer")
-
-# Las variables se incluyen en una sola fila. 
-nodos <- gather(x_region, key = "sector", value = "Emisiones", -Region ) 
 
 #Se crea un objeto o "grafo"
 red <- graph_from_data_frame(nodos, directed=T)
