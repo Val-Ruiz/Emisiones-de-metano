@@ -160,8 +160,7 @@ ggplot(data = nodos, aes(x= reorder(Region, Emisiones), y = Emisiones, fill=sect
 
 Gráfico por países con mayor y menor emisión
 
-Mayor emisión
-....
+Mayor emisión ....
 
 ```{r}
 # Cargamos el dataframe
@@ -227,7 +226,6 @@ print(g_final)
 
 ```
 
-
 ```{r}
 # Seleccionar los países más emisores y ordenarlos de mayor a menor
 top_paises <- IEA_ordenado[1:10, ]
@@ -248,8 +246,6 @@ print(grafico_top)
 ```
 
 Gráfico ordenado
-
-
 
 ```{r}
 # Seleccionar los países menos emisores 
@@ -344,7 +340,6 @@ visNetwork(net$nodes, net$edges) %>%
   visLayout(randomSeed = 123) %>% #Para el mismo orden
   visOptions(highlightNearest = TRUE, nodesIdSelection = TRUE)
 ```
-
 #Discusión de resultados:
 
 Derivado de los análisis estadísticos se obtuvieron los siguientes resultados:
@@ -359,7 +354,7 @@ Los P values obtenidos por sector son:
 
 Sector energético (2e-16) Residuos: (0.000169) Otros: (1.70e-12)
 
-Lo cuál indican que su significancia estadística es menor en comparación con la variable agriculture.
+Lo cual indica que su significancia estadística es menor en comparación con la variable agriculture.
 
 El análisis de redes demuestra que los sectores con mayor producción de metano son la agricultura, construcción y emisiones no controladas.
 
@@ -369,9 +364,17 @@ El Sureste asiático y del Pacífico tiene las mayores emisiones en los sectores
 
 Se concluye que las emisiones de Norteamérica se diversifican en diversos sectores de la economía al encontrarse en el centro del gráfico de redes.
 
-#Conclusiones Para la regulación de emisiones de metano se debe diversificar y limitar los sectores agrícolas y de construcción. Mientras que el primer sector es más difícil de reducir por las implicaciones socioculturales, las emisiones de construcción se podrían reducir si se promueve el uso de materiales sustentables a diferencia del concreto.
+#Conclusiones
+
+Las regiones que más emisiones de metano producen a nivel global son Asia-Pacific, North America y Russia-Caspian. Lo cual es un indicador de la escala de producción e industrialización de sus sectores agrícolas, ganaderos y energéticos de los países que conforman dichas regiones, Principalmente China, Rusia y Estados Unidos. 
+
+El resto de las regiones muestra un balance relativo en la emisión de metano por tipo de industrias.
+Los países con menor producción de metano se localizan en América Latina, y Europa. (Ecuador, Dinamarca, Albania).
+
+Para la regulación de emisiones de metano se debe diversificar y limitar los sectores agrícolas y de construcción. Mientras que el primer sector es más difícil de reducir por las implicaciones socioculturales, las emisiones de construcción se podrían reducir si se promueve el uso de materiales sustentables a diferencia del concreto.
 
 El desarrollo de estrategias exitosas de mitigación de emisiones de metano depende de su adaptabilidad a los socioecosistemas de cada región. Puesto que cada país tiene necesidades y fuentes de emisión específicas.
+
 
 Referencias
 
