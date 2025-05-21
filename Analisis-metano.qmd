@@ -1,11 +1,11 @@
 ---
 title: "Emisiones de metano alrededor del mundo"
 author: "Arturo Pulido Balderas y Valentina Ruiz Soto"
-format: html
+format: pdf
 editor: visual
 ---
 
-#Introducción
+# Introducción
 
 El metano (CH4) es un compuesto gaseoso constituido por un átomo de carbono y cuatro de hidrógeno. Es considerado el segundo gas de efecto invernadero que más contribuye a los efectos del cambio climático.
 
@@ -31,42 +31,14 @@ p_load("ggplot2", #Gráficos
        "flexdashboard", "shiny") #Dashboard
 ```
 
-##Limpieza y manipulación de datos
-
-```{r}
-#Abrimos la base de datos
-IEA <- read.csv("IEA.csv")
-head(IEA)
-```
-
-```{r}
-
-# Limpieza de la base de datos
-IEA_limpio<- IEA[1:5][-4]
-IEA_limpio <- IEA_limpio %>% filter(!is.na(country))
-
-# Convertir las variables categóricas en factores
-IEA_limpio$country <- as.factor(IEA_limpio$country) 
-IEA_limpio$region <- as.factor(IEA_limpio$region)
-IEA_limpio$type <- as.factor(IEA_limpio$type)
-
-resumen_pais <- IEA_limpio %>% group_by(country, type) %>% 
-  summarise("Total_Emissions" = sum(emissions..kt.))
-
-# Ordenar los datos según las emisiones de cada país
-IEA_ordenado <- resumen_pais %>% arrange(desc(Total_Emissions))
+## Limpieza y manipulación de datos
 
 
-```
+```{r Manipulación de datos}
 
-```{r Lectura de datos}
+# Leemos la base de datos
 emissions <- read.csv("Methane_Data.csv") 
-head(emissions)
-```
 
-##Segunda base de datos
-
-```{r}
 emissions <- emissions[-4] #Se elimina columna con codigo de tipo de emisiones
 colnames(emissions) <- c("Country", "ISO", "Series", "X2023X")  #Renombramos columnas
 emissions <- emissions[-c(2129,2130,2131,2132,2133), ]#Se eliminan registros vacíos o con metadata
@@ -74,12 +46,11 @@ emissions <- emissions[-c(2129,2130,2131,2132,2133), ]#Se eliminan registros vac
 #Para eliminar filas con ".." que viene en lugar de NA
 eliminar <- ".."
 emissions <- emissions[ -grep(eliminar, emissions[, , drop = TRUE]), ]
+
 #Transformacion del dataframe para que las categorías sean una columna cada una
 emissions <- emissions %>%spread(Series, X2023X)
 
 ```
-
-Todas las emisiones son derivados de la energía usada en los procesos, excepto agricultura y residuos que las emiten directamente. Tienen unidades de Mt CO2e
 
 ```{r}
 #Se renombran las columnas:
@@ -95,20 +66,15 @@ emissions$Power_Industry <- as.numeric(emissions$Power_Industry)
 emissions$Transport <- as.numeric(emissions$Transport)
 emissions$Waste <- as.numeric(emissions$Waste)
 
+# Agregar la clasificación de naciones según el Banco Mundial
 paises <- read_xlsx("CLASS.xlsx")  
 paises <- paises[-5] # Se elimina columna de prestamo 
 colnames(paises)[1] <- "Country" # Se cambia nombre de la columna para que coincida en ambas bases de datos
-emissions <- emissions %>% inner_join(paises, by= "Country", keep=F ) #Se unen las bases de datos
+metano <- emissions %>% inner_join(paises, by= "Country", keep=F ) #Se unen las bases de datos
 
-#Dado que varios países son reconocidos por el banco munndial pero no se encuentran en la base de datos de las emisiones, tienen la mayoría de columnas vacías
-
-metano<- na.omit(emissions) # Nueva base de datos completa y limpia.
+metano<- na.omit(metano) # Se eliminan datos incompletos
 metano$Region <-as.factor(metano$Region) # Se configura la región como un factor (variable categórica)
 ```
-
-Se ha producido un error porque no todos los ".." fueron eliminados. Ahora son NA se pueden eliminar con una instrucción más simple, se realiza después del siguiente proceso para no repetir la instrucción
-
-A continuación se leerá otra base de datos con la clasificación de las naciones segun el banco mundial. Esta es en base a su region, nivel de ingreso o tipo de prestamo que el Banco mundial puede otorgar
 
 ```{r}
 #Esta es la base de datos para el modelo de regresión
@@ -117,9 +83,10 @@ metano_multivar <- pivot_longer(metano,
   values_to = "Emisiones")
 ```
 
-A continuación se crea una tabla con las sumas de todas las emisiones por región. Se vuelven a configurar los nombres devido a que se modifican durante la creación de la tabla
+A continuación se crea una tabla que resume las emisiones por región, se usará para las gráficas y modelo de red.
 
 ```{r}
+#Resumen de emisiones por región
 x_region <- metano %>% group_by(metano$Region) %>% 
   summarise(sum(Agriculture), sum(Building), sum(Fugitive_Emissions), sum(Industrial_Combustion), sum(Industrial_Processes), sum(Power_Industry), sum(Transport), sum(Waste))
 
@@ -130,173 +97,65 @@ nodos <- gather(x_region, key = "sector", value = "Emisiones", -Region )
 
 ```
 
-#Gráficos exploratorios
+# Gráficos exploratorios
 
 Gráfico emisiones por región.
 
 ```{r}
-# Sumamos las emisiones de cada región
-resumen <- aggregate(IEA_limpio$emissions, by = list(Region = IEA_limpio$region), sum)
-resumen <- resumen[-9,] #Eliminar la suma total
-colnames(resumen) <- c("Region", "Emissions")
-
-# Producimos el gráfico
-ggplot(data = resumen, aes(x = reorder(Region, Emissions), y = Emissions)) +
-  geom_bar(stat = "identity", fill = "steelblue") +
-  coord_flip() +
-  labs(title = "Emisiones por Región",
-       x = "Región",
-       y = "Emisiones (kt)") +
-  theme_minimal()
 
 ggplot(data = nodos, aes(x= reorder(Region, Emisiones), y = Emisiones, fill=sector))+
   geom_bar(stat = "identity")+
      coord_flip()+ 
   labs(title = "Emisiones por Región",
        x = "Región",
-       y = "Emisiones kt")
+       y = "Emisiones kt") +
+  scale_fill_brewer(palette = "Set3")
 
 ```
 
-Gráfico por países con mayor y menor emisión
+Países más emisores
 
-Mayor emisión ....
 
 ```{r}
 # Cargamos el dataframe
-df <- metano %>% arrange(desc(Emisiones))  # Ordenar de mayor a menor emisión
+resumen_pais <- metano %>% mutate(Total = rowSums(across(3:10)))
 
+resumen_pais <- resumen_pais %>% arrange(desc(Total))  # Ordenar de menor a mayor emisión
 # Obtener los 5 países con más y menos emisiones
-top_5 <- df %>% head(5)
-bottom_5 <- df %>% tail(5)
+top_5 <- resumen_pais %>% tail(5)  # Ahora toma los últimos 5 valores correctamente
+bottom_5 <- resumen_pais %>% head(5)  # Selecciona los primeros 5 con menos emisiones
 
-# Gráficamo los 5 países con más emisiones
-g1 <- ggplot(top_5, aes(x = reorder(Country, -Emisiones), y = Emisiones)) +
-  geom_bar(stat = "identity", fill = "red") +
+# Gráficamos los 5 países con más emisiones
+ggplot(bottom_5, aes(x = reorder(Country, Total), y = Total)) +
+  geom_bar(stat = "identity", fill = "orangered") +
   coord_flip() +
-  labs(x = "País", y = "Emisiones de metano", title = "Top 5 países con más emisiones") +
+  labs(x = "País", y = "Emisiones de metano", title = "Top 5 países con mayores emisiones") +
   theme_minimal()
-
-print(g1)
-
-```
-
-Menor emisión
-
-```{r}
-# Cargamos el dataframe
-df <- metano %>% arrange(Emisiones)  # Ordenar de menor a mayor emisión
-
-# Obtener los 5 países con más y menos emisiones
-top_5 <- df %>% tail(5)  # Ahora toma los últimos 5 valores correctamente
-bottom_5 <- df %>% head(5)  # Selecciona los primeros 5 con menos emisiones
-
-# Gráficamos
-g2 <- ggplot(bottom_5, aes(x = reorder(Country, Emisiones), y = Emisiones)) +
-  geom_bar(stat = "identity", fill = "green") +
-  coord_flip() +
-  labs(x = "País", y = "Emisiones de metano", title = "Top 5 países con menos emisiones") +
-  theme_minimal()
-
-
-print(g2)
 
 ```
 
 Por la diferencia en escala entre países graficamos independientememnte los países identificados como menores emisores
 
-```{r}
-
-# Filtrar solo los países mostradois anteriormente
-selected_countries <- c("Ecuador", "Dinamarca", "Cuba", "Bangladesh", "Albania")
-filtered_data <- metano %>% filter(Country %in% selected_countries)
-
-filtered_data$Emisiones <- as.numeric(filtered_data$Emisiones)
-filtered_data <- filtered_data %>% filter(!is.na(Emisiones) & Emisiones >= 0)
-
-# Crear el gráfico sin escala logarítmica
-g_final <- ggplot(filtered_data, aes(x = reorder(Country, Emisiones), y = Emisiones)) +
-  geom_col(fill = "green") +
-  coord_flip() +
-  labs(x = "País", y = "Emisiones de metano", title = "Emisiones de metano en países seleccionados") +
-  theme_minimal()
-
-# Mostrar gráfico
-print(g_final)
-
-```
-
-```{r}
-# Seleccionar los países más emisores y ordenarlos de mayor a menor
-top_paises <- IEA_ordenado[1:10, ]
-
-# Convertir 'country' en un factor con niveles ordenados
-top_paises$country <- factor(top_paises$country)
-
-# Gráfico para los países más emisores
-grafico_top <- ggplot(top_paises, aes(x = country, y = Total_Emissions)) +
-  geom_bar(stat = "identity", fill = "red") +
-  coord_flip() +
-  labs(title = "Top Países Más Emisores",
-       x = "País",
-       y = "Emisiones (kt)") +
-  theme_minimal()
-
-print(grafico_top)
-```
-
-Gráfico ordenado
-
-```{r}
-# Seleccionar los países menos emisores 
-bottom_paises <- tail(IEA_ordenado[IEA_ordenado$Total_Emissions > 0,], 10) %>% arrange(desc(Total_Emissions))
-
-# Gráfico para los países menos emisores
-grafico_bottom <- ggplot(bottom_paises, aes(x = reorder(country, -Total_Emissions), y = Total_Emissions))+
-  geom_bar(stat = "identity", fill = "green") +
-  coord_flip() +
-  labs(title = "Top Países Menos Emisores",
-       x = "País",
-       y = "Emisiones (kt)") +
-  theme_minimal()
-
-print(grafico_bottom)
-
-```
+Menor emisión
 
 ```{r}
 
-#·ordenado
-# Filtramos los países menos emisores en el nuevo orden
-bottom_paises <- IEA_ordenado %>% filter(country %in% c("Uzbekistan", "Germany", "South Sudan", "Netherlands", "Norway", "Slovenia"))
-
-bottom_paises <- bottom_paises %>% arrange(match(country, c("Uzbekistan", "Germany", "South Sudan", "Netherlands", "Norway", "Slovenia")))
-
-# Convertir 'country' en un factor con niveles predefinidos
-bottom_paises$country <- factor(bottom_paises$country, levels = c("Uzbekistan", "Germany", "South Sudan", "Netherlands", "Norway", "Slovenia"))
-
-grafico_bottom <- ggplot(bottom_paises, aes(x = country, y = Total_Emissions)) +
-  geom_bar(stat = "identity", fill = "green") +
+# Países menos emisores
+ggplot(top_5, aes(x = reorder(Country, -Total), y = Total)) +
+  geom_bar(stat = "identity", fill = "turquoise") +
   coord_flip() +
-  labs(title = "Top Países Menos Emisores",
-       x = "País",
-       y = "Emisiones (kt)") +
+  labs(x = "País", y = "Emisiones de metano", title = "Top 5 países con menores emisiones") +
   theme_minimal()
-
-print(grafico_bottom)
-
 ```
+
+
+
 
 # Análisis de regresión multivariado
 
 Análisis de regresion multivariable utilizando emsiones, región e industria (energética, agricultura, residuos y otros.)
 
 ```{r}
-
-# Realizar análisis de regresión multivariable
-modelo_multi <- lm(emissions..kt. ~ region + type, data = IEA_limpio)
-# Resumen del modelo
-summary(modelo_multi)
 
 multivar <- lm(Emisiones ~ Region + `Income group` + Sector, data=metano_multivar)
 summary(multivar)
@@ -314,10 +173,9 @@ E(red)$size <- seq(ecount(red)) #tamaño de la flecha
 #V(red)$size <- seq((ecount(red)) #longitud 
 
 E(red)$weight <- seq(ecount(red))
-strength(red, mode="in")
-#layout <- layout_with_fr(red, weights = E(red)$weight) # Usamos los pesos en el layout
 
-plot(red, edge.arrow.size=.4, weighted = T) #visualización
+# Visualización con tamaño de nodos basado en cantidad entrante
+plot(red, edge.arrow.size=.4) #visualización
 ```
 
 ```{r}
@@ -332,48 +190,40 @@ red <- graph_from_data_frame(nodos, directed=T)
 # Asignación de pesos y tamaños de bordes
 E(red)$weight <- seq(ecount(red)) 
 
-# Convertir grafo a formato compatible con `visNetwork`
-net <- toVisNetworkData(red)
-
 # Visualización interactiva
 visNetwork(net$nodes, net$edges) %>%
   visLayout(randomSeed = 123) %>% #Para el mismo orden
-  visOptions(highlightNearest = TRUE, nodesIdSelection = TRUE)
+  visOptions(highlightNearest = TRUE, nodesIdSelection = TRUE) %>%
+  visEdges(arrows = 'to')
 ```
+
 #Discusión de resultados:
 
-Derivado de los análisis estadísticos se obtuvieron los siguientes resultados:
+Del modelo de regresión se obtuvo un valor de R cuadrada de 0.1436, lo cual indica que dicho modelo explica aproximadamente el 14.36% de la relación entre las variables.
 
-El valor de R cuadrada obtenido de análisis de regresión multivariable es (0.08626). lo cual indica que dicho modelo explica aproximadamente el 8.6% de la variabilidad entre variables.
+Al tratarse de una cifra reducida se concluye que existen muchos más factores y variables independientes que influyen en las emisiones de metano pero que no fueron considerada por la información disponible. 
 
-Al tratarse de una cifra reducida se concluye que existen factores y variables independientes que no se han considerado en el modelo o no pueden explicarse únicamente con la información disponible.
 
-Las regiones Asia-Pacific, North America y Russian-Caspian poseen un alto nivel de significancia con tipos de emisiones específicas. Lo cual, indica que las emisiones de metano son producidas en su mayor parte por un solo tipo de industria en la región.
+Respecto al análisis de redes, considerando que una mayor longitud de los enlaces denota mayores emisiones, podemos identificar que los sectores con mayor producción de metano son la agricultura, construcción y emisiones no controladas.
 
-Los P values obtenidos por sector son:
+Algunas observaciones pueden ser que el Sureste asiático y del Pacífico tiene las mayores emisiones en los sectores de agricultura y construcción, probablemente relacionados a las tasas de urbanización y a la alta producción de leguminosas y cereales. Por ejemplo, los cultivos de arroz, los cuales que son cultivados en planicies o terrazas inundadas, fomentan la emisión de metano al crear ambientes ideales para microorganismos anaerobios (que liberan metano).
 
-Sector energético (2e-16) Residuos: (0.000169) Otros: (1.70e-12)
+Otro aspecto notable es que las emisiones de Norteamérica, que está casi en el centro de la red, no se concentran en un sector económico sino que están distribuidas. 
 
-Lo cual indica que su significancia estadística es menor en comparación con la variable agriculture.
-
-El análisis de redes demuestra que los sectores con mayor producción de metano son la agricultura, construcción y emisiones no controladas.
-
-Dado que las flechas más largas denotan mayores emisiones, se observa lo siguiente:
-
-El Sureste asiático y del Pacífico tiene las mayores emisiones en los sectores de agricultura y construcción, probablemente relacionada a la alta producción de leguminosas y cereales. Por ejemplo, los cultivos de arroz, los cuales son cultivados en planicies o terrazas inundadas fomentando la producción de humedales.
-
-Se concluye que las emisiones de Norteamérica se diversifican en diversos sectores de la economía al encontrarse en el centro del gráfico de redes.
 
 #Conclusiones
 
-Las regiones que más emisiones de metano producen a nivel global son Asia-Pacific, North America y Russia-Caspian. Lo cual es un indicador de la escala de producción e industrialización de sus sectores agrícolas, ganaderos y energéticos de los países que conforman dichas regiones, Principalmente China, Rusia y Estados Unidos. 
+Las regiones que más emisiones de metano producen a nivel global son Asia-Pacific, North America y Russia-Caspian. Lo cual es un indicador de la escala de producción e industrialización de los sectores agrícolas, ganaderos y energéticos de los países que conforman dichas regiones, principalmente China, Rusia y Estados Unidos.
 
-El resto de las regiones muestra un balance relativo en la emisión de metano por tipo de industrias.
-Los países con menor producción de metano se localizan en América Latina, y Europa. (Ecuador, Dinamarca, Albania).
+El resto de las regiones muestra un balance relativo en la emisión de metano por tipo de industrias. Los países con menor producción de metano se localizan en América Latina, y Europa. (Ecuador, Dinamarca, Albania).
 
-Para la regulación de emisiones de metano se debe diversificar y limitar los sectores agrícolas y de construcción. Mientras que el primer sector es más difícil de reducir por las implicaciones socioculturales, las emisiones de construcción se podrían reducir si se promueve el uso de materiales sustentables a diferencia del concreto.
+Para la regulación de emisiones de metano se deben favorecer procesos que no impliquen grandes cantidades de emisiones, sin embargo esto es complicado cuando están relacionadas con procesos socioculturales, como la producción de arroz en Asia y las islas del pacífico. Por otro lado, las emisiones de construcción se podrían reducir si se promueve el uso de materiales sustentables en lugar del concreto.
 
-El desarrollo de estrategias exitosas de mitigación de emisiones de metano depende de su adaptabilidad a los socioecosistemas de cada región. Puesto que cada país tiene necesidades y fuentes de emisión específicas.
+Así pues el desarrollo de estrategias exitosas de mitigación de emisiones de metano no se pueden aplicar a regiones enteras indiscriminadamente. El éxito de medidas de mitigación dependerá de su pertinencia en relación a los socioecosistemas de cada región, dado que cada país tiene necesidades y fuentes de emisión específicas.
+
+```
+
+
 
 
 Referencias
