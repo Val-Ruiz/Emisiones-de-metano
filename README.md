@@ -51,11 +51,8 @@ los países por emisión, identifique la relación estadística entre regiones
 geográficas y emisiones, y produzca un modelo de redes de relación de variables.
 
 ### Fuente de la base datos: 
-[Methane Tracker](https://www.iea.org/data-and-statistics/data-tools/methane-tracker-data-explorer)
 
-Se eliminó la ultima columna del csv original antes de subir el archivo, contenía notas de los registros.
-
-La segunda base de datos utilizada fue descargada de [World Development Indicators](https://databank.worldbank.org/source/world-development-indicators)
+[World Development Indicators](https://databank.worldbank.org/source/world-development-indicators)
 
 
 
