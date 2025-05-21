@@ -33,7 +33,6 @@ p_load("ggplot2", #Gráficos
 
 ## Limpieza y manipulación de datos
 
-
 ```{r Manipulación de datos}
 
 # Leemos la base de datos
@@ -115,7 +114,6 @@ ggplot(data = nodos, aes(x= reorder(Region, Emisiones), y = Emisiones, fill=sect
 
 Países más emisores
 
-
 ```{r}
 # Cargamos el dataframe
 resumen_pais <- metano %>% mutate(Total = rowSums(across(3:10)))
@@ -147,9 +145,6 @@ ggplot(top_5, aes(x = reorder(Country, -Total), y = Total)) +
   labs(x = "País", y = "Emisiones de metano", title = "Top 5 países con menores emisiones") +
   theme_minimal()
 ```
-
-
-
 
 # Análisis de regresión multivariado
 
@@ -190,7 +185,11 @@ red <- graph_from_data_frame(nodos, directed=T)
 # Asignación de pesos y tamaños de bordes
 E(red)$weight <- seq(ecount(red)) 
 
-# Visualización interactiva
+# Visualización interactiva:
+
+# Convertir grafo a formato compatible con `visNetwork`
+net <- toVisNetworkData(red)
+
 visNetwork(net$nodes, net$edges) %>%
   visLayout(randomSeed = 123) %>% #Para el mismo orden
   visOptions(highlightNearest = TRUE, nodesIdSelection = TRUE) %>%
@@ -201,15 +200,13 @@ visNetwork(net$nodes, net$edges) %>%
 
 Del modelo de regresión se obtuvo un valor de R cuadrada de 0.1436, lo cual indica que dicho modelo explica aproximadamente el 14.36% de la relación entre las variables.
 
-Al tratarse de una cifra reducida se concluye que existen muchos más factores y variables independientes que influyen en las emisiones de metano pero que no fueron considerada por la información disponible. 
-
+Al tratarse de una cifra reducida se concluye que existen muchos más factores y variables independientes que influyen en las emisiones de metano pero que no fueron considerada por la información disponible.
 
 Respecto al análisis de redes, considerando que una mayor longitud de los enlaces denota mayores emisiones, podemos identificar que los sectores con mayor producción de metano son la agricultura, construcción y emisiones no controladas.
 
 Algunas observaciones pueden ser que el Sureste asiático y del Pacífico tiene las mayores emisiones en los sectores de agricultura y construcción, probablemente relacionados a las tasas de urbanización y a la alta producción de leguminosas y cereales. Por ejemplo, los cultivos de arroz, los cuales que son cultivados en planicies o terrazas inundadas, fomentan la emisión de metano al crear ambientes ideales para microorganismos anaerobios (que liberan metano).
 
-Otro aspecto notable es que las emisiones de Norteamérica, que está casi en el centro de la red, no se concentran en un sector económico sino que están distribuidas. 
-
+Otro aspecto notable es que las emisiones de Norteamérica, que está casi en el centro de la red, no se concentran en un sector económico sino que están distribuidas.
 
 #Conclusiones
 
@@ -221,10 +218,7 @@ Para la regulación de emisiones de metano se deben favorecer procesos que no im
 
 Así pues el desarrollo de estrategias exitosas de mitigación de emisiones de metano no se pueden aplicar a regiones enteras indiscriminadamente. El éxito de medidas de mitigación dependerá de su pertinencia en relación a los socioecosistemas de cada región, dado que cada país tiene necesidades y fuentes de emisión específicas.
 
-```
-
-
-
+\`\`\`
 
 Referencias
 
