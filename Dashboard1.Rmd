@@ -1,0 +1,331 @@
+---
+title: "Emisiones de metano por Regiones y sectores económicos"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    horizontal_layout: scroll
+    theme:
+      bg: "#D9EAEB"
+      fg: "#050505" 
+      primary: "#6f63a2"
+      base_font:
+        google: Prompt
+      code_font:
+        google: JetBrains Mono
+---
+
+```{r Intalación de paquetes}
+#install.packages("pacman")
+library(pacman)
+p_load("ggplot2", #Gráficos
+       "readr", "readxl", #Leer archivos
+       "tidyverse","dplyr", #Manejo de datos
+       "stats", #gráficos y estadística
+       "flexdashboard", "shiny", "rmarkdown") #Dashboard
+```
+
+# Introducción
+
+Fila 1 {data-heigth = 500}
+------------------------------------------------------------------------
+
+### Sobre nuestra investigación
+
+El gas metano es emitido a la atmósfera de forma natural por humedales, océanos, erupciones volcánicas y organismos como las termitas. Sin embargo, el 60% de las emisiones actuales son de origen antrópico.
+
+El presente estudio de caso utiliza una base de datos de emisión de metano por países, regiones y fuentes de emisión (actividades económicas) de la Agencia Internacional de Energía (IEA por sus siglas en inglés) y una de los Indicadores de Desarrollo Mundiales desarrollados por el Banco Mundial. Se analizó un modelo de regresión multivariada para comprender la relación entre la magnitud de las emisiones por región y por sector económico y aquí se presenta un modelo de redes que facilite la visualización y comprensión de la relación entre las variables.
+
+
+Fila 2
+------------------------------------------------------------------------
+
+### veces más energía calorífica que el dióxido de carbono
+
+```{r}
+valueBox(80)
+```
+
+### de contribución al calentamiento global
+
+```{r}
+valueBox("30 %")
+```
+###  de las emisiones son antropogénicas
+```{r}
+valueBox("60 %" )
+```
+
+
+
+Fila 3
+------------------------------------------------------------------------
+
+```{r}
+#Abrimos la base de datos
+IEA <- read.csv("IEA.csv")
+
+# Limpieza de la base de datos
+IEA_limpio<- IEA[1:5][-4]
+IEA_limpio <- IEA_limpio %>% filter(!is.na(country))
+
+# Convertir las variables categóricas en factores
+IEA_limpio$country <- as.factor(IEA_limpio$country) 
+IEA_limpio$region <- as.factor(IEA_limpio$region)
+IEA_limpio$type <- as.factor(IEA_limpio$type)
+
+resumen_pais <- IEA_limpio %>% group_by(country, type) %>% 
+  summarise("Total_Emissions" = sum(emissions..kt.))
+
+# Ordenar los datos según las emisiones de cada país
+IEA_ordenado <- resumen_pais %>% arrange(desc(Total_Emissions))
+
+emissions <- read.csv("Methane_Data.csv") 
+
+
+#Segunda base de datos
+emissions <- emissions[-4] #Se elimina columna con codigo de tipo de emisiones
+colnames(emissions) <- c("Country", "ISO", "Series", "X2023X")  #Renombramos columnas
+emissions <- emissions[-c(2129,2130,2131,2132,2133), ]#Se eliminan registros vacíos o con metadata
+
+#Para eliminar filas con ".." que viene en lugar de NA
+eliminar <- ".."
+emissions <- emissions[ -grep(eliminar, emissions[, , drop = TRUE]), ]
+#Transformacion del dataframe para que las categorías sean una columna cada una
+emissions <- emissions %>%spread(Series, X2023X)
+
+```
+
+```{r}
+#Se renombran las columnas:
+colnames(emissions) <- c("Country", "ISO","Agriculture", "Building", "Fugitive_Emissions", "Industrial_Combustion", "Industrial_Processes", "Power_Industry", "Transport", "Waste" ) #Se renombran columnas
+
+#Y se convierten a variable numérica
+emissions$Agriculture <- as.numeric(emissions$Agriculture)
+emissions$Building <- as.numeric(emissions$Building)
+emissions$Fugitive_Emissions <- as.numeric(emissions$Fugitive_Emissions)
+emissions$Industrial_Combustion <- as.numeric(emissions$Industrial_Combustion)
+emissions$Industrial_Processes <- as.numeric(emissions$Industrial_Processes)
+emissions$Power_Industry <- as.numeric(emissions$Power_Industry)
+emissions$Transport <- as.numeric(emissions$Transport)
+emissions$Waste <- as.numeric(emissions$Waste)
+
+paises <- read_xlsx("CLASS.xlsx")  
+paises <- paises[-5] # Se elimina columna de prestamo 
+colnames(paises)[1] <- "Country" # Se cambia nombre de la columna para que coincida en ambas bases de datos
+emissions <- emissions %>% inner_join(paises, by= "Country", keep=F ) #Se unen las bases de datos
+
+#Dado que varios países son reconocidos por el banco munndial pero no se encuentran en la base de datos de las emisiones, tienen la mayoría de columnas vacías
+
+metano<- na.omit(emissions) # Nueva base de datos completa y limpia.
+metano$Region <-as.factor(metano$Region) # Se configura la región como un factor (variable categórica)
+```
+
+```{r}
+x_region <- metano %>% group_by(metano$Region) %>% 
+  summarise(sum(Agriculture), sum(Building), sum(Fugitive_Emissions), sum(Industrial_Combustion), sum(Industrial_Processes), sum(Power_Industry), sum(Transport), sum(Waste))
+
+colnames(x_region) <- c("Region","Agriculture", "Building", "Fugitive_Emissions", "Industrial_Combustion", "Industrial_Processes", "Power_Industry", "Transport", "Waste" )
+
+# Las variables se incluyen en una sola fila. 
+nodos <- gather(x_region, key = "sector", value = "Emisiones", -Region ) 
+
+```
+
+# Gráficos exploratorios
+
+Fila 1
+--------------------------------------------------------------
+### Emisiones por región.
+
+```{r}
+# Sumamos las emisiones de cada región
+resumen <- aggregate(IEA_limpio$emissions, by = list(Region = IEA_limpio$region), sum)
+resumen <- resumen[-9,] #Eliminar la suma total
+colnames(resumen) <- c("Region", "Emissions")
+
+# Producimos el gráfico
+ggplot(data = resumen, aes(x = reorder(Region, Emissions), y = Emissions)) +
+  geom_bar(stat = "identity", fill = "steelblue") +
+  coord_flip() +
+  labs(title = "Emisiones por Región",
+       x = "Región",
+       y = "Emisiones (kt)") +
+  theme_minimal()
+
+ggplot(data = nodos, aes(x= reorder(Region, Emisiones), y = Emisiones, fill=sector))+
+  geom_bar(stat = "identity")+
+     coord_flip()+ 
+  labs(title = "Emisiones por Región",
+       x = "Región",
+       y = "Emisiones kt")
+
+```
+
+### Mayor y menor emisión
+
+```{r}
+# Seleccionar los países más emisores y ordenarlos de mayor a menor
+top_paises <- IEA_ordenado[1:10, ]
+
+# Convertir 'country' en un factor con niveles ordenados
+top_paises$country <- factor(top_paises$country)
+
+# Gráfico para los países más emisores
+grafico_top <- ggplot(top_paises, aes(x = country, y = Total_Emissions)) +
+  geom_bar(stat = "identity", fill = "red") +
+  coord_flip() +
+  labs(title = "Top Países Más Emisores",
+       x = "País",
+       y = "Emisiones (kt)") +
+  theme_minimal()
+
+```
+
+### Mayor y menor emision
+
+```{r}
+# Ordenamos los países por emisión
+top_paises <- IEA_ordenado %>% filter(country %in% c("China", "United States", "Russia", "India", "Brazil", "Other"))
+
+top_paises$country <- factor(top_paises$country, levels = c("China", "United States", "Russia", "India", "Brazil", "Other"))
+
+# Gráfico para los países más emisores
+grafico_top <- ggplot(top_paises, aes(x = country, y = Total_Emissions)) +
+  geom_bar(stat = "identity", fill = "red") +
+  coord_flip() +
+  labs(title = "Top Países Más Emisores",
+       x = "País",
+       y = "Emisiones (kt)") +
+  theme_minimal()
+
+print(grafico_top)
+
+```
+
+```{r}
+# Seleccionar los países menos emisores 
+bottom_paises <- tail(IEA_ordenado[IEA_ordenado$Total_Emissions > 0,], 10) %>% arrange(desc(Total_Emissions))
+
+# Gráfico para los países menos emisores
+grafico_bottom <- ggplot(bottom_paises, aes(x = reorder(country, -Total_Emissions), y = Total_Emissions))+
+  geom_bar(stat = "identity", fill = "green") +
+  coord_flip() +
+  labs(title = "Top Países Menos Emisores",
+       x = "País",
+       y = "Emisiones (kt)") +
+  theme_minimal()
+
+```
+
+```{r}
+
+#·ordenado
+# Filtramos los países menos emisores en el nuevo orden
+bottom_paises <- IEA_ordenado %>% filter(country %in% c("Uzbekistan", "Germany", "South Sudan", "Netherlands", "Norway", "Slovenia"))
+
+bottom_paises <- bottom_paises %>% arrange(match(country, c("Uzbekistan", "Germany", "South Sudan", "Netherlands", "Norway", "Slovenia")))
+
+# Convertir 'country' en un factor con niveles predefinidos
+bottom_paises$country <- factor(bottom_paises$country, levels = c("Uzbekistan", "Germany", "South Sudan", "Netherlands", "Norway", "Slovenia"))
+
+grafico_bottom <- ggplot(bottom_paises, aes(x = country, y = Total_Emissions)) +
+  geom_bar(stat = "identity", fill = "green") +
+  coord_flip() +
+  labs(title = "Top Países Menos Emisores",
+       x = "País",
+       y = "Emisiones (kt)") +
+  theme_minimal()
+
+print(grafico_bottom)
+
+```
+
+--------------------------------------------------
+# Modelo de redes {.tabset}
+
+
+```{r}
+p_load("igraph", "ggraph","tidygraph","RColorBrewer")
+
+#Se crea un objeto o "grafo"
+red <- graph_from_data_frame(nodos, directed=T)
+
+E(red)$size <- seq(ecount(red)) #tamaño de la flecha
+#V(red)$size <- seq((ecount(red)) #longitud 
+
+E(red)$weight <- seq(ecount(red))
+#layout <- layout_with_fr(red, weights = E(red)$weight) # Usamos los pesos en el layout
+
+```
+
+
+### Red estática
+
+```{r}
+plot(red, edge.arrow.size=.2, weighted = T) 
+```
+
+### Red interactiva
+```{r}
+p_load("igraph")
+p_load("visNetwork")
+p_load("tidygraph")
+
+# Creación del grafo
+nodos <- gather(x_region, key = "sector", value = "Emisiones", -Region ) 
+red <- graph_from_data_frame(nodos, directed=T)
+
+# Asignación de pesos y tamaños de bordes
+E(red)$weight <- seq(ecount(red)) 
+
+# Convertir grafo a formato compatible con `visNetwork`
+net <- toVisNetworkData(red)
+
+# Visualización interactiva
+visNetwork(net$nodes, net$edges) %>%
+  visLayout(randomSeed = 123) %>% #Para el mismo orden
+  visOptions(highlightNearest = TRUE, nodesIdSelection = TRUE)
+```
+
+### Discusión
+
+Derivado de los análisis estadísticos se obtuvieron los siguientes resultados:
+
+El valor de R cuadrada obtenido de análisis de regresión multivariable es (0.08626). lo cual indica que dicho modelo explica aproximadamente el 8.6% de la variabilidad entre variables.
+
+Al tratarse de una cifra reducida se concluye que existen factores y variables independientes que no se han considerado en el modelo o no pueden explicarse únicamente con la información disponible.
+
+Las regiones Asia-Pacific, North America y Russian-Caspian poseen un alto nivel de significancia con tipos de emisiones específicas. Lo cual, indica que las emisiones de metano son producidas en su mayor parte por un solo tipo de industria en la región.
+
+Los P values obtenidos por sector son:
+
+Sector energético (2e-16) Residuos: (0.000169) Otros: (1.70e-12)
+
+Lo cuál indican que su significancia estadística es menor en comparación con la variable agriculture.
+
+El análisis de redes demuestra que los sectores con mayor producción de metano son la agricultura, construcción y emisiones no controladas.
+
+Dado que las flechas más largas denotan mayores emisiones, se observa lo siguiente:
+
+El Sureste asiático y del Pacífico tiene las mayores emisiones en los sectores de agricultura y construcción, probablemente relacionada a la alta producción de leguminosas y cereales. Por ejemplo, los cultivos de arroz, los cuales son cultivados en planicies o terrazas inundadas fomentando la producción de humedales.
+
+Se concluye que las emisiones de Norteamérica se diversifican en diversos sectores de la economía al encontrarse en el centro del gráfico de redes.
+
+
+
+# Conclusiones 
+
+Para la regulación de emisiones de metano se debe diversificar y limitar los sectores agrícolas y de construcción. Mientras que el primer sector es más difícil de reducir por las implicaciones socioculturales, las emisiones de construcción se podrían reducir si se promueve el uso de materiales sustentables a diferencia del concreto.
+
+El desarrollo de estrategias exitosas de mitigación de emisiones de metano depende de su adaptabilidad a los socioecosistemas de cada región. Puesto que cada país tiene necesidades y fuentes de emisión específicas.
+
+
+#Referencias
+
+IEA – International Energy Agency. (2025). Methane <https://www.iea.org/>
+
+Methane \| Vital Signs – Climate Change. (NASA, 2025) <https://climate.nasa.gov/vital-signs/methane/?intent=121>
+
+(Earth.org, 2022). What Are the Major Sources of Methane in the Atmosphere? <https://earth.org/sources-of-methane-in-the-atmosphere/>
+
+Trio of Sentinel satellites map methane super-emitters. (ESA, 2023). <https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Trio_of_Sentinel> \_satellites_map_methane_super-emitters
