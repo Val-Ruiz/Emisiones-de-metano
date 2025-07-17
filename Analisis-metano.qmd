@@ -1,6 +1,6 @@
 ---
 title: "Emisiones de metano alrededor del mundo"
-author: "Arturo Pulido Balderas y Valentina Ruiz Soto"
+author: "Valentina Ruiz Soto"
 format: pdf
 editor: visual
 ---
