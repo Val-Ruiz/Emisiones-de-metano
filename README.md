@@ -4,7 +4,7 @@
 **Semestre 2025-2**
 
 
-**Por Arturo Pulido Balderas y Valentina Ruiz Soto**
+**Por Valentina Ruiz Soto**
 
 
 
